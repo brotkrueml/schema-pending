@@ -1,0 +1,127 @@
+<?php
+
+declare(strict_types=1);
+
+/*
+ * This file is part of the "schema_pending" extension for TYPO3 CMS.
+ *
+ * For the full copyright and license information, please read the
+ * LICENSE.txt file that was distributed with this source code.
+ */
+
+namespace Brotkrueml\SchemaPending\Model\Type;
+
+use Brotkrueml\Schema\Core\Model\AbstractType;
+
+/**
+ * A CovidTestingFacility is a MedicalClinic where testing for the COVID-19 Coronavirus
+ * disease is available. If the facility is being made available from an established Pharmacy, Hotel, or other
+ * non-medical organization, multiple types can be listed. This makes it easier to re-use existing schema.org information
+ * about that place e.g. contact info, address, opening hours. Note that in an emergency, such information may not always be reliable.
+ */
+final class CovidTestingFacility extends AbstractType
+{
+    protected static $propertyNames = [
+        'actionableFeedbackPolicy',
+        'additionalProperty',
+        'additionalType',
+        'address',
+        'aggregateRating',
+        'alternateName',
+        'alumni',
+        'amenityFeature',
+        'areaServed',
+        'award',
+        'branchCode',
+        'brand',
+        'contactPoint',
+        'containedInPlace',
+        'containsPlace',
+        'correctionsPolicy',
+        'currenciesAccepted',
+        'department',
+        'description',
+        'disambiguatingDescription',
+        'dissolutionDate',
+        'diversityPolicy',
+        'diversityStaffingReport',
+        'duns',
+        'email',
+        'employee',
+        'ethicsPolicy',
+        'event',
+        'faxNumber',
+        'founder',
+        'foundingDate',
+        'foundingLocation',
+        'funder',
+        'geo',
+        'geoContains',
+        'geoCoveredBy',
+        'geoCovers',
+        'geoCrosses',
+        'geoDisjoint',
+        'geoEquals',
+        'geoIntersects',
+        'geoOverlaps',
+        'geoTouches',
+        'geoWithin',
+        'globalLocationNumber',
+        'hasCredential',
+        'hasDriveThroughService',
+        'hasMap',
+        'hasMerchantReturnPolicy',
+        'hasOfferCatalog',
+        'hasPOS',
+        'healthPlanNetworkId',
+        'identifier',
+        'image',
+        'interactionStatistic',
+        'isAcceptingNewPatients',
+        'isAccessibleForFree',
+        'isicV4',
+        'knowsAbout',
+        'knowsLanguage',
+        'latitude',
+        'legalName',
+        'leiCode',
+        'location',
+        'logo',
+        'longitude',
+        'mainEntityOfPage',
+        'makesOffer',
+        'maximumAttendeeCapacity',
+        'member',
+        'memberOf',
+        'naics',
+        'name',
+        'nonprofitStatus',
+        'numberOfEmployees',
+        'openingHours',
+        'openingHoursSpecification',
+        'ownershipFundingInfo',
+        'owns',
+        'parentOrganization',
+        'paymentAccepted',
+        'photo',
+        'potentialAction',
+        'priceRange',
+        'publicAccess',
+        'publishingPrinciples',
+        'review',
+        'sameAs',
+        'seeks',
+        'slogan',
+        'smokingAllowed',
+        'specialOpeningHoursSpecification',
+        'sponsor',
+        'subOrganization',
+        'subjectOf',
+        'taxID',
+        'telephone',
+        'tourBookingPage',
+        'unnamedSourcesPolicy',
+        'url',
+        'vatID',
+    ];
+}

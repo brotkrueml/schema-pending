@@ -1,0 +1,21 @@
+<?php
+
+declare(strict_types=1);
+
+/*
+ * This file is part of the "schema_pending" extension for TYPO3 CMS.
+ *
+ * For the full copyright and license information, please read the
+ * LICENSE.txt file that was distributed with this source code.
+ */
+
+namespace Brotkrueml\SchemaPending\ViewHelpers\Type;
+
+use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
+
+/**
+ * A legal document such as an act, decree, bill, etc. (enforceable or not) or a component of a legal act (like an article).
+ */
+final class LegislationViewHelper extends AbstractTypeViewHelper
+{
+}

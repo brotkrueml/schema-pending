@@ -1,0 +1,15 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Brotkrueml\SchemaPending\:
+    resource: '../Classes/*'
+    exclude: '../Classes/{Model,ViewHelpers}'
+
+  Brotkrueml\SchemaPending\EventListener\RegisterAdditionalProperties:
+    tags:
+      - name: event.listener
+        identifier: 'ext-schema-pending/registerAdditionalProperties'
+        event: Brotkrueml\Schema\Event\RegisterAdditionalTypePropertiesEvent
