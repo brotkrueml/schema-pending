@@ -49,6 +49,7 @@ final class OfferForLease extends AbstractType
         'gtin14',
         'gtin8',
         'hasMeasurement',
+        'hasMerchantReturnPolicy',
         'identifier',
         'image',
         'includesObject',

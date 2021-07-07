@@ -14,7 +14,7 @@ namespace Brotkrueml\SchemaPending\ViewHelpers\Type;
 use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
- * ReturnFeesEnumeration expresses policies for return fees.
+ * Enumerates several kinds of policies for product return fees.
  */
 final class ReturnFeesEnumerationViewHelper extends AbstractTypeViewHelper
 {

@@ -14,7 +14,7 @@ namespace Brotkrueml\SchemaPending\ViewHelpers\Type;
 use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
- * RefundTypeEnumeration enumerates several kinds of product return refund types.
+ * Enumerates several kinds of product return refund types.
  */
 final class RefundTypeEnumerationViewHelper extends AbstractTypeViewHelper
 {

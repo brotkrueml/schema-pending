@@ -14,26 +14,40 @@ namespace Brotkrueml\SchemaPending\Model\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
- * A MerchantReturnPolicy provides information about product return policies associated with an Organization or Product.
+ * A MerchantReturnPolicy provides information about product return policies associated with an Organization, Product, or Offer.
  */
 final class MerchantReturnPolicy extends AbstractType
 {
     protected static $propertyNames = [
+        'additionalProperty',
         'additionalType',
         'alternateName',
+        'customerRemorseReturnFees',
+        'customerRemorseReturnLabelSource',
+        'customerRemorseReturnShippingFeesAmount',
         'description',
         'disambiguatingDescription',
         'identifier',
         'image',
         'inStoreReturnsOffered',
+        'itemCondition',
+        'itemDefectReturnFees',
+        'itemDefectReturnLabelSource',
+        'itemDefectReturnShippingFeesAmount',
         'mainEntityOfPage',
         'merchantReturnDays',
         'merchantReturnLink',
         'name',
         'potentialAction',
         'refundType',
+        'restockingFee',
         'returnFees',
+        'returnLabelSource',
+        'returnMethod',
         'returnPolicyCategory',
+        'returnPolicyCountry',
+        'returnPolicySeasonalOverride',
+        'returnShippingFeesAmount',
         'sameAs',
         'subjectOf',
         'url',

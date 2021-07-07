@@ -14,7 +14,7 @@ namespace Brotkrueml\SchemaPending\ViewHelpers\Type;
 use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
- * MerchantReturnEnumeration enumerates several kinds of product return policy. Note that this structure may not capture all aspects of the policy.
+ * Enumerates several kinds of product return policies.
  */
 final class MerchantReturnEnumerationViewHelper extends AbstractTypeViewHelper
 {

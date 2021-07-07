@@ -14,7 +14,7 @@ namespace Brotkrueml\SchemaPending\ViewHelpers\Type;
 use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
- * A MerchantReturnPolicy provides information about product return policies associated with an Organization or Product.
+ * A MerchantReturnPolicy provides information about product return policies associated with an Organization, Product, or Offer.
  */
 final class MerchantReturnPolicyViewHelper extends AbstractTypeViewHelper
 {

@@ -14,7 +14,7 @@ namespace Brotkrueml\SchemaPending\Model\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
- * ReturnFeesEnumeration expresses policies for return fees.
+ * Enumerates several kinds of policies for product return fees.
  */
 final class ReturnFeesEnumeration extends AbstractType
 {

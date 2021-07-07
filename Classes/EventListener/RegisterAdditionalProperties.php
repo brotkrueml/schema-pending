@@ -25,6 +25,8 @@ final class RegisterAdditionalProperties
         if (ExtensionManagementUtility::isLoaded('schema_auto')) {
             if ($event->getType() === AutoType\BusOrCoach::class) {
                 $event->registerAdditionalProperty('callSign');
+                $event->registerAdditionalProperty('countryOfAssembly');
+                $event->registerAdditionalProperty('countryOfLastProcessing');
                 $event->registerAdditionalProperty('gtin');
                 $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
                 $event->registerAdditionalProperty('hasMeasurement');
@@ -36,6 +38,8 @@ final class RegisterAdditionalProperties
             }
             if ($event->getType() === AutoType\Motorcycle::class) {
                 $event->registerAdditionalProperty('callSign');
+                $event->registerAdditionalProperty('countryOfAssembly');
+                $event->registerAdditionalProperty('countryOfLastProcessing');
                 $event->registerAdditionalProperty('gtin');
                 $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
                 $event->registerAdditionalProperty('hasMeasurement');
@@ -47,6 +51,8 @@ final class RegisterAdditionalProperties
             }
             if ($event->getType() === AutoType\MotorizedBicycle::class) {
                 $event->registerAdditionalProperty('callSign');
+                $event->registerAdditionalProperty('countryOfAssembly');
+                $event->registerAdditionalProperty('countryOfLastProcessing');
                 $event->registerAdditionalProperty('gtin');
                 $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
                 $event->registerAdditionalProperty('hasMeasurement');
@@ -61,6 +67,7 @@ final class RegisterAdditionalProperties
             if ($event->getType() === BibType\Atlas::class) {
                 $event->registerAdditionalProperty('abstract');
                 $event->registerAdditionalProperty('acquireLicensePage');
+                $event->registerAdditionalProperty('archivedAt');
                 $event->registerAdditionalProperty('assesses');
                 $event->registerAdditionalProperty('conditionsOfAccess');
                 $event->registerAdditionalProperty('contentReferenceTime');
@@ -70,6 +77,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
@@ -83,6 +91,7 @@ final class RegisterAdditionalProperties
             if ($event->getType() === BibType\Audiobook::class) {
                 $event->registerAdditionalProperty('abstract');
                 $event->registerAdditionalProperty('acquireLicensePage');
+                $event->registerAdditionalProperty('archivedAt');
                 $event->registerAdditionalProperty('assesses');
                 $event->registerAdditionalProperty('conditionsOfAccess');
                 $event->registerAdditionalProperty('contentReferenceTime');
@@ -92,13 +101,16 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('embeddedTextCaption');
                 $event->registerAdditionalProperty('ineligibleRegion');
+                $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
                 $event->registerAdditionalProperty('sdDatePublished');
                 $event->registerAdditionalProperty('sdLicense');
                 $event->registerAdditionalProperty('sdPublisher');
+                $event->registerAdditionalProperty('sha256');
                 $event->registerAdditionalProperty('size');
                 $event->registerAdditionalProperty('teaches');
                 $event->registerAdditionalProperty('usageInfo');
@@ -106,6 +118,7 @@ final class RegisterAdditionalProperties
             if ($event->getType() === BibType\Chapter::class) {
                 $event->registerAdditionalProperty('abstract');
                 $event->registerAdditionalProperty('acquireLicensePage');
+                $event->registerAdditionalProperty('archivedAt');
                 $event->registerAdditionalProperty('assesses');
                 $event->registerAdditionalProperty('conditionsOfAccess');
                 $event->registerAdditionalProperty('contentReferenceTime');
@@ -115,6 +128,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
@@ -128,6 +142,7 @@ final class RegisterAdditionalProperties
             if ($event->getType() === BibType\Collection::class) {
                 $event->registerAdditionalProperty('abstract');
                 $event->registerAdditionalProperty('acquireLicensePage');
+                $event->registerAdditionalProperty('archivedAt');
                 $event->registerAdditionalProperty('assesses');
                 $event->registerAdditionalProperty('collectionSize');
                 $event->registerAdditionalProperty('conditionsOfAccess');
@@ -138,6 +153,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
@@ -151,6 +167,7 @@ final class RegisterAdditionalProperties
             if ($event->getType() === BibType\ComicCoverArt::class) {
                 $event->registerAdditionalProperty('abstract');
                 $event->registerAdditionalProperty('acquireLicensePage');
+                $event->registerAdditionalProperty('archivedAt');
                 $event->registerAdditionalProperty('assesses');
                 $event->registerAdditionalProperty('conditionsOfAccess');
                 $event->registerAdditionalProperty('contentReferenceTime');
@@ -160,6 +177,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
@@ -173,6 +191,7 @@ final class RegisterAdditionalProperties
             if ($event->getType() === BibType\ComicIssue::class) {
                 $event->registerAdditionalProperty('abstract');
                 $event->registerAdditionalProperty('acquireLicensePage');
+                $event->registerAdditionalProperty('archivedAt');
                 $event->registerAdditionalProperty('assesses');
                 $event->registerAdditionalProperty('conditionsOfAccess');
                 $event->registerAdditionalProperty('contentReferenceTime');
@@ -182,6 +201,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
@@ -195,6 +215,7 @@ final class RegisterAdditionalProperties
             if ($event->getType() === BibType\ComicSeries::class) {
                 $event->registerAdditionalProperty('abstract');
                 $event->registerAdditionalProperty('acquireLicensePage');
+                $event->registerAdditionalProperty('archivedAt');
                 $event->registerAdditionalProperty('assesses');
                 $event->registerAdditionalProperty('conditionsOfAccess');
                 $event->registerAdditionalProperty('contentReferenceTime');
@@ -204,6 +225,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
@@ -217,6 +239,7 @@ final class RegisterAdditionalProperties
             if ($event->getType() === BibType\ComicStory::class) {
                 $event->registerAdditionalProperty('abstract');
                 $event->registerAdditionalProperty('acquireLicensePage');
+                $event->registerAdditionalProperty('archivedAt');
                 $event->registerAdditionalProperty('assesses');
                 $event->registerAdditionalProperty('conditionsOfAccess');
                 $event->registerAdditionalProperty('contentReferenceTime');
@@ -226,6 +249,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
@@ -239,6 +263,7 @@ final class RegisterAdditionalProperties
             if ($event->getType() === BibType\CoverArt::class) {
                 $event->registerAdditionalProperty('abstract');
                 $event->registerAdditionalProperty('acquireLicensePage');
+                $event->registerAdditionalProperty('archivedAt');
                 $event->registerAdditionalProperty('assesses');
                 $event->registerAdditionalProperty('conditionsOfAccess');
                 $event->registerAdditionalProperty('contentReferenceTime');
@@ -248,6 +273,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
@@ -261,6 +287,7 @@ final class RegisterAdditionalProperties
             if ($event->getType() === BibType\Newspaper::class) {
                 $event->registerAdditionalProperty('abstract');
                 $event->registerAdditionalProperty('acquireLicensePage');
+                $event->registerAdditionalProperty('archivedAt');
                 $event->registerAdditionalProperty('assesses');
                 $event->registerAdditionalProperty('conditionsOfAccess');
                 $event->registerAdditionalProperty('contentReferenceTime');
@@ -270,6 +297,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
@@ -283,6 +311,7 @@ final class RegisterAdditionalProperties
             if ($event->getType() === BibType\Thesis::class) {
                 $event->registerAdditionalProperty('abstract');
                 $event->registerAdditionalProperty('acquireLicensePage');
+                $event->registerAdditionalProperty('archivedAt');
                 $event->registerAdditionalProperty('assesses');
                 $event->registerAdditionalProperty('conditionsOfAccess');
                 $event->registerAdditionalProperty('contentReferenceTime');
@@ -292,6 +321,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
@@ -306,6 +336,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\APIReference::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('backstory');
             $event->registerAdditionalProperty('conditionsOfAccess');
@@ -316,6 +347,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -329,6 +361,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\AboutPage::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -338,6 +371,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -403,6 +437,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\AggregateOffer::class) {
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('hasMeasurement');
+            $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('ineligibleRegion');
             $event->registerAdditionalProperty('leaseLength');
             $event->registerAdditionalProperty('shippingDetails');
@@ -464,6 +499,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
             $event->registerAdditionalProperty('answerExplanation');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -473,6 +509,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -527,6 +564,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Article::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('backstory');
             $event->registerAdditionalProperty('conditionsOfAccess');
@@ -537,6 +575,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -566,6 +605,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\AudioObject::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -575,13 +615,16 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('embeddedTextCaption');
             $event->registerAdditionalProperty('ineligibleRegion');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
+            $event->registerAdditionalProperty('sha256');
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
@@ -771,6 +814,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Barcode::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -780,13 +824,16 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('embeddedTextCaption');
             $event->registerAdditionalProperty('ineligibleRegion');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
+            $event->registerAdditionalProperty('sha256');
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
@@ -846,6 +893,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Blog::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -855,6 +903,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -868,6 +917,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\BlogPosting::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('backstory');
             $event->registerAdditionalProperty('conditionsOfAccess');
@@ -878,6 +928,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -895,6 +946,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Book::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -904,6 +956,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -917,6 +970,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\BookSeries::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -926,6 +980,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -1080,6 +1135,8 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Car::class) {
             $event->registerAdditionalProperty('callSign');
+            $event->registerAdditionalProperty('countryOfAssembly');
+            $event->registerAdditionalProperty('countryOfLastProcessing');
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
             $event->registerAdditionalProperty('hasMeasurement');
@@ -1116,6 +1173,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\CheckoutPage::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -1125,6 +1183,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -1176,7 +1235,11 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\ClaimReview::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
+            $event->registerAdditionalProperty('associatedClaimReview');
+            $event->registerAdditionalProperty('associatedMediaReview');
+            $event->registerAdditionalProperty('associatedReview');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
             $event->registerAdditionalProperty('copyrightNotice');
@@ -1185,9 +1248,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
+            $event->registerAdditionalProperty('negativeNotes');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('positiveNotes');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -1198,6 +1264,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Clip::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -1208,6 +1275,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('endOffset');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -1238,6 +1306,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\CollectionPage::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -1247,6 +1316,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -1298,6 +1368,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Comment::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -1307,6 +1378,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -1336,6 +1408,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\ContactPage::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -1345,6 +1418,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -1378,6 +1452,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Conversation::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -1387,6 +1462,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -1418,6 +1494,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Course::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('competencyRequired');
             $event->registerAdditionalProperty('conditionsOfAccess');
@@ -1428,6 +1505,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('numberOfCredits');
@@ -1454,6 +1532,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\CreativeWork::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -1463,6 +1542,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -1476,6 +1556,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\CreativeWorkSeason::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -1485,6 +1566,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -1498,6 +1580,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\CreativeWorkSeries::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -1507,6 +1590,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -1559,6 +1643,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\DataCatalog::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -1568,6 +1653,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('measurementTechnique');
@@ -1582,6 +1668,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\DataDownload::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -1592,6 +1679,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('ineligibleRegion');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('measurementTechnique');
@@ -1599,6 +1687,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
+            $event->registerAdditionalProperty('sha256');
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
@@ -1606,6 +1695,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\DataFeed::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -1615,6 +1705,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('measurementTechnique');
@@ -1630,6 +1721,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Dataset::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -1639,6 +1731,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('measurementTechnique');
@@ -1727,6 +1820,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\DigitalDocument::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -1736,6 +1830,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -1749,6 +1844,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\DiscussionForumPosting::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('backstory');
             $event->registerAdditionalProperty('conditionsOfAccess');
@@ -1759,6 +1855,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -1877,6 +1974,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\EmailMessage::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -1886,6 +1984,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -1957,6 +2056,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Episode::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -1966,6 +2066,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -2011,6 +2112,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\FAQPage::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -2020,6 +2122,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -2152,6 +2255,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Game::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -2161,6 +2265,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -2538,6 +2643,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\HowTo::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -2547,6 +2653,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -2560,6 +2667,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\HowToDirection::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -2569,6 +2677,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -2582,6 +2691,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\HowToSection::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -2591,6 +2701,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -2604,6 +2715,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\HowToStep::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -2613,6 +2725,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -2626,6 +2739,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\HowToTip::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -2635,6 +2749,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -2664,6 +2779,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\ImageGallery::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -2673,6 +2789,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -2686,6 +2803,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\ImageObject::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -2695,18 +2813,23 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('embeddedTextCaption');
             $event->registerAdditionalProperty('ineligibleRegion');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
+            $event->registerAdditionalProperty('sha256');
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
         }
         if ($event->getType() === Type\IndividualProduct::class) {
+            $event->registerAdditionalProperty('countryOfAssembly');
+            $event->registerAdditionalProperty('countryOfLastProcessing');
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
             $event->registerAdditionalProperty('hasMeasurement');
@@ -2754,6 +2877,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\ItemPage::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -2763,6 +2887,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -2792,6 +2917,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\JobPosting::class) {
             $event->registerAdditionalProperty('applicantLocationRequirements');
             $event->registerAdditionalProperty('applicationContact');
+            $event->registerAdditionalProperty('directApply');
             $event->registerAdditionalProperty('educationRequirements');
             $event->registerAdditionalProperty('eligibilityToWorkRequirement');
             $event->registerAdditionalProperty('employerOverview');
@@ -2880,6 +3006,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\LiveBlogPosting::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('backstory');
             $event->registerAdditionalProperty('conditionsOfAccess');
@@ -2890,6 +3017,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -2962,6 +3090,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Map::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -2971,6 +3100,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -2984,6 +3114,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\MediaGallery::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -2993,6 +3124,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -3006,6 +3138,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\MediaObject::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3016,12 +3149,14 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('ineligibleRegion');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
+            $event->registerAdditionalProperty('sha256');
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
@@ -3074,6 +3209,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Menu::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3083,6 +3219,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -3096,6 +3233,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\MenuSection::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3105,6 +3243,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -3118,6 +3257,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Message::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3127,6 +3267,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -3156,6 +3297,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\MobileApplication::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3165,6 +3307,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -3250,6 +3393,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Movie::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3259,6 +3403,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -3274,6 +3419,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\MovieClip::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3284,6 +3430,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('endOffset');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -3314,6 +3461,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\MovieSeries::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3323,6 +3471,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -3372,6 +3521,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\MusicAlbum::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3381,6 +3531,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -3394,6 +3545,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\MusicComposition::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3403,6 +3555,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -3436,6 +3589,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\MusicPlaylist::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3445,6 +3599,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -3458,6 +3613,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\MusicRecording::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3467,6 +3623,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -3480,6 +3637,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\MusicRelease::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3489,6 +3647,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -3522,6 +3681,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\MusicVideoObject::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3532,12 +3692,14 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('ineligibleRegion');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
+            $event->registerAdditionalProperty('sha256');
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
@@ -3575,6 +3737,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\NewsArticle::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('backstory');
             $event->registerAdditionalProperty('conditionsOfAccess');
@@ -3585,6 +3748,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -3630,6 +3794,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\NoteDigitalDocument::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3639,6 +3804,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -3661,6 +3827,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Offer::class) {
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('hasMeasurement');
+            $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('ineligibleRegion');
             $event->registerAdditionalProperty('leaseLength');
             $event->registerAdditionalProperty('shippingDetails');
@@ -3720,6 +3887,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Painting::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3729,6 +3897,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -3802,6 +3971,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Periodical::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3811,6 +3981,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -3866,6 +4037,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Photograph::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3875,6 +4047,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -3986,6 +4159,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\PresentationDigitalDocument::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -3995,6 +4169,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4006,6 +4181,8 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('usageInfo');
         }
         if ($event->getType() === Type\Product::class) {
+            $event->registerAdditionalProperty('countryOfAssembly');
+            $event->registerAdditionalProperty('countryOfLastProcessing');
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
             $event->registerAdditionalProperty('hasMeasurement');
@@ -4016,6 +4193,8 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('size');
         }
         if ($event->getType() === Type\ProductModel::class) {
+            $event->registerAdditionalProperty('countryOfAssembly');
+            $event->registerAdditionalProperty('countryOfLastProcessing');
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
             $event->registerAdditionalProperty('hasMeasurement');
@@ -4044,6 +4223,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\ProfilePage::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4053,6 +4233,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4094,6 +4275,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\PublicationIssue::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4103,6 +4285,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4116,6 +4299,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\PublicationVolume::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4125,6 +4309,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4138,6 +4323,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\QAPage::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4147,6 +4333,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4160,6 +4347,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Question::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4170,6 +4358,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('eduQuestionType');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4187,6 +4376,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\RadioClip::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4197,6 +4387,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('endOffset');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4211,6 +4402,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\RadioEpisode::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4220,6 +4412,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4233,6 +4426,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\RadioSeason::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4242,6 +4436,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4255,6 +4450,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\RadioSeries::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4264,6 +4460,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4312,6 +4509,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Recipe::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4321,6 +4519,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4350,6 +4549,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Report::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('backstory');
             $event->registerAdditionalProperty('conditionsOfAccess');
@@ -4360,6 +4560,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4414,7 +4615,11 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Review::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
+            $event->registerAdditionalProperty('associatedClaimReview');
+            $event->registerAdditionalProperty('associatedMediaReview');
+            $event->registerAdditionalProperty('associatedReview');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
             $event->registerAdditionalProperty('copyrightNotice');
@@ -4423,9 +4628,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
+            $event->registerAdditionalProperty('negativeNotes');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('positiveNotes');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4475,6 +4683,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\ScholarlyArticle::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('backstory');
             $event->registerAdditionalProperty('conditionsOfAccess');
@@ -4485,6 +4694,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4521,6 +4731,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Sculpture::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4530,6 +4741,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4547,6 +4759,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\SearchResultsPage::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4556,6 +4769,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4633,6 +4847,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\SiteNavigationElement::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4642,6 +4857,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4677,6 +4893,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\SocialMediaPosting::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('backstory');
             $event->registerAdditionalProperty('conditionsOfAccess');
@@ -4687,6 +4904,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4700,6 +4918,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\SoftwareApplication::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4709,6 +4928,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4722,6 +4942,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\SoftwareSourceCode::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4731,6 +4952,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4742,6 +4964,8 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('usageInfo');
         }
         if ($event->getType() === Type\SomeProducts::class) {
+            $event->registerAdditionalProperty('countryOfAssembly');
+            $event->registerAdditionalProperty('countryOfLastProcessing');
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
             $event->registerAdditionalProperty('hasMeasurement');
@@ -4840,6 +5064,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\SpreadsheetDigitalDocument::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4849,6 +5074,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4919,6 +5145,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\TVClip::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4929,6 +5156,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('endOffset');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4943,6 +5171,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\TVEpisode::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4952,6 +5181,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4967,6 +5197,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\TVSeason::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4976,6 +5207,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -4989,6 +5221,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\TVSeries::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -4998,6 +5231,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -5011,6 +5245,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Table::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -5020,6 +5255,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -5056,6 +5292,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\TechArticle::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('backstory');
             $event->registerAdditionalProperty('conditionsOfAccess');
@@ -5066,6 +5303,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -5111,6 +5349,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\TextDigitalDocument::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -5120,6 +5359,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -5239,6 +5479,8 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Vehicle::class) {
             $event->registerAdditionalProperty('callSign');
+            $event->registerAdditionalProperty('countryOfAssembly');
+            $event->registerAdditionalProperty('countryOfLastProcessing');
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
             $event->registerAdditionalProperty('hasMeasurement');
@@ -5251,6 +5493,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\VideoGallery::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -5260,6 +5503,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -5273,6 +5517,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\VideoGame::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -5282,6 +5527,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -5295,6 +5541,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\VideoGameClip::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -5305,6 +5552,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('endOffset');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -5319,6 +5567,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\VideoGameSeries::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -5328,6 +5577,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -5341,6 +5591,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\VideoObject::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -5350,13 +5601,16 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('embeddedTextCaption');
             $event->registerAdditionalProperty('ineligibleRegion');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
+            $event->registerAdditionalProperty('sha256');
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
@@ -5370,6 +5624,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\VisualArtwork::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -5379,6 +5634,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -5396,6 +5652,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\WPAdBlock::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -5405,6 +5662,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -5418,6 +5676,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\WPFooter::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -5427,6 +5686,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -5440,6 +5700,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\WPHeader::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -5449,6 +5710,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -5462,6 +5724,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\WPSideBar::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -5471,6 +5734,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -5488,6 +5752,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\WebApplication::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -5497,6 +5762,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -5510,6 +5776,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\WebPage::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -5519,6 +5786,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -5532,6 +5800,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\WebPageElement::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -5541,6 +5810,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -5554,6 +5824,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\WebSite::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('conditionsOfAccess');
             $event->registerAdditionalProperty('contentReferenceTime');
@@ -5563,6 +5834,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
@@ -5643,6 +5915,7 @@ final class RegisterAdditionalProperties
             if ($event->getType() === HealthType\Diet::class) {
                 $event->registerAdditionalProperty('abstract');
                 $event->registerAdditionalProperty('acquireLicensePage');
+                $event->registerAdditionalProperty('archivedAt');
                 $event->registerAdditionalProperty('assesses');
                 $event->registerAdditionalProperty('conditionsOfAccess');
                 $event->registerAdditionalProperty('contentReferenceTime');
@@ -5652,6 +5925,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
@@ -5669,6 +5943,7 @@ final class RegisterAdditionalProperties
             if ($event->getType() === HealthType\ExercisePlan::class) {
                 $event->registerAdditionalProperty('abstract');
                 $event->registerAdditionalProperty('acquireLicensePage');
+                $event->registerAdditionalProperty('archivedAt');
                 $event->registerAdditionalProperty('assesses');
                 $event->registerAdditionalProperty('conditionsOfAccess');
                 $event->registerAdditionalProperty('contentReferenceTime');
@@ -5678,6 +5953,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
@@ -5735,6 +6011,7 @@ final class RegisterAdditionalProperties
             if ($event->getType() === HealthType\MedicalScholarlyArticle::class) {
                 $event->registerAdditionalProperty('abstract');
                 $event->registerAdditionalProperty('acquireLicensePage');
+                $event->registerAdditionalProperty('archivedAt');
                 $event->registerAdditionalProperty('assesses');
                 $event->registerAdditionalProperty('backstory');
                 $event->registerAdditionalProperty('conditionsOfAccess');
@@ -5745,6 +6022,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
@@ -5758,6 +6036,7 @@ final class RegisterAdditionalProperties
             if ($event->getType() === HealthType\MedicalWebPage::class) {
                 $event->registerAdditionalProperty('abstract');
                 $event->registerAdditionalProperty('acquireLicensePage');
+                $event->registerAdditionalProperty('archivedAt');
                 $event->registerAdditionalProperty('assesses');
                 $event->registerAdditionalProperty('conditionsOfAccess');
                 $event->registerAdditionalProperty('contentReferenceTime');
@@ -5767,6 +6046,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');

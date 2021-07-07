@@ -38,6 +38,7 @@ final class SeekToAction extends AbstractType
         'potentialAction',
         'result',
         'sameAs',
+        'startOffset',
         'startTime',
         'subjectOf',
         'target',

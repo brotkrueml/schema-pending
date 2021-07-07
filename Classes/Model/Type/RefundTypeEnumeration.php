@@ -14,7 +14,7 @@ namespace Brotkrueml\SchemaPending\Model\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
- * RefundTypeEnumeration enumerates several kinds of product return refund types.
+ * Enumerates several kinds of product return refund types.
  */
 final class RefundTypeEnumeration extends AbstractType
 {
