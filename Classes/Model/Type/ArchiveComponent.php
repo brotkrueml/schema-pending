@@ -74,6 +74,7 @@ final class ArchiveComponent extends AbstractType
         'exampleOfWork',
         'expires',
         'funder',
+        'funding',
         'genre',
         'hasPart',
         'headline',

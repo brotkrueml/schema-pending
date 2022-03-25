@@ -85,6 +85,7 @@ final class ImageObjectSnapshot extends AbstractType
         'exifData',
         'expires',
         'funder',
+        'funding',
         'genre',
         'hasPart',
         'headline',

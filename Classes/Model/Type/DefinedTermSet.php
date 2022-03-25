@@ -74,6 +74,7 @@ final class DefinedTermSet extends AbstractType
         'exampleOfWork',
         'expires',
         'funder',
+        'funding',
         'genre',
         'hasDefinedTerm',
         'hasPart',

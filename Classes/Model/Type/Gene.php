@@ -30,6 +30,7 @@ final class Gene extends AbstractType
         'disambiguatingDescription',
         'encodesBioChemEntity',
         'expressedIn',
+        'funding',
         'hasBioChemEntityPart',
         'hasBioPolymerSequence',
         'hasMolecularFunction',

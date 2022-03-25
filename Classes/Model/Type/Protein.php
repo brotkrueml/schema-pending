@@ -27,6 +27,7 @@ final class Protein extends AbstractType
         'biologicalRole',
         'description',
         'disambiguatingDescription',
+        'funding',
         'hasBioChemEntityPart',
         'hasBioPolymerSequence',
         'hasMolecularFunction',

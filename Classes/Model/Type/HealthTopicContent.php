@@ -74,6 +74,7 @@ final class HealthTopicContent extends AbstractType
         'exampleOfWork',
         'expires',
         'funder',
+        'funding',
         'genre',
         'hasHealthAspect',
         'hasPart',

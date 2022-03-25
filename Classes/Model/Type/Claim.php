@@ -81,6 +81,7 @@ final class Claim extends AbstractType
         'expires',
         'firstAppearance',
         'funder',
+        'funding',
         'genre',
         'hasPart',
         'headline',

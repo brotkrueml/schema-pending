@@ -75,6 +75,7 @@ final class CorrectionComment extends AbstractType
         'exampleOfWork',
         'expires',
         'funder',
+        'funding',
         'genre',
         'hasPart',
         'headline',

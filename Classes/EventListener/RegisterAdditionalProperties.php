@@ -27,7 +27,9 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('callSign');
                 $event->registerAdditionalProperty('countryOfAssembly');
                 $event->registerAdditionalProperty('countryOfLastProcessing');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('gtin');
+                $event->registerAdditionalProperty('hasAdultConsideration');
                 $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
                 $event->registerAdditionalProperty('hasMeasurement');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
@@ -40,7 +42,9 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('callSign');
                 $event->registerAdditionalProperty('countryOfAssembly');
                 $event->registerAdditionalProperty('countryOfLastProcessing');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('gtin');
+                $event->registerAdditionalProperty('hasAdultConsideration');
                 $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
                 $event->registerAdditionalProperty('hasMeasurement');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
@@ -53,7 +57,9 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('callSign');
                 $event->registerAdditionalProperty('countryOfAssembly');
                 $event->registerAdditionalProperty('countryOfLastProcessing');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('gtin');
+                $event->registerAdditionalProperty('hasAdultConsideration');
                 $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
                 $event->registerAdditionalProperty('hasMeasurement');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
@@ -77,10 +83,12 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('provider');
                 $event->registerAdditionalProperty('sdDatePublished');
                 $event->registerAdditionalProperty('sdLicense');
                 $event->registerAdditionalProperty('sdPublisher');
@@ -102,11 +110,13 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
                 $event->registerAdditionalProperty('embeddedTextCaption');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('ineligibleRegion');
                 $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('provider');
                 $event->registerAdditionalProperty('sdDatePublished');
                 $event->registerAdditionalProperty('sdLicense');
                 $event->registerAdditionalProperty('sdPublisher');
@@ -128,10 +138,12 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('provider');
                 $event->registerAdditionalProperty('sdDatePublished');
                 $event->registerAdditionalProperty('sdLicense');
                 $event->registerAdditionalProperty('sdPublisher');
@@ -153,10 +165,12 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('provider');
                 $event->registerAdditionalProperty('sdDatePublished');
                 $event->registerAdditionalProperty('sdLicense');
                 $event->registerAdditionalProperty('sdPublisher');
@@ -177,10 +191,12 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('provider');
                 $event->registerAdditionalProperty('sdDatePublished');
                 $event->registerAdditionalProperty('sdLicense');
                 $event->registerAdditionalProperty('sdPublisher');
@@ -201,10 +217,12 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('provider');
                 $event->registerAdditionalProperty('sdDatePublished');
                 $event->registerAdditionalProperty('sdLicense');
                 $event->registerAdditionalProperty('sdPublisher');
@@ -225,10 +243,12 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('provider');
                 $event->registerAdditionalProperty('sdDatePublished');
                 $event->registerAdditionalProperty('sdLicense');
                 $event->registerAdditionalProperty('sdPublisher');
@@ -249,10 +269,12 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('provider');
                 $event->registerAdditionalProperty('sdDatePublished');
                 $event->registerAdditionalProperty('sdLicense');
                 $event->registerAdditionalProperty('sdPublisher');
@@ -273,10 +295,12 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('provider');
                 $event->registerAdditionalProperty('sdDatePublished');
                 $event->registerAdditionalProperty('sdLicense');
                 $event->registerAdditionalProperty('sdPublisher');
@@ -297,10 +321,12 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('provider');
                 $event->registerAdditionalProperty('sdDatePublished');
                 $event->registerAdditionalProperty('sdLicense');
                 $event->registerAdditionalProperty('sdPublisher');
@@ -321,10 +347,12 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('provider');
                 $event->registerAdditionalProperty('sdDatePublished');
                 $event->registerAdditionalProperty('sdLicense');
                 $event->registerAdditionalProperty('sdPublisher');
@@ -347,10 +375,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -371,16 +401,21 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
+        }
+        if ($event->getType() === Type\AcceptAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\Accommodation::class) {
             $event->registerAdditionalProperty('accommodationCategory');
@@ -401,9 +436,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -411,8 +448,20 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
+        if ($event->getType() === Type\AchieveAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\Action::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\ActionAccessSpecification::class) {
             $event->registerAdditionalProperty('ineligibleRegion');
+        }
+        if ($event->getType() === Type\ActivateAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\AddAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\AdministrativeArea::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
@@ -424,9 +473,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -436,6 +487,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\AggregateOffer::class) {
             $event->registerAdditionalProperty('gtin');
+            $event->registerAdditionalProperty('hasAdultConsideration');
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('ineligibleRegion');
@@ -445,14 +497,19 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\AggregateRating::class) {
             $event->registerAdditionalProperty('ratingExplanation');
         }
+        if ($event->getType() === Type\AgreeAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\Airline::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -463,15 +520,20 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
         }
+        if ($event->getType() === Type\AllocateAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\AmusementPark::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -485,9 +547,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -509,10 +573,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -541,9 +607,18 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('numberOfBedrooms');
             $event->registerAdditionalProperty('tourBookingPage');
         }
+        if ($event->getType() === Type\AppendAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\ApplyAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\Aquarium::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
+        }
+        if ($event->getType() === Type\ArriveAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\ArtGallery::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
@@ -551,9 +626,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -575,10 +652,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -586,15 +665,26 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
         }
+        if ($event->getType() === Type\AskAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\AssessAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\AssignAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\Attorney::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -616,11 +706,13 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('embeddedTextCaption');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('ineligibleRegion');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -629,15 +721,20 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
         }
+        if ($event->getType() === Type\AuthorizeAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\AutoBodyShop::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -651,9 +748,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -667,9 +766,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -683,9 +784,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -699,9 +802,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -715,9 +820,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -731,9 +838,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -747,9 +856,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -763,9 +874,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -777,6 +890,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('accountMinimumInflow');
             $event->registerAdditionalProperty('accountOverdraftLimit');
             $event->registerAdditionalProperty('bankAccountType');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('termsOfService');
         }
         if ($event->getType() === Type\BankOrCreditUnion::class) {
@@ -785,9 +899,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -801,9 +917,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -825,11 +943,13 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('embeddedTextCaption');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('ineligibleRegion');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -848,9 +968,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -864,9 +986,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -874,15 +998,20 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
+        if ($event->getType() === Type\BefriendAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\BikeStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -903,10 +1032,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -928,10 +1059,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -956,10 +1089,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -980,10 +1115,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -997,9 +1134,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1007,15 +1146,23 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
+        if ($event->getType() === Type\BookmarkAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\BorrowAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\BowlingAlley::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1029,9 +1176,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1046,6 +1195,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\BroadcastEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
             $event->registerAdditionalProperty('subtitleLanguage');
@@ -1056,11 +1206,15 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\BroadcastService::class) {
             $event->registerAdditionalProperty('callSign');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('termsOfService');
         }
         if ($event->getType() === Type\BuddhistTemple::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
+        }
+        if ($event->getType() === Type\BusReservation::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\BusStation::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
@@ -1073,15 +1227,21 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\BusTrip::class) {
             $event->registerAdditionalProperty('itinerary');
             $event->registerAdditionalProperty('partOfTrip');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('subTrip');
         }
         if ($event->getType() === Type\BusinessEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
         }
+        if ($event->getType() === Type\BuyAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\CableOrSatelliteService::class) {
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('termsOfService');
         }
         if ($event->getType() === Type\CafeOrCoffeeShop::class) {
@@ -1090,9 +1250,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1106,9 +1268,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1133,11 +1297,16 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
         }
+        if ($event->getType() === Type\CancelAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\Car::class) {
             $event->registerAdditionalProperty('callSign');
             $event->registerAdditionalProperty('countryOfAssembly');
             $event->registerAdditionalProperty('countryOfLastProcessing');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('gtin');
+            $event->registerAdditionalProperty('hasAdultConsideration');
             $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
@@ -1152,9 +1321,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1170,6 +1341,15 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
         }
+        if ($event->getType() === Type\CheckAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\CheckInAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\CheckOutAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\CheckoutPage::class) {
             $event->registerAdditionalProperty('abstract');
             $event->registerAdditionalProperty('acquireLicensePage');
@@ -1183,10 +1363,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -1200,9 +1382,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1213,8 +1397,12 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\ChildrensEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
+        }
+        if ($event->getType() === Type\ChooseAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\Church::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
@@ -1248,12 +1436,14 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('negativeNotes');
             $event->registerAdditionalProperty('pattern');
             $event->registerAdditionalProperty('positiveNotes');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -1275,10 +1465,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('endOffset');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -1293,9 +1485,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1316,10 +1510,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -1333,9 +1529,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1349,9 +1547,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1362,6 +1562,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\ComedyEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
         }
@@ -1378,10 +1579,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -1389,21 +1592,35 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
         }
+        if ($event->getType() === Type\CommentAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\CommunicateAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\ComputerStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
             $event->registerAdditionalProperty('ownershipFundingInfo');
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
+        }
+        if ($event->getType() === Type\ConfirmAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\ConsumeAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\ContactPage::class) {
             $event->registerAdditionalProperty('abstract');
@@ -1418,10 +1635,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -1433,15 +1652,20 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
         }
+        if ($event->getType() === Type\ControlAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\ConvenienceStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1462,10 +1686,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -1473,14 +1699,19 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
         }
+        if ($event->getType() === Type\CookAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\Corporation::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1505,12 +1736,14 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('numberOfCredits');
             $event->registerAdditionalProperty('occupationalCredentialAwarded');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -1522,12 +1755,16 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('courseWorkload');
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
         }
         if ($event->getType() === Type\Courthouse::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
+        }
+        if ($event->getType() === Type\CreateAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\CreativeWork::class) {
             $event->registerAdditionalProperty('abstract');
@@ -1542,10 +1779,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -1566,10 +1805,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -1590,10 +1831,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -1609,6 +1852,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('loanRepaymentForm');
             $event->registerAdditionalProperty('loanType');
             $event->registerAdditionalProperty('monthlyMinimumRepaymentAmount');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('recourseLoan');
             $event->registerAdditionalProperty('renegotiableLoan');
             $event->registerAdditionalProperty('termsOfService');
@@ -1618,11 +1862,13 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\CurrencyConversionService::class) {
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('termsOfService');
         }
         if ($event->getType() === Type\DanceEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
         }
@@ -1632,8 +1878,10 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1653,11 +1901,13 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('measurementTechnique');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -1678,12 +1928,14 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('ineligibleRegion');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('measurementTechnique');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -1705,11 +1957,13 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('measurementTechnique');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -1731,11 +1985,13 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('measurementTechnique');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -1750,9 +2006,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1760,9 +2018,15 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
+        if ($event->getType() === Type\DeactivateAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\DefenceEstablishment::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
+        }
+        if ($event->getType() === Type\DeleteAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\DeliveryChargeSpecification::class) {
             $event->registerAdditionalProperty('ineligibleRegion');
@@ -1770,6 +2034,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\DeliveryEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
         }
@@ -1783,11 +2048,13 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('healthPlanNetworkId');
             $event->registerAdditionalProperty('isAcceptingNewPatients');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1795,15 +2062,20 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
+        if ($event->getType() === Type\DepartAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\DepartmentStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1815,6 +2087,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('accountMinimumInflow');
             $event->registerAdditionalProperty('accountOverdraftLimit');
             $event->registerAdditionalProperty('bankAccountType');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('termsOfService');
         }
         if ($event->getType() === Type\DigitalDocument::class) {
@@ -1830,16 +2103,24 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
+        }
+        if ($event->getType() === Type\DisagreeAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\DiscoverAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\DiscussionForumPosting::class) {
             $event->registerAdditionalProperty('abstract');
@@ -1855,10 +2136,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -1866,21 +2149,38 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
         }
+        if ($event->getType() === Type\DislikeAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\Distillery::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
             $event->registerAdditionalProperty('ownershipFundingInfo');
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
+        }
+        if ($event->getType() === Type\DonateAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\DownloadAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\DrawAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\DrinkAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\DryCleaningOrLaundry::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
@@ -1888,9 +2188,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1898,11 +2200,15 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
+        if ($event->getType() === Type\EatAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\EducationEvent::class) {
             $event->registerAdditionalProperty('assesses');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
             $event->registerAdditionalProperty('teaches');
@@ -1913,9 +2219,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1929,9 +2237,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1945,9 +2255,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1961,9 +2273,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -1984,10 +2298,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -2005,9 +2321,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2024,15 +2342,20 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
             $event->registerAdditionalProperty('ownershipFundingInfo');
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
+        }
+        if ($event->getType() === Type\EndorseAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\EndorsementRating::class) {
             $event->registerAdditionalProperty('ratingExplanation');
@@ -2043,9 +2366,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2066,10 +2391,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -2080,12 +2407,19 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Event::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
+        }
+        if ($event->getType() === Type\EventReservation::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\EventVenue::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
+        }
+        if ($event->getType() === Type\ExerciseAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\ExerciseGym::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
@@ -2093,9 +2427,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2106,6 +2442,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\ExhibitionEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
         }
@@ -2122,10 +2459,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -2139,9 +2478,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2152,10 +2493,15 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Festival::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
         }
+        if ($event->getType() === Type\FilmAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\FinancialProduct::class) {
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('termsOfService');
         }
         if ($event->getType() === Type\FinancialService::class) {
@@ -2164,9 +2510,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2174,15 +2522,20 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
+        if ($event->getType() === Type\FindAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\FireStation::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2193,7 +2546,11 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Flight::class) {
             $event->registerAdditionalProperty('itinerary');
             $event->registerAdditionalProperty('partOfTrip');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('subTrip');
+        }
+        if ($event->getType() === Type\FlightReservation::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\Florist::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
@@ -2201,15 +2558,20 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
             $event->registerAdditionalProperty('ownershipFundingInfo');
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
+        }
+        if ($event->getType() === Type\FollowAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\FoodEstablishment::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
@@ -2217,9 +2579,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2227,13 +2591,18 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
+        if ($event->getType() === Type\FoodEstablishmentReservation::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\FoodEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
         }
         if ($event->getType() === Type\FoodService::class) {
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('termsOfService');
         }
         if ($event->getType() === Type\FurnitureStore::class) {
@@ -2242,9 +2611,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2265,10 +2636,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -2282,9 +2655,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2298,9 +2673,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2319,9 +2696,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2329,15 +2708,20 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
+        if ($event->getType() === Type\GiveAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\GolfCourse::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2355,9 +2739,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2371,8 +2757,10 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2381,6 +2769,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\GovernmentService::class) {
             $event->registerAdditionalProperty('jurisdiction');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('termsOfService');
         }
         if ($event->getType() === Type\GroceryStore::class) {
@@ -2389,9 +2778,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2405,9 +2796,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2421,9 +2814,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2437,9 +2832,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2453,9 +2850,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2469,9 +2868,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2485,9 +2886,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2505,9 +2908,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2521,9 +2926,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2537,9 +2944,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2553,12 +2962,14 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('healthPlanNetworkId');
             $event->registerAdditionalProperty('healthcareReportingData');
             $event->registerAdditionalProperty('isAcceptingNewPatients');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2572,9 +2983,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2588,9 +3001,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2630,9 +3045,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2653,10 +3070,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -2677,10 +3096,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -2701,10 +3122,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -2725,10 +3148,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -2749,10 +3174,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -2766,15 +3193,20 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
             $event->registerAdditionalProperty('ownershipFundingInfo');
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
+        }
+        if ($event->getType() === Type\IgnoreAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\ImageGallery::class) {
             $event->registerAdditionalProperty('abstract');
@@ -2789,10 +3221,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -2814,11 +3248,13 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('embeddedTextCaption');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('ineligibleRegion');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -2830,7 +3266,9 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\IndividualProduct::class) {
             $event->registerAdditionalProperty('countryOfAssembly');
             $event->registerAdditionalProperty('countryOfLastProcessing');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('gtin');
+            $event->registerAdditionalProperty('hasAdultConsideration');
             $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
@@ -2839,15 +3277,26 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('pattern');
             $event->registerAdditionalProperty('size');
         }
+        if ($event->getType() === Type\InformAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\InsertAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\InstallAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\InsuranceAgency::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2855,15 +3304,20 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
+        if ($event->getType() === Type\InteractAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\InternetCafe::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2872,7 +3326,14 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
         if ($event->getType() === Type\InvestmentOrDeposit::class) {
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('termsOfService');
+        }
+        if ($event->getType() === Type\InviteAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\Invoice::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\ItemPage::class) {
             $event->registerAdditionalProperty('abstract');
@@ -2887,10 +3348,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -2904,9 +3367,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2933,6 +3398,9 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('sensoryRequirement');
             $event->registerAdditionalProperty('totalJobOpenings');
         }
+        if ($event->getType() === Type\JoinAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\LakeBodyOfWater::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
@@ -2945,15 +3413,20 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
         }
+        if ($event->getType() === Type\LeaveAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\LegalService::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2965,21 +3438,29 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
         }
+        if ($event->getType() === Type\LendAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\Library::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
             $event->registerAdditionalProperty('ownershipFundingInfo');
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
+        }
+        if ($event->getType() === Type\LikeAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\LiquorStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
@@ -2987,9 +3468,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -2997,9 +3480,13 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
+        if ($event->getType() === Type\ListenAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\LiteraryEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
         }
@@ -3017,10 +3504,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3032,6 +3521,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('gracePeriod');
             $event->registerAdditionalProperty('loanRepaymentForm');
             $event->registerAdditionalProperty('loanType');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('recourseLoan');
             $event->registerAdditionalProperty('renegotiableLoan');
             $event->registerAdditionalProperty('termsOfService');
@@ -3042,9 +3532,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3061,9 +3553,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3077,15 +3571,23 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
             $event->registerAdditionalProperty('ownershipFundingInfo');
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
+        }
+        if ($event->getType() === Type\LodgingReservation::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\LoseAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\Map::class) {
             $event->registerAdditionalProperty('abstract');
@@ -3100,16 +3602,21 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
+        }
+        if ($event->getType() === Type\MarryAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\MediaGallery::class) {
             $event->registerAdditionalProperty('abstract');
@@ -3124,10 +3631,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3148,11 +3657,13 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('ineligibleRegion');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3167,10 +3678,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('healthPlanNetworkId');
             $event->registerAdditionalProperty('isAcceptingNewPatients');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3196,9 +3709,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3219,10 +3734,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3243,10 +3760,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3267,10 +3786,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3284,9 +3805,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3307,10 +3830,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3324,9 +3849,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3344,9 +3871,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3360,9 +3889,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3376,9 +3907,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3389,6 +3922,9 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Mountain::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
+        }
+        if ($event->getType() === Type\MoveAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\Movie::class) {
             $event->registerAdditionalProperty('abstract');
@@ -3403,10 +3939,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3430,10 +3968,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('endOffset');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3448,9 +3988,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3471,10 +4013,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3488,9 +4032,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3504,9 +4050,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3531,10 +4079,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3555,10 +4105,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3569,6 +4121,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\MusicEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
         }
@@ -3578,8 +4131,10 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3599,10 +4154,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3623,10 +4180,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3647,10 +4206,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3664,9 +4225,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3691,11 +4254,13 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('ineligibleRegion');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3710,8 +4275,10 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3724,9 +4291,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3748,10 +4317,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3765,9 +4336,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3781,9 +4354,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3804,10 +4379,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3826,6 +4403,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Offer::class) {
             $event->registerAdditionalProperty('gtin');
+            $event->registerAdditionalProperty('hasAdultConsideration');
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('ineligibleRegion');
@@ -3838,9 +4416,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3851,8 +4431,12 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\OnDemandEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
+        }
+        if ($event->getType() === Type\OrderAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\Organization::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
@@ -3860,13 +4444,18 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
             $event->registerAdditionalProperty('ownershipFundingInfo');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
+        }
+        if ($event->getType() === Type\OrganizeAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\OutletStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
@@ -3874,15 +4463,20 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
             $event->registerAdditionalProperty('ownershipFundingInfo');
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
+        }
+        if ($event->getType() === Type\PaintAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\Painting::class) {
             $event->registerAdditionalProperty('abstract');
@@ -3897,16 +4491,21 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
+        }
+        if ($event->getType() === Type\ParcelDelivery::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\ParentAudience::class) {
             $event->registerAdditionalProperty('suggestedAge');
@@ -3926,9 +4525,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3936,19 +4537,27 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
+        if ($event->getType() === Type\PayAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\PaymentCard::class) {
             $event->registerAdditionalProperty('cashBack');
             $event->registerAdditionalProperty('contactlessPayment');
             $event->registerAdditionalProperty('floorLimit');
             $event->registerAdditionalProperty('monthlyMinimumRepaymentAmount');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('termsOfService');
         }
         if ($event->getType() === Type\PaymentService::class) {
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('termsOfService');
         }
         if ($event->getType() === Type\PeopleAudience::class) {
             $event->registerAdditionalProperty('suggestedAge');
             $event->registerAdditionalProperty('suggestedMeasurement');
+        }
+        if ($event->getType() === Type\PerformAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\PerformingArtsTheater::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
@@ -3960,8 +4569,10 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -3981,10 +4592,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -3994,6 +4607,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Person::class) {
             $event->registerAdditionalProperty('callSign');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('gender');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('jobTitle');
@@ -4006,9 +4620,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -4022,11 +4638,13 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('healthPlanNetworkId');
             $event->registerAdditionalProperty('isAcceptingNewPatients');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -4047,10 +4665,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4058,17 +4678,22 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
         }
+        if ($event->getType() === Type\PhotographAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\Physician::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('healthPlanNetworkId');
             $event->registerAdditionalProperty('isAcceptingNewPatients');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -4084,6 +4709,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
         }
+        if ($event->getType() === Type\PlanAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\PlayAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\Playground::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
@@ -4094,9 +4725,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -4110,9 +4743,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -4130,9 +4765,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -4140,15 +4777,23 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
+        if ($event->getType() === Type\PreOrderAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\PrependAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\Preschool::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -4169,10 +4814,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4183,7 +4830,9 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Product::class) {
             $event->registerAdditionalProperty('countryOfAssembly');
             $event->registerAdditionalProperty('countryOfLastProcessing');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('gtin');
+            $event->registerAdditionalProperty('hasAdultConsideration');
             $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
@@ -4195,7 +4844,9 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\ProductModel::class) {
             $event->registerAdditionalProperty('countryOfAssembly');
             $event->registerAdditionalProperty('countryOfLastProcessing');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('gtin');
+            $event->registerAdditionalProperty('hasAdultConsideration');
             $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
@@ -4210,9 +4861,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -4233,10 +4886,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4256,9 +4911,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -4269,6 +4926,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\PublicationEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
         }
@@ -4285,10 +4943,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4309,10 +4969,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4333,10 +4995,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4358,16 +5022,21 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('eduQuestionType');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
+        }
+        if ($event->getType() === Type\QuoteAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\RVPark::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
@@ -4387,10 +5056,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('endOffset');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4412,10 +5083,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4436,10 +5109,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4460,10 +5135,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4477,9 +5154,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -4490,21 +5169,32 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Rating::class) {
             $event->registerAdditionalProperty('ratingExplanation');
         }
+        if ($event->getType() === Type\ReactAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\ReadAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\RealEstateAgent::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
             $event->registerAdditionalProperty('ownershipFundingInfo');
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
+        }
+        if ($event->getType() === Type\ReceiveAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\Recipe::class) {
             $event->registerAdditionalProperty('abstract');
@@ -4519,10 +5209,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4536,15 +5228,35 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
             $event->registerAdditionalProperty('ownershipFundingInfo');
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
+        }
+        if ($event->getType() === Type\RegisterAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\RejectAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\RentAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\RentalCarReservation::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\ReplaceAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\ReplyAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\Report::class) {
             $event->registerAdditionalProperty('abstract');
@@ -4560,16 +5272,27 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
+        }
+        if ($event->getType() === Type\Reservation::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\ReservationPackage::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\ReserveAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\Reservoir::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
@@ -4586,9 +5309,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -4602,15 +5327,23 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
             $event->registerAdditionalProperty('ownershipFundingInfo');
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
+        }
+        if ($event->getType() === Type\ResumeAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\ReturnAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\Review::class) {
             $event->registerAdditionalProperty('abstract');
@@ -4628,18 +5361,23 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('negativeNotes');
             $event->registerAdditionalProperty('pattern');
             $event->registerAdditionalProperty('positiveNotes');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
+        }
+        if ($event->getType() === Type\ReviewAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\RiverBodyOfWater::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
@@ -4651,9 +5389,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -4674,11 +5414,18 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('yearBuilt');
         }
+        if ($event->getType() === Type\RsvpAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\SaleEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
+        }
+        if ($event->getType() === Type\ScheduleAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\ScholarlyArticle::class) {
             $event->registerAdditionalProperty('abstract');
@@ -4694,10 +5441,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4711,9 +5460,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -4724,6 +5475,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\ScreeningEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
             $event->registerAdditionalProperty('subtitleLanguage');
@@ -4741,10 +5493,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4755,6 +5509,9 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\SeaBodyOfWater::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
+        }
+        if ($event->getType() === Type\SearchAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\SearchResultsPage::class) {
             $event->registerAdditionalProperty('abstract');
@@ -4769,10 +5526,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4786,9 +5545,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -4796,8 +5557,18 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
+        if ($event->getType() === Type\SellAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\SendAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\Service::class) {
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('termsOfService');
+        }
+        if ($event->getType() === Type\ShareAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\ShoeStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
@@ -4805,9 +5576,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -4821,9 +5594,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -4857,10 +5632,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4874,9 +5651,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -4887,6 +5666,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\SocialEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
         }
@@ -4904,10 +5684,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4928,10 +5710,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4952,10 +5736,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -4966,7 +5752,9 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\SomeProducts::class) {
             $event->registerAdditionalProperty('countryOfAssembly');
             $event->registerAdditionalProperty('countryOfLastProcessing');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('gtin');
+            $event->registerAdditionalProperty('hasAdultConsideration');
             $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
@@ -4981,9 +5769,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -4997,9 +5787,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -5013,9 +5805,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -5026,6 +5820,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\SportsEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
             $event->registerAdditionalProperty('sport');
@@ -5036,8 +5831,10 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -5051,9 +5848,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('gender');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -5074,10 +5873,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5091,9 +5892,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -5111,15 +5914,20 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
             $event->registerAdditionalProperty('ownershipFundingInfo');
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
+        }
+        if ($event->getType() === Type\SubscribeAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\SubwayStation::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
@@ -5137,6 +5945,9 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('numberOfPartialBathrooms');
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('yearBuilt');
+        }
+        if ($event->getType() === Type\SuspendAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\Synagogue::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
@@ -5156,10 +5967,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('endOffset');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5181,10 +5994,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5207,10 +6022,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5231,10 +6048,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5255,10 +6074,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5266,15 +6087,20 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
         }
+        if ($event->getType() === Type\TakeAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\TattooParlor::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -5282,7 +6108,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
+        if ($event->getType() === Type\TaxiReservation::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\TaxiService::class) {
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('termsOfService');
         }
         if ($event->getType() === Type\TaxiStand::class) {
@@ -5303,10 +6133,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5320,9 +6152,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -5336,9 +6170,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -5359,10 +6195,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5373,6 +6211,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\TheaterEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
         }
@@ -5382,13 +6221,21 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
             $event->registerAdditionalProperty('ownershipFundingInfo');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
+        }
+        if ($event->getType() === Type\TieAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\TipAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\TireShop::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
@@ -5396,9 +6243,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -5416,9 +6265,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -5432,15 +6283,26 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
             $event->registerAdditionalProperty('ownershipFundingInfo');
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
+        }
+        if ($event->getType() === Type\TrackAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\TradeAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\TrainReservation::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\TrainStation::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
@@ -5449,7 +6311,14 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\TrainTrip::class) {
             $event->registerAdditionalProperty('itinerary');
             $event->registerAdditionalProperty('partOfTrip');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('subTrip');
+        }
+        if ($event->getType() === Type\TransferAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\TravelAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\TravelAgency::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
@@ -5457,9 +6326,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -5470,18 +6341,30 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Trip::class) {
             $event->registerAdditionalProperty('itinerary');
             $event->registerAdditionalProperty('partOfTrip');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('subTrip');
+        }
+        if ($event->getType() === Type\UnRegisterAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\UnitPriceSpecification::class) {
             $event->registerAdditionalProperty('billingDuration');
             $event->registerAdditionalProperty('billingStart');
             $event->registerAdditionalProperty('priceComponentType');
         }
+        if ($event->getType() === Type\UpdateAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\UseAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\Vehicle::class) {
             $event->registerAdditionalProperty('callSign');
             $event->registerAdditionalProperty('countryOfAssembly');
             $event->registerAdditionalProperty('countryOfLastProcessing');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('gtin');
+            $event->registerAdditionalProperty('hasAdultConsideration');
             $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
@@ -5503,10 +6386,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5527,10 +6412,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5552,10 +6439,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('endOffset');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5577,10 +6466,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5602,11 +6493,13 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('embeddedTextCaption');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('ineligibleRegion');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5615,9 +6508,13 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
         }
+        if ($event->getType() === Type\ViewAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\VisualArtsEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('maximumPhysicalAttendeeCapacity');
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
         }
@@ -5634,10 +6531,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5648,6 +6547,9 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Volcano::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
+        }
+        if ($event->getType() === Type\VoteAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\WPAdBlock::class) {
             $event->registerAdditionalProperty('abstract');
@@ -5662,10 +6564,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5686,10 +6590,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5710,10 +6616,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5734,10 +6642,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5745,9 +6655,18 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
         }
+        if ($event->getType() === Type\WantAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\WatchAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\Waterfall::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
+        }
+        if ($event->getType() === Type\WearAction::class) {
+            $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\WebApplication::class) {
             $event->registerAdditionalProperty('abstract');
@@ -5762,10 +6681,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5786,10 +6707,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5810,10 +6733,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5834,10 +6759,12 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
@@ -5851,9 +6778,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -5861,15 +6790,20 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
+        if ($event->getType() === Type\WinAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\Winery::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
@@ -5883,34 +6817,68 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
             $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
             $event->registerAdditionalProperty('ownershipFundingInfo');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
+        if ($event->getType() === Type\WriteAction::class) {
+            $event->registerAdditionalProperty('provider');
+        }
         if ($event->getType() === Type\Zoo::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if (ExtensionManagementUtility::isLoaded('schema_health')) {
+            if ($event->getType() === HealthType\AnatomicalStructure::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\AnatomicalSystem::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\ApprovedIndication::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\Artery::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\BloodTest::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\Bone::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\BrainStructure::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\DDxElement::class) {
+                $event->registerAdditionalProperty('funding');
+            }
             if ($event->getType() === HealthType\DiagnosticLab::class) {
                 $event->registerAdditionalProperty('actionableFeedbackPolicy');
                 $event->registerAdditionalProperty('correctionsPolicy');
                 $event->registerAdditionalProperty('diversityPolicy');
                 $event->registerAdditionalProperty('diversityStaffingReport');
                 $event->registerAdditionalProperty('ethicsPolicy');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('hasCredential');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
                 $event->registerAdditionalProperty('healthPlanNetworkId');
                 $event->registerAdditionalProperty('isAcceptingNewPatients');
+                $event->registerAdditionalProperty('iso6523Code');
                 $event->registerAdditionalProperty('knowsAbout');
                 $event->registerAdditionalProperty('knowsLanguage');
                 $event->registerAdditionalProperty('nonprofitStatus');
                 $event->registerAdditionalProperty('ownershipFundingInfo');
                 $event->registerAdditionalProperty('unnamedSourcesPolicy');
+            }
+            if ($event->getType() === HealthType\DiagnosticProcedure::class) {
+                $event->registerAdditionalProperty('funding');
             }
             if ($event->getType() === HealthType\Diet::class) {
                 $event->registerAdditionalProperty('abstract');
@@ -5925,10 +6893,12 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('provider');
                 $event->registerAdditionalProperty('sdDatePublished');
                 $event->registerAdditionalProperty('sdLicense');
                 $event->registerAdditionalProperty('sdPublisher');
@@ -5936,9 +6906,28 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('teaches');
                 $event->registerAdditionalProperty('usageInfo');
             }
+            if ($event->getType() === HealthType\DietarySupplement::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\DoseSchedule::class) {
+                $event->registerAdditionalProperty('funding');
+            }
             if ($event->getType() === HealthType\Drug::class) {
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('includedInHealthInsurancePlan');
                 $event->registerAdditionalProperty('rxcui');
+            }
+            if ($event->getType() === HealthType\DrugClass::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\DrugCost::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\DrugLegalStatus::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\DrugStrength::class) {
+                $event->registerAdditionalProperty('funding');
             }
             if ($event->getType() === HealthType\ExercisePlan::class) {
                 $event->registerAdditionalProperty('abstract');
@@ -5953,16 +6942,39 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('provider');
                 $event->registerAdditionalProperty('sdDatePublished');
                 $event->registerAdditionalProperty('sdLicense');
                 $event->registerAdditionalProperty('sdPublisher');
                 $event->registerAdditionalProperty('size');
                 $event->registerAdditionalProperty('teaches');
                 $event->registerAdditionalProperty('usageInfo');
+            }
+            if ($event->getType() === HealthType\ImagingTest::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\InfectiousDisease::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\Joint::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\LifestyleModification::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\Ligament::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\LymphaticVessel::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MaximumDoseSchedule::class) {
+                $event->registerAdditionalProperty('funding');
             }
             if ($event->getType() === HealthType\MedicalAudience::class) {
                 $event->registerAdditionalProperty('suggestedAge');
@@ -5974,9 +6986,11 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('diversityPolicy');
                 $event->registerAdditionalProperty('diversityStaffingReport');
                 $event->registerAdditionalProperty('ethicsPolicy');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('hasCredential');
                 $event->registerAdditionalProperty('hasDriveThroughService');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+                $event->registerAdditionalProperty('iso6523Code');
                 $event->registerAdditionalProperty('knowsAbout');
                 $event->registerAdditionalProperty('knowsLanguage');
                 $event->registerAdditionalProperty('nonprofitStatus');
@@ -5984,17 +6998,22 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('tourBookingPage');
                 $event->registerAdditionalProperty('unnamedSourcesPolicy');
             }
+            if ($event->getType() === HealthType\MedicalCause::class) {
+                $event->registerAdditionalProperty('funding');
+            }
             if ($event->getType() === HealthType\MedicalClinic::class) {
                 $event->registerAdditionalProperty('actionableFeedbackPolicy');
                 $event->registerAdditionalProperty('correctionsPolicy');
                 $event->registerAdditionalProperty('diversityPolicy');
                 $event->registerAdditionalProperty('diversityStaffingReport');
                 $event->registerAdditionalProperty('ethicsPolicy');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('hasCredential');
                 $event->registerAdditionalProperty('hasDriveThroughService');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
                 $event->registerAdditionalProperty('healthPlanNetworkId');
                 $event->registerAdditionalProperty('isAcceptingNewPatients');
+                $event->registerAdditionalProperty('iso6523Code');
                 $event->registerAdditionalProperty('knowsAbout');
                 $event->registerAdditionalProperty('knowsLanguage');
                 $event->registerAdditionalProperty('nonprofitStatus');
@@ -6004,9 +7023,58 @@ final class RegisterAdditionalProperties
             }
             if ($event->getType() === HealthType\MedicalCode::class) {
                 $event->registerAdditionalProperty('codeValue');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('inCodeSet');
                 $event->registerAdditionalProperty('inDefinedTermSet');
                 $event->registerAdditionalProperty('termCode');
+            }
+            if ($event->getType() === HealthType\MedicalCondition::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalConditionStage::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalContraindication::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalDevice::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalEntity::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalGuideline::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalGuidelineContraindication::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalGuidelineRecommendation::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalIndication::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalIntangible::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalObservationalStudy::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalProcedure::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalRiskCalculator::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalRiskEstimator::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalRiskFactor::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalRiskScore::class) {
+                $event->registerAdditionalProperty('funding');
             }
             if ($event->getType() === HealthType\MedicalScholarlyArticle::class) {
                 $event->registerAdditionalProperty('abstract');
@@ -6022,16 +7090,42 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('provider');
                 $event->registerAdditionalProperty('sdDatePublished');
                 $event->registerAdditionalProperty('sdLicense');
                 $event->registerAdditionalProperty('sdPublisher');
                 $event->registerAdditionalProperty('size');
                 $event->registerAdditionalProperty('teaches');
                 $event->registerAdditionalProperty('usageInfo');
+            }
+            if ($event->getType() === HealthType\MedicalSign::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalSignOrSymptom::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalStudy::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalSymptom::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalTest::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalTestPanel::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalTherapy::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\MedicalTrial::class) {
+                $event->registerAdditionalProperty('funding');
             }
             if ($event->getType() === HealthType\MedicalWebPage::class) {
                 $event->registerAdditionalProperty('abstract');
@@ -6046,10 +7140,12 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('creditText');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('interpretedAsClaim');
                 $event->registerAdditionalProperty('maintainer');
                 $event->registerAdditionalProperty('materialExtent');
                 $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('provider');
                 $event->registerAdditionalProperty('sdDatePublished');
                 $event->registerAdditionalProperty('sdLicense');
                 $event->registerAdditionalProperty('sdPublisher');
@@ -6057,15 +7153,26 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('teaches');
                 $event->registerAdditionalProperty('usageInfo');
             }
+            if ($event->getType() === HealthType\Muscle::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\Nerve::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\OccupationalTherapy::class) {
+                $event->registerAdditionalProperty('funding');
+            }
             if ($event->getType() === HealthType\Optician::class) {
                 $event->registerAdditionalProperty('actionableFeedbackPolicy');
                 $event->registerAdditionalProperty('correctionsPolicy');
                 $event->registerAdditionalProperty('diversityPolicy');
                 $event->registerAdditionalProperty('diversityStaffingReport');
                 $event->registerAdditionalProperty('ethicsPolicy');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('hasCredential');
                 $event->registerAdditionalProperty('hasDriveThroughService');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+                $event->registerAdditionalProperty('iso6523Code');
                 $event->registerAdditionalProperty('knowsAbout');
                 $event->registerAdditionalProperty('knowsLanguage');
                 $event->registerAdditionalProperty('nonprofitStatus');
@@ -6073,8 +7180,15 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('tourBookingPage');
                 $event->registerAdditionalProperty('unnamedSourcesPolicy');
             }
+            if ($event->getType() === HealthType\PalliativeProcedure::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\PathologyTest::class) {
+                $event->registerAdditionalProperty('funding');
+            }
             if ($event->getType() === HealthType\Patient::class) {
                 $event->registerAdditionalProperty('callSign');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('gender');
                 $event->registerAdditionalProperty('hasCredential');
                 $event->registerAdditionalProperty('jobTitle');
@@ -6083,21 +7197,71 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('suggestedAge');
                 $event->registerAdditionalProperty('suggestedMeasurement');
             }
+            if ($event->getType() === HealthType\PhysicalActivity::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\PhysicalExam::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\PhysicalTherapy::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\PreventionIndication::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\PsychologicalTreatment::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\RadiationTherapy::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\RecommendedDoseSchedule::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\ReportedDoseSchedule::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\Substance::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\SuperficialAnatomy::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\SurgicalProcedure::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\TherapeuticProcedure::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\TreatmentIndication::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\Vein::class) {
+                $event->registerAdditionalProperty('funding');
+            }
+            if ($event->getType() === HealthType\Vessel::class) {
+                $event->registerAdditionalProperty('funding');
+            }
             if ($event->getType() === HealthType\VeterinaryCare::class) {
                 $event->registerAdditionalProperty('actionableFeedbackPolicy');
                 $event->registerAdditionalProperty('correctionsPolicy');
                 $event->registerAdditionalProperty('diversityPolicy');
                 $event->registerAdditionalProperty('diversityStaffingReport');
                 $event->registerAdditionalProperty('ethicsPolicy');
+                $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('hasCredential');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
                 $event->registerAdditionalProperty('healthPlanNetworkId');
                 $event->registerAdditionalProperty('isAcceptingNewPatients');
+                $event->registerAdditionalProperty('iso6523Code');
                 $event->registerAdditionalProperty('knowsAbout');
                 $event->registerAdditionalProperty('knowsLanguage');
                 $event->registerAdditionalProperty('nonprofitStatus');
                 $event->registerAdditionalProperty('ownershipFundingInfo');
                 $event->registerAdditionalProperty('unnamedSourcesPolicy');
+            }
+            if ($event->getType() === HealthType\VitalSign::class) {
+                $event->registerAdditionalProperty('funding');
             }
         }
     }

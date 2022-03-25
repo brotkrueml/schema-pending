@@ -39,6 +39,7 @@ final class MoneyTransfer extends AbstractType
         'object',
         'participant',
         'potentialAction',
+        'provider',
         'result',
         'sameAs',
         'startTime',

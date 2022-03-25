@@ -27,6 +27,7 @@ final class BioChemEntity extends AbstractType
         'biologicalRole',
         'description',
         'disambiguatingDescription',
+        'funding',
         'hasBioChemEntityPart',
         'hasMolecularFunction',
         'hasRepresentation',

@@ -78,6 +78,7 @@ final class BackgroundNewsArticle extends AbstractType
         'exampleOfWork',
         'expires',
         'funder',
+        'funding',
         'genre',
         'hasPart',
         'headline',

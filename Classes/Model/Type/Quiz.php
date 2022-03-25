@@ -75,6 +75,7 @@ final class Quiz extends AbstractType
         'exampleOfWork',
         'expires',
         'funder',
+        'funding',
         'genre',
         'hasPart',
         'headline',

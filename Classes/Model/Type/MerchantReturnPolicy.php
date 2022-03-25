@@ -22,6 +22,7 @@ final class MerchantReturnPolicy extends AbstractType
         'additionalProperty',
         'additionalType',
         'alternateName',
+        'applicableCountry',
         'customerRemorseReturnFees',
         'customerRemorseReturnLabelSource',
         'customerRemorseReturnShippingFeesAmount',

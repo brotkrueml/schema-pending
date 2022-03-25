@@ -77,6 +77,7 @@ final class AdvertiserContentArticle extends AbstractType
         'exampleOfWork',
         'expires',
         'funder',
+        'funding',
         'genre',
         'hasPart',
         'headline',

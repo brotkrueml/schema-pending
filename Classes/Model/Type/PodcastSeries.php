@@ -76,6 +76,7 @@ final class PodcastSeries extends AbstractType
         'exampleOfWork',
         'expires',
         'funder',
+        'funding',
         'genre',
         'hasPart',
         'headline',

@@ -74,6 +74,7 @@ final class CategoryCodeSet extends AbstractType
         'exampleOfWork',
         'expires',
         'funder',
+        'funding',
         'genre',
         'hasCategoryCode',
         'hasDefinedTerm',

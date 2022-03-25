@@ -29,6 +29,7 @@ final class ChemicalSubstance extends AbstractType
         'chemicalRole',
         'description',
         'disambiguatingDescription',
+        'funding',
         'hasBioChemEntityPart',
         'hasMolecularFunction',
         'hasRepresentation',

@@ -29,6 +29,7 @@ final class Grant extends AbstractType
         'description',
         'disambiguatingDescription',
         'fundedItem',
+        'funder',
         'identifier',
         'image',
         'mainEntityOfPage',

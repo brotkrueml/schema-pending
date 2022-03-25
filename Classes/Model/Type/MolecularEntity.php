@@ -28,6 +28,7 @@ final class MolecularEntity extends AbstractType
         'chemicalRole',
         'description',
         'disambiguatingDescription',
+        'funding',
         'hasBioChemEntityPart',
         'hasMolecularFunction',
         'hasRepresentation',

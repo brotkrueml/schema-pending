@@ -113,6 +113,7 @@ final class SpecialAnnouncement extends AbstractType
         'exampleOfWork',
         'expires',
         'funder',
+        'funding',
         'genre',
         'gettingTestedInfo',
         'governmentBenefitsInfo',

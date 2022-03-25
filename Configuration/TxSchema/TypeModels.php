@@ -10,6 +10,7 @@ declare(strict_types=1);
  */
 
 return [
+    \Brotkrueml\SchemaPending\Model\Type\AdultOrientedEnumeration::class,
     \Brotkrueml\SchemaPending\Model\Type\AdvertiserContentArticle::class,
     \Brotkrueml\SchemaPending\Model\Type\AmpStory::class,
     \Brotkrueml\SchemaPending\Model\Type\AnalysisNewsArticle::class,
@@ -38,6 +39,7 @@ return [
     \Brotkrueml\SchemaPending\Model\Type\DefinedTerm::class,
     \Brotkrueml\SchemaPending\Model\Type\DefinedTermSet::class,
     \Brotkrueml\SchemaPending\Model\Type\DeliveryTimeSettings::class,
+    \Brotkrueml\SchemaPending\Model\Type\DigitalPlatformEnumeration::class,
     \Brotkrueml\SchemaPending\Model\Type\Drawing::class,
     \Brotkrueml\SchemaPending\Model\Type\EUEnergyEfficiencyEnumeration::class,
     \Brotkrueml\SchemaPending\Model\Type\EducationalOccupationalCredential::class,
@@ -52,6 +54,7 @@ return [
     \Brotkrueml\SchemaPending\Model\Type\FloorPlan::class,
     \Brotkrueml\SchemaPending\Model\Type\FundingAgency::class,
     \Brotkrueml\SchemaPending\Model\Type\FundingScheme::class,
+    \Brotkrueml\SchemaPending\Model\Type\GameAvailabilityEnumeration::class,
     \Brotkrueml\SchemaPending\Model\Type\Gene::class,
     \Brotkrueml\SchemaPending\Model\Type\GeospatialGeometry::class,
     \Brotkrueml\SchemaPending\Model\Type\GovernmentBenefitsType::class,
@@ -96,8 +99,11 @@ return [
     \Brotkrueml\SchemaPending\Model\Type\OfferForLease::class,
     \Brotkrueml\SchemaPending\Model\Type\OfferForPurchase::class,
     \Brotkrueml\SchemaPending\Model\Type\OfferShippingDetails::class,
+    \Brotkrueml\SchemaPending\Model\Type\OnlineBusiness::class,
+    \Brotkrueml\SchemaPending\Model\Type\OnlineStore::class,
     \Brotkrueml\SchemaPending\Model\Type\OpinionNewsArticle::class,
     \Brotkrueml\SchemaPending\Model\Type\Play::class,
+    \Brotkrueml\SchemaPending\Model\Type\PlayGameAction::class,
     \Brotkrueml\SchemaPending\Model\Type\PodcastEpisode::class,
     \Brotkrueml\SchemaPending\Model\Type\PodcastSeason::class,
     \Brotkrueml\SchemaPending\Model\Type\PodcastSeries::class,
@@ -127,6 +133,7 @@ return [
     \Brotkrueml\SchemaPending\Model\Type\SatiricalArticle::class,
     \Brotkrueml\SchemaPending\Model\Type\Schedule::class,
     \Brotkrueml\SchemaPending\Model\Type\SchoolDistrict::class,
+    \Brotkrueml\SchemaPending\Model\Type\SearchRescueOrganization::class,
     \Brotkrueml\SchemaPending\Model\Type\SeekToAction::class,
     \Brotkrueml\SchemaPending\Model\Type\SheetMusic::class,
     \Brotkrueml\SchemaPending\Model\Type\ShippingDeliveryTime::class,

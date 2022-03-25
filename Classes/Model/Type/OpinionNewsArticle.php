@@ -78,6 +78,7 @@ final class OpinionNewsArticle extends AbstractType
         'exampleOfWork',
         'expires',
         'funder',
+        'funding',
         'genre',
         'hasPart',
         'headline',

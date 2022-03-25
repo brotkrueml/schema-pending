@@ -86,6 +86,7 @@ final class VideoObjectSnapshot extends AbstractType
         'exampleOfWork',
         'expires',
         'funder',
+        'funding',
         'genre',
         'hasPart',
         'headline',

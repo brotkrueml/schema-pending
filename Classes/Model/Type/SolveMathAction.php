@@ -37,6 +37,7 @@ final class SolveMathAction extends AbstractType
         'object',
         'participant',
         'potentialAction',
+        'provider',
         'result',
         'sameAs',
         'startTime',

@@ -78,6 +78,7 @@ final class RealEstateListing extends AbstractType implements WebPageTypeInterfa
         'exampleOfWork',
         'expires',
         'funder',
+        'funding',
         'genre',
         'hasPart',
         'headline',

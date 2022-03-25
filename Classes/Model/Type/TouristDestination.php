@@ -52,6 +52,7 @@ final class TouristDestination extends AbstractType
         'includesAttraction',
         'isAccessibleForFree',
         'isicV4',
+        'keywords',
         'latitude',
         'logo',
         'longitude',

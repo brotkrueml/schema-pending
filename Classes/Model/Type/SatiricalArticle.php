@@ -77,6 +77,7 @@ final class SatiricalArticle extends AbstractType
         'exampleOfWork',
         'expires',
         'funder',
+        'funding',
         'genre',
         'hasPart',
         'headline',

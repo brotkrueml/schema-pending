@@ -74,6 +74,7 @@ final class MediaReviewItem extends AbstractType
         'exampleOfWork',
         'expires',
         'funder',
+        'funding',
         'genre',
         'hasPart',
         'headline',
