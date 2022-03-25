@@ -18,7 +18,7 @@ Using the API
 =============
 
 The API can be used like described in the :ref:`schema manual
-<schema:api>`. But there is one detail: As the classes of this extensions
+<ext_schema:api>`. But there is one detail: As the classes of this extensions
 use a different namespace the instantiation of type models must reflect this::
 
    $floorPlan = new \Brotkrueml\SchemaPending\Model\Type\FloorPlan();
@@ -26,19 +26,19 @@ use a different namespace the instantiation of type models must reflect this::
 Alternatively, you can use the :php:`TypeFactory`, so you don't have to deal
 with namespaces::
 
-   $busOrCoach = \Brotkrueml\Schema\Type\TypeFactory::createType('FloorPlan');
+   $floorPlan = \Brotkrueml\Schema\Type\TypeFactory::createType('FloorPlan');
 
 
 Using the view helpers
 ======================
 
 The Fluid view helpers can be used like described in the :ref:`schema manual
-<schema:view-helpers>`:
+<ext_schema:view-helpers>`:
 
 .. code-block:: html
 
    <schema:type.floorPlan
-      -id="http://example.org/#some-floor-plan"
+      -id="https://example.org/#some-floor-plan"
       name="some floor plan"
    />
 

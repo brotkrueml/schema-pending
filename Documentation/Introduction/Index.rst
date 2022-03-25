@@ -26,16 +26,11 @@ additional `schema.org <https://schema.org/>`_ pending terms:
    yet to be accepted into the core vocabulary. Pending terms are subject to
    change and should be used with caution. An alternative to use this extension
    is to add the needed terms to the vocabulary by your own: :ref:`Extend the
-   vocabulary <schema:extending-vocabulary>`. This way you have the types and
+   vocabulary <ext_schema:extending-vocabulary>`. This way you have the types and
    properties under your control.
 
 For more information about the schema extension have a look into the
-:ref:`documentation <schema:introduction>`.
-
-.. tip::
-
-   There is a Slack channel #ext-schema on `typo3.slack.com
-   <https://typo3.slack.com/>`_ for questions, suggestions, feedback, etc.
+:ref:`documentation <ext_schema:introduction>`.
 
 
 .. _vocabulary:
