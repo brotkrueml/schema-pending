@@ -14,7 +14,7 @@ namespace Brotkrueml\SchemaPending\ViewHelpers\Type;
 use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
- * Indicates a range of postalcodes, usually defined as the set of valid codes between postalCodeBegin and postalCodeEnd, inclusively.
+ * Indicates a range of postal codes, usually defined as the set of valid codes between postalCodeBegin and postalCodeEnd, inclusively.
  */
 final class PostalCodeRangeSpecificationViewHelper extends AbstractTypeViewHelper
 {

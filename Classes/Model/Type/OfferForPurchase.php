@@ -15,7 +15,6 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * An OfferForPurchase in Schema.org represents an Offer to sell something, i.e. an Offer whose
- * businessFunction is [sell](http://purl.org/goodrelations/v1#Sell.). See [Good Relations](https://en.wikipedia.org/wiki/GoodRelations) for
  * background on the underlying concepts.
  */
 final class OfferForPurchase extends AbstractType
@@ -28,6 +27,7 @@ final class OfferForPurchase extends AbstractType
         'aggregateRating',
         'alternateName',
         'areaServed',
+        'asin',
         'availability',
         'availabilityEnds',
         'availabilityStarts',
@@ -35,6 +35,7 @@ final class OfferForPurchase extends AbstractType
         'availableDeliveryMethod',
         'businessFunction',
         'category',
+        'checkoutPageURLTemplate',
         'deliveryLeadTime',
         'description',
         'disambiguatingDescription',
@@ -61,6 +62,7 @@ final class OfferForPurchase extends AbstractType
         'itemOffered',
         'leaseLength',
         'mainEntityOfPage',
+        'mobileUrl',
         'mpn',
         'name',
         'offeredBy',

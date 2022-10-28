@@ -24,6 +24,7 @@ final class RegisterAdditionalProperties
     {
         if (ExtensionManagementUtility::isLoaded('schema_auto')) {
             if ($event->getType() === AutoType\BusOrCoach::class) {
+                $event->registerAdditionalProperty('asin');
                 $event->registerAdditionalProperty('callSign');
                 $event->registerAdditionalProperty('countryOfAssembly');
                 $event->registerAdditionalProperty('countryOfLastProcessing');
@@ -34,11 +35,15 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('hasMeasurement');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
                 $event->registerAdditionalProperty('inProductGroupWithID');
+                $event->registerAdditionalProperty('mobileUrl');
+                $event->registerAdditionalProperty('negativeNotes');
                 $event->registerAdditionalProperty('nsn');
                 $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('positiveNotes');
                 $event->registerAdditionalProperty('size');
             }
             if ($event->getType() === AutoType\Motorcycle::class) {
+                $event->registerAdditionalProperty('asin');
                 $event->registerAdditionalProperty('callSign');
                 $event->registerAdditionalProperty('countryOfAssembly');
                 $event->registerAdditionalProperty('countryOfLastProcessing');
@@ -49,11 +54,15 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('hasMeasurement');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
                 $event->registerAdditionalProperty('inProductGroupWithID');
+                $event->registerAdditionalProperty('mobileUrl');
+                $event->registerAdditionalProperty('negativeNotes');
                 $event->registerAdditionalProperty('nsn');
                 $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('positiveNotes');
                 $event->registerAdditionalProperty('size');
             }
             if ($event->getType() === AutoType\MotorizedBicycle::class) {
+                $event->registerAdditionalProperty('asin');
                 $event->registerAdditionalProperty('callSign');
                 $event->registerAdditionalProperty('countryOfAssembly');
                 $event->registerAdditionalProperty('countryOfLastProcessing');
@@ -64,8 +73,11 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('hasMeasurement');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
                 $event->registerAdditionalProperty('inProductGroupWithID');
+                $event->registerAdditionalProperty('mobileUrl');
+                $event->registerAdditionalProperty('negativeNotes');
                 $event->registerAdditionalProperty('nsn');
                 $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('positiveNotes');
                 $event->registerAdditionalProperty('size');
             }
         }
@@ -486,12 +498,15 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
         if ($event->getType() === Type\AggregateOffer::class) {
+            $event->registerAdditionalProperty('asin');
+            $event->registerAdditionalProperty('checkoutPageURLTemplate');
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('hasAdultConsideration');
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('ineligibleRegion');
             $event->registerAdditionalProperty('leaseLength');
+            $event->registerAdditionalProperty('mobileUrl');
             $event->registerAdditionalProperty('shippingDetails');
         }
         if ($event->getType() === Type\AggregateRating::class) {
@@ -1301,6 +1316,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\Car::class) {
+            $event->registerAdditionalProperty('asin');
             $event->registerAdditionalProperty('callSign');
             $event->registerAdditionalProperty('countryOfAssembly');
             $event->registerAdditionalProperty('countryOfLastProcessing');
@@ -1311,8 +1327,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('inProductGroupWithID');
+            $event->registerAdditionalProperty('mobileUrl');
+            $event->registerAdditionalProperty('negativeNotes');
             $event->registerAdditionalProperty('nsn');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('positiveNotes');
             $event->registerAdditionalProperty('size');
         }
         if ($event->getType() === Type\Casino::class) {
@@ -2039,6 +2058,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('maximumVirtualAttendeeCapacity');
         }
         if ($event->getType() === Type\Demand::class) {
+            $event->registerAdditionalProperty('asin');
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('ineligibleRegion');
         }
@@ -3264,6 +3284,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('usageInfo');
         }
         if ($event->getType() === Type\IndividualProduct::class) {
+            $event->registerAdditionalProperty('asin');
             $event->registerAdditionalProperty('countryOfAssembly');
             $event->registerAdditionalProperty('countryOfLastProcessing');
             $event->registerAdditionalProperty('funding');
@@ -3273,8 +3294,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('inProductGroupWithID');
+            $event->registerAdditionalProperty('mobileUrl');
+            $event->registerAdditionalProperty('negativeNotes');
             $event->registerAdditionalProperty('nsn');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('positiveNotes');
             $event->registerAdditionalProperty('size');
         }
         if ($event->getType() === Type\InformAction::class) {
@@ -4402,12 +4426,15 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\Offer::class) {
+            $event->registerAdditionalProperty('asin');
+            $event->registerAdditionalProperty('checkoutPageURLTemplate');
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('hasAdultConsideration');
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('ineligibleRegion');
             $event->registerAdditionalProperty('leaseLength');
+            $event->registerAdditionalProperty('mobileUrl');
             $event->registerAdditionalProperty('shippingDetails');
         }
         if ($event->getType() === Type\OfficeEquipmentStore::class) {
@@ -4828,6 +4855,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('usageInfo');
         }
         if ($event->getType() === Type\Product::class) {
+            $event->registerAdditionalProperty('asin');
             $event->registerAdditionalProperty('countryOfAssembly');
             $event->registerAdditionalProperty('countryOfLastProcessing');
             $event->registerAdditionalProperty('funding');
@@ -4837,11 +4865,15 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('inProductGroupWithID');
+            $event->registerAdditionalProperty('mobileUrl');
+            $event->registerAdditionalProperty('negativeNotes');
             $event->registerAdditionalProperty('nsn');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('positiveNotes');
             $event->registerAdditionalProperty('size');
         }
         if ($event->getType() === Type\ProductModel::class) {
+            $event->registerAdditionalProperty('asin');
             $event->registerAdditionalProperty('countryOfAssembly');
             $event->registerAdditionalProperty('countryOfLastProcessing');
             $event->registerAdditionalProperty('funding');
@@ -4851,8 +4883,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('inProductGroupWithID');
+            $event->registerAdditionalProperty('mobileUrl');
+            $event->registerAdditionalProperty('negativeNotes');
             $event->registerAdditionalProperty('nsn');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('positiveNotes');
             $event->registerAdditionalProperty('size');
         }
         if ($event->getType() === Type\ProfessionalService::class) {
@@ -5750,6 +5785,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('usageInfo');
         }
         if ($event->getType() === Type\SomeProducts::class) {
+            $event->registerAdditionalProperty('asin');
             $event->registerAdditionalProperty('countryOfAssembly');
             $event->registerAdditionalProperty('countryOfLastProcessing');
             $event->registerAdditionalProperty('funding');
@@ -5759,8 +5795,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('inProductGroupWithID');
+            $event->registerAdditionalProperty('mobileUrl');
+            $event->registerAdditionalProperty('negativeNotes');
             $event->registerAdditionalProperty('nsn');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('positiveNotes');
             $event->registerAdditionalProperty('size');
         }
         if ($event->getType() === Type\SportingGoodsStore::class) {
@@ -6359,6 +6398,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('provider');
         }
         if ($event->getType() === Type\Vehicle::class) {
+            $event->registerAdditionalProperty('asin');
             $event->registerAdditionalProperty('callSign');
             $event->registerAdditionalProperty('countryOfAssembly');
             $event->registerAdditionalProperty('countryOfLastProcessing');
@@ -6369,8 +6409,11 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('inProductGroupWithID');
+            $event->registerAdditionalProperty('mobileUrl');
+            $event->registerAdditionalProperty('negativeNotes');
             $event->registerAdditionalProperty('nsn');
             $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('positiveNotes');
             $event->registerAdditionalProperty('size');
         }
         if ($event->getType() === Type\VideoGallery::class) {
@@ -6907,15 +6950,45 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('usageInfo');
             }
             if ($event->getType() === HealthType\DietarySupplement::class) {
+                $event->registerAdditionalProperty('asin');
+                $event->registerAdditionalProperty('countryOfAssembly');
+                $event->registerAdditionalProperty('countryOfLastProcessing');
                 $event->registerAdditionalProperty('funding');
+                $event->registerAdditionalProperty('gtin');
+                $event->registerAdditionalProperty('hasAdultConsideration');
+                $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
+                $event->registerAdditionalProperty('hasMeasurement');
+                $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+                $event->registerAdditionalProperty('inProductGroupWithID');
+                $event->registerAdditionalProperty('mobileUrl');
+                $event->registerAdditionalProperty('negativeNotes');
+                $event->registerAdditionalProperty('nsn');
+                $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('positiveNotes');
+                $event->registerAdditionalProperty('size');
             }
             if ($event->getType() === HealthType\DoseSchedule::class) {
                 $event->registerAdditionalProperty('funding');
             }
             if ($event->getType() === HealthType\Drug::class) {
+                $event->registerAdditionalProperty('asin');
+                $event->registerAdditionalProperty('countryOfAssembly');
+                $event->registerAdditionalProperty('countryOfLastProcessing');
                 $event->registerAdditionalProperty('funding');
+                $event->registerAdditionalProperty('gtin');
+                $event->registerAdditionalProperty('hasAdultConsideration');
+                $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
+                $event->registerAdditionalProperty('hasMeasurement');
+                $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+                $event->registerAdditionalProperty('inProductGroupWithID');
                 $event->registerAdditionalProperty('includedInHealthInsurancePlan');
+                $event->registerAdditionalProperty('mobileUrl');
+                $event->registerAdditionalProperty('negativeNotes');
+                $event->registerAdditionalProperty('nsn');
+                $event->registerAdditionalProperty('pattern');
+                $event->registerAdditionalProperty('positiveNotes');
                 $event->registerAdditionalProperty('rxcui');
+                $event->registerAdditionalProperty('size');
             }
             if ($event->getType() === HealthType\DrugClass::class) {
                 $event->registerAdditionalProperty('funding');

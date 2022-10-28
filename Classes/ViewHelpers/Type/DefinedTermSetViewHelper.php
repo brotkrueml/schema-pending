@@ -14,7 +14,7 @@ namespace Brotkrueml\SchemaPending\ViewHelpers\Type;
 use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
- * A set of defined terms for example a set of categories or a classification scheme, a glossary, dictionary or enumeration.
+ * A set of defined terms, for example a set of categories or a classification scheme, a glossary, dictionary or enumeration.
  */
 final class DefinedTermSetViewHelper extends AbstractTypeViewHelper
 {

@@ -14,7 +14,7 @@ namespace Brotkrueml\SchemaPending\Model\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
- * Indicates a range of postalcodes, usually defined as the set of valid codes between postalCodeBegin and postalCodeEnd, inclusively.
+ * Indicates a range of postal codes, usually defined as the set of valid codes between postalCodeBegin and postalCodeEnd, inclusively.
  */
 final class PostalCodeRangeSpecification extends AbstractType
 {
