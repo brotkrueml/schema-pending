@@ -130,6 +130,7 @@ final class PodcastSeries extends AbstractType
         'temporal',
         'temporalCoverage',
         'text',
+        'thumbnail',
         'thumbnailUrl',
         'timeRequired',
         'translator',

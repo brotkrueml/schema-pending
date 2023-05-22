@@ -1755,6 +1755,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('creditText');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('financialAidEligible');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
@@ -1767,10 +1768,13 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
             $event->registerAdditionalProperty('size');
+            $event->registerAdditionalProperty('syllabusSections');
             $event->registerAdditionalProperty('teaches');
+            $event->registerAdditionalProperty('totalHistoricalEnrollment');
             $event->registerAdditionalProperty('usageInfo');
         }
         if ($event->getType() === Type\CourseInstance::class) {
+            $event->registerAdditionalProperty('courseSchedule');
             $event->registerAdditionalProperty('courseWorkload');
             $event->registerAdditionalProperty('eventAttendanceMode');
             $event->registerAdditionalProperty('eventSchedule');
@@ -1924,6 +1928,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
+            $event->registerAdditionalProperty('measurementMethod');
             $event->registerAdditionalProperty('measurementTechnique');
             $event->registerAdditionalProperty('pattern');
             $event->registerAdditionalProperty('provider');
@@ -1952,6 +1957,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
+            $event->registerAdditionalProperty('measurementMethod');
             $event->registerAdditionalProperty('measurementTechnique');
             $event->registerAdditionalProperty('pattern');
             $event->registerAdditionalProperty('provider');
@@ -1980,6 +1986,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
+            $event->registerAdditionalProperty('measurementMethod');
             $event->registerAdditionalProperty('measurementTechnique');
             $event->registerAdditionalProperty('pattern');
             $event->registerAdditionalProperty('provider');
@@ -2008,6 +2015,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('interpretedAsClaim');
             $event->registerAdditionalProperty('maintainer');
             $event->registerAdditionalProperty('materialExtent');
+            $event->registerAdditionalProperty('measurementMethod');
             $event->registerAdditionalProperty('measurementTechnique');
             $event->registerAdditionalProperty('pattern');
             $event->registerAdditionalProperty('provider');
@@ -3569,6 +3577,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
         if ($event->getType() === Type\LocationFeatureSpecification::class) {
+            $event->registerAdditionalProperty('measurementMethod');
             $event->registerAdditionalProperty('measurementTechnique');
         }
         if ($event->getType() === Type\Locksmith::class) {
@@ -4938,6 +4947,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('membershipPointsEarned');
         }
         if ($event->getType() === Type\PropertyValue::class) {
+            $event->registerAdditionalProperty('measurementMethod');
             $event->registerAdditionalProperty('measurementTechnique');
         }
         if ($event->getType() === Type\PublicSwimmingPool::class) {
@@ -6072,6 +6082,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('sdPublisher');
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
+            $event->registerAdditionalProperty('titleEIDR');
             $event->registerAdditionalProperty('usageInfo');
         }
         if ($event->getType() === Type\TVSeries::class) {
@@ -6098,6 +6109,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('sdPublisher');
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
+            $event->registerAdditionalProperty('titleEIDR');
             $event->registerAdditionalProperty('usageInfo');
         }
         if ($event->getType() === Type\Table::class) {
@@ -6243,6 +6255,34 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('sdDatePublished');
             $event->registerAdditionalProperty('sdLicense');
             $event->registerAdditionalProperty('sdPublisher');
+            $event->registerAdditionalProperty('size');
+            $event->registerAdditionalProperty('teaches');
+            $event->registerAdditionalProperty('usageInfo');
+        }
+        if ($event->getType() === Type\TextObject::class) {
+            $event->registerAdditionalProperty('abstract');
+            $event->registerAdditionalProperty('acquireLicensePage');
+            $event->registerAdditionalProperty('archivedAt');
+            $event->registerAdditionalProperty('assesses');
+            $event->registerAdditionalProperty('conditionsOfAccess');
+            $event->registerAdditionalProperty('contentReferenceTime');
+            $event->registerAdditionalProperty('copyrightNotice');
+            $event->registerAdditionalProperty('correction');
+            $event->registerAdditionalProperty('creativeWorkStatus');
+            $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('editEIDR');
+            $event->registerAdditionalProperty('educationalLevel');
+            $event->registerAdditionalProperty('funding');
+            $event->registerAdditionalProperty('ineligibleRegion');
+            $event->registerAdditionalProperty('interpretedAsClaim');
+            $event->registerAdditionalProperty('maintainer');
+            $event->registerAdditionalProperty('materialExtent');
+            $event->registerAdditionalProperty('pattern');
+            $event->registerAdditionalProperty('provider');
+            $event->registerAdditionalProperty('sdDatePublished');
+            $event->registerAdditionalProperty('sdLicense');
+            $event->registerAdditionalProperty('sdPublisher');
+            $event->registerAdditionalProperty('sha256');
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
@@ -6396,6 +6436,24 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\UseAction::class) {
             $event->registerAdditionalProperty('provider');
+        }
+        if ($event->getType() === Type\VacationRental::class) {
+            $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('correctionsPolicy');
+            $event->registerAdditionalProperty('diversityPolicy');
+            $event->registerAdditionalProperty('diversityStaffingReport');
+            $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
+            $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
+            $event->registerAdditionalProperty('knowsAbout');
+            $event->registerAdditionalProperty('knowsLanguage');
+            $event->registerAdditionalProperty('nonprofitStatus');
+            $event->registerAdditionalProperty('ownershipFundingInfo');
+            $event->registerAdditionalProperty('tourBookingPage');
+            $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
         if ($event->getType() === Type\Vehicle::class) {
             $event->registerAdditionalProperty('asin');

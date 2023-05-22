@@ -167,6 +167,7 @@ final class ProductCollection extends AbstractType
         'temporal',
         'temporalCoverage',
         'text',
+        'thumbnail',
         'thumbnailUrl',
         'timeRequired',
         'translator',

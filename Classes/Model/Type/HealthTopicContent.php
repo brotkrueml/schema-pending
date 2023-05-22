@@ -127,6 +127,7 @@ final class HealthTopicContent extends AbstractType
         'temporal',
         'temporalCoverage',
         'text',
+        'thumbnail',
         'thumbnailUrl',
         'timeRequired',
         'translator',

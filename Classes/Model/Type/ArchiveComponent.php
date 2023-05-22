@@ -128,6 +128,7 @@ final class ArchiveComponent extends AbstractType
         'temporal',
         'temporalCoverage',
         'text',
+        'thumbnail',
         'thumbnailUrl',
         'timeRequired',
         'translator',

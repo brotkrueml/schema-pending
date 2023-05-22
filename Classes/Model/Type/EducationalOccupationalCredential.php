@@ -129,6 +129,7 @@ final class EducationalOccupationalCredential extends AbstractType
         'temporal',
         'temporalCoverage',
         'text',
+        'thumbnail',
         'thumbnailUrl',
         'timeRequired',
         'translator',

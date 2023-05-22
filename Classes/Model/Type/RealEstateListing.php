@@ -139,6 +139,7 @@ final class RealEstateListing extends AbstractType implements WebPageTypeInterfa
         'temporal',
         'temporalCoverage',
         'text',
+        'thumbnail',
         'thumbnailUrl',
         'timeRequired',
         'translator',

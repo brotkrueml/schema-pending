@@ -134,6 +134,7 @@ final class PodcastEpisode extends AbstractType
         'temporal',
         'temporalCoverage',
         'text',
+        'thumbnail',
         'thumbnailUrl',
         'timeRequired',
         'trailer',

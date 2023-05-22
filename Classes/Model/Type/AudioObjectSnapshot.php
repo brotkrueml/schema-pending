@@ -144,6 +144,7 @@ final class AudioObjectSnapshot extends AbstractType
         'temporal',
         'temporalCoverage',
         'text',
+        'thumbnail',
         'thumbnailUrl',
         'timeRequired',
         'transcript',

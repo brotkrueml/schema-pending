@@ -126,6 +126,7 @@ final class HyperToc extends AbstractType
         'temporal',
         'temporalCoverage',
         'text',
+        'thumbnail',
         'thumbnailUrl',
         'timeRequired',
         'tocEntry',

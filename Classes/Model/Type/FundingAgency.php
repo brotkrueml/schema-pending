@@ -15,6 +15,9 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * A FundingAgency is an organization that implements one or more FundingSchemes and manages
+ * the granting process (via Grants, typically MonetaryGrants).
+ * A funding agency is not always required for grant funding, e.g. philanthropic giving, corporate sponsorship etc.
+ *
  * Examples of funding agencies include ERC, REA, NIH, Bill and Melinda Gates Foundation, ...
  */
 final class FundingAgency extends AbstractType

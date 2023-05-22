@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updated
+- schema.org definition to version 19.0
+
 ## [1.3.0] - 2022-10-28
 
 ### Added

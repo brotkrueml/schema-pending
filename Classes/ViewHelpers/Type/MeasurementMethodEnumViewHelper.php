@@ -14,10 +14,8 @@ namespace Brotkrueml\SchemaPending\ViewHelpers\Type;
 use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
- * A CDCPMDRecord is a data structure representing a record in a CDC tabular data format
- * used for hospital data reporting. See [documentation](/docs/cdc-covid.html) for details, and the linked CDC materials for authoritative
- * definitions used as the source here.
+ * Enumeration(s) for use with measurementMethod.
  */
-final class CDCPMDRecordViewHelper extends AbstractTypeViewHelper
+final class MeasurementMethodEnumViewHelper extends AbstractTypeViewHelper
 {
 }

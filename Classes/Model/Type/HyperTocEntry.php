@@ -126,6 +126,7 @@ final class HyperTocEntry extends AbstractType
         'temporal',
         'temporalCoverage',
         'text',
+        'thumbnail',
         'thumbnailUrl',
         'timeRequired',
         'tocContinuation',
