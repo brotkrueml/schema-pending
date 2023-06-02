@@ -4791,6 +4791,22 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
         }
+        if ($event->getType() === Type\PoliticalParty::class) {
+            $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('correctionsPolicy');
+            $event->registerAdditionalProperty('diversityPolicy');
+            $event->registerAdditionalProperty('diversityStaffingReport');
+            $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
+            $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('iso6523Code');
+            $event->registerAdditionalProperty('knowsAbout');
+            $event->registerAdditionalProperty('knowsLanguage');
+            $event->registerAdditionalProperty('nonprofitStatus');
+            $event->registerAdditionalProperty('ownershipFundingInfo');
+            $event->registerAdditionalProperty('unnamedSourcesPolicy');
+        }
         if ($event->getType() === Type\Pond::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('tourBookingPage');
