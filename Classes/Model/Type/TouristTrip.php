@@ -39,6 +39,7 @@ final class TouristTrip extends AbstractType
         'subTrip',
         'subjectOf',
         'touristType',
+        'tripOrigin',
         'url',
     ];
 }

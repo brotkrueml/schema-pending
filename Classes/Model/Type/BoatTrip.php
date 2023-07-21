@@ -39,6 +39,7 @@ final class BoatTrip extends AbstractType
         'sameAs',
         'subTrip',
         'subjectOf',
+        'tripOrigin',
         'url',
     ];
 }
