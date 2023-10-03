@@ -52,4 +52,5 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
  */
 final class SpecialAnnouncementViewHelper extends AbstractTypeViewHelper
 {
+    protected string $type = 'SpecialAnnouncement';
 }

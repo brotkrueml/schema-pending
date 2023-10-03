@@ -29,4 +29,5 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
  */
 final class OfferShippingDetailsViewHelper extends AbstractTypeViewHelper
 {
+    protected string $type = 'OfferShippingDetails';
 }

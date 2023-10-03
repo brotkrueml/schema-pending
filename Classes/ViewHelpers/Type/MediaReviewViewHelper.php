@@ -21,4 +21,5 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
  */
 final class MediaReviewViewHelper extends AbstractTypeViewHelper
 {
+    protected string $type = 'MediaReview';
 }

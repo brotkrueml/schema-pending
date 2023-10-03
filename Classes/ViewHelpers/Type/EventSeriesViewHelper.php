@@ -30,4 +30,5 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
  */
 final class EventSeriesViewHelper extends AbstractTypeViewHelper
 {
+    protected string $type = 'EventSeries';
 }

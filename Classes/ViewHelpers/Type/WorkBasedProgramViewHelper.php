@@ -18,4 +18,5 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
  */
 final class WorkBasedProgramViewHelper extends AbstractTypeViewHelper
 {
+    protected string $type = 'WorkBasedProgram';
 }

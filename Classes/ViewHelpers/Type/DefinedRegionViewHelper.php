@@ -30,4 +30,5 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
  */
 final class DefinedRegionViewHelper extends AbstractTypeViewHelper
 {
+    protected string $type = 'DefinedRegion';
 }

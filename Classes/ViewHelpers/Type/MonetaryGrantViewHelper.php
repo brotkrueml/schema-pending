@@ -18,4 +18,5 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
  */
 final class MonetaryGrantViewHelper extends AbstractTypeViewHelper
 {
+    protected string $type = 'MonetaryGrant';
 }

@@ -18,4 +18,5 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
  */
 final class QuizViewHelper extends AbstractTypeViewHelper
 {
+    protected string $type = 'Quiz';
 }

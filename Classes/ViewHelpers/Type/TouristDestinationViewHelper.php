@@ -19,4 +19,5 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
  */
 final class TouristDestinationViewHelper extends AbstractTypeViewHelper
 {
+    protected string $type = 'TouristDestination';
 }

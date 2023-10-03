@@ -19,4 +19,5 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
  */
 final class ConstraintNodeViewHelper extends AbstractTypeViewHelper
 {
+    protected string $type = 'ConstraintNode';
 }

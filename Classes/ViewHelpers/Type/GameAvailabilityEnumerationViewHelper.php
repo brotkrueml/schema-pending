@@ -18,4 +18,5 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
  */
 final class GameAvailabilityEnumerationViewHelper extends AbstractTypeViewHelper
 {
+    protected string $type = 'GameAvailabilityEnumeration';
 }

@@ -18,4 +18,5 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
  */
 final class AmpStoryViewHelper extends AbstractTypeViewHelper
 {
+    protected string $type = 'AmpStory';
 }
