@@ -11,10 +11,8 @@ services:
     tags:
       - name: event.listener
         identifier: 'ext-schema-pending/registerAdditionalProperties'
-        event: Brotkrueml\Schema\Event\RegisterAdditionalTypePropertiesEvent
 
   Brotkrueml\SchemaPending\EventListener\RegisterRemovedProperties:
     tags:
       - name: event.listener
         identifier: 'ext-schema-pending/registerRemovedProperties'
-        event: Brotkrueml\Schema\Event\RegisterAdditionalTypePropertiesEvent
