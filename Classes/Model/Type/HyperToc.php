@@ -11,14 +11,16 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * A HyperToc represents a hypertext table of contents for complex media objects, such as VideoObject, AudioObject. Items in the table of contents are indicated using the tocEntry property, and typed HyperTocEntry. For cases where the same larger work is split into multiple files, associatedMedia can be used on individual HyperTocEntry items.
  */
+#[Type('HyperToc')]
 final class HyperToc extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'about',
         'abstract',
         'accessMode',

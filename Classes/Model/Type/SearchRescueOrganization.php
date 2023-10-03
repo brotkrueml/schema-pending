@@ -11,14 +11,16 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * A Search and Rescue organization of some kind.
  */
+#[Type('SearchRescueOrganization')]
 final class SearchRescueOrganization extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'actionableFeedbackPolicy',
         'additionalType',
         'address',

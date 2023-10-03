@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
@@ -23,9 +24,10 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
  *
  * A ReportageNewsArticle which goes deeper into analysis can also be marked with an additional type of AnalysisNewsArticle.
  */
+#[Type('ReportageNewsArticle')]
 final class ReportageNewsArticle extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'about',
         'abstract',
         'accessMode',

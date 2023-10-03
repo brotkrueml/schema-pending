@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
@@ -19,9 +20,10 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
  * a work in progress. While the MediaManipulationRatingEnumeration list reflects significant community review amongst fact-checkers and others working
  * to combat misinformation, the specific structures for representing media objects, their versions and publication context, are still evolving. Similarly, best practices for the relationship between MediaReview and ClaimReview markup have not yet been finalized.
  */
+#[Type('MediaReview')]
 final class MediaReview extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'about',
         'abstract',
         'accessMode',

@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
@@ -27,9 +28,10 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
  * E.g. Cheaper and slower: $5 in 5-7 days
  * or Fast and expensive: $15 in 1-2 days.
  */
+#[Type('OfferShippingDetails')]
 final class OfferShippingDetails extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'additionalType',
         'alternateName',
         'deliveryTime',

@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
@@ -28,9 +29,10 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
  * { [12345, 12345], [78945, 78945], }
  * Region = state, canton, prefecture, autonomous community...
  */
+#[Type('DefinedRegion')]
 final class DefinedRegion extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'additionalType',
         'addressCountry',
         'addressRegion',

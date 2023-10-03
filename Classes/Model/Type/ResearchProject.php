@@ -11,14 +11,16 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * A Research project.
  */
+#[Type('ResearchProject')]
 final class ResearchProject extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'actionableFeedbackPolicy',
         'additionalType',
         'address',

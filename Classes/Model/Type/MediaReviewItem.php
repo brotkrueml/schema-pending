@@ -11,14 +11,16 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * Represents an item or group of closely related items treated as a unit for the sake of evaluation in a MediaReview. Authorship etc. apply to the items rather than to the curation/grouping or reviewing party.
  */
+#[Type('MediaReviewItem')]
 final class MediaReviewItem extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'about',
         'abstract',
         'accessMode',

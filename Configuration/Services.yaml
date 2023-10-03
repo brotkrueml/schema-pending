@@ -6,7 +6,6 @@ services:
 
   Brotkrueml\SchemaPending\:
     resource: '../Classes/*'
-    exclude: '../Classes/Model'
 
   Brotkrueml\SchemaPending\EventListener\RegisterAdditionalProperties:
     tags:

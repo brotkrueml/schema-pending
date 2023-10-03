@@ -11,14 +11,16 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * A LibrarySystem is a collaborative system amongst several libraries.
  */
+#[Type('LibrarySystem')]
 final class LibrarySystem extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'actionableFeedbackPolicy',
         'additionalType',
         'address',

@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
@@ -20,9 +21,10 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
  *
  * Examples of funding agencies include ERC, REA, NIH, Bill and Melinda Gates Foundation, ...
  */
+#[Type('FundingAgency')]
 final class FundingAgency extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'actionableFeedbackPolicy',
         'additionalType',
         'address',

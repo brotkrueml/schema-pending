@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
@@ -21,9 +22,10 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
  *
  * The amount of a Grant is represented using amount as a MonetaryAmount.
  */
+#[Type('Grant')]
 final class Grant extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'additionalType',
         'alternateName',
         'description',

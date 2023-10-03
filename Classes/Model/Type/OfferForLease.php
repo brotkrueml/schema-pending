@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
@@ -18,9 +19,10 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
  * businessFunction is [lease out](http://purl.org/goodrelations/v1#LeaseOut.). See [Good Relations](https://en.wikipedia.org/wiki/GoodRelations) for
  * background on the underlying concepts.
  */
+#[Type('OfferForLease')]
 final class OfferForLease extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'acceptedPaymentMethod',
         'addOn',
         'additionalType',

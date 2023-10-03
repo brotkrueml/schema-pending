@@ -11,14 +11,16 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * An organization with archival holdings. An organization which keeps and preserves archival material and typically makes it accessible to the public.
  */
+#[Type('ArchiveOrganization')]
 final class ArchiveOrganization extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'actionableFeedbackPolicy',
         'additionalProperty',
         'additionalType',

@@ -11,14 +11,19 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Manual;
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
+use Brotkrueml\Schema\Manual\Publisher;
 
 /**
  * Quiz: A test of knowledge, skills and abilities.
  */
+#[Type('Quiz')]
+#[Manual(Publisher::Google, 'https://developers.google.com/search/docs/advanced/structured-data/practice-problems')]
 final class Quiz extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'about',
         'abstract',
         'accessMode',

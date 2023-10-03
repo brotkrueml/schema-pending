@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
@@ -19,9 +20,10 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
  * non-medical organization, multiple types can be listed. This makes it easier to re-use existing schema.org information
  * about that place, e.g. contact info, address, opening hours. Note that in an emergency, such information may not always be reliable.
  */
+#[Type('CovidTestingFacility')]
 final class CovidTestingFacility extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'actionableFeedbackPolicy',
         'additionalProperty',
         'additionalType',

@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
@@ -18,9 +19,10 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
  * This includes identifying the day(s) of the week or month when the recurring event will take place, in addition to its start and end time. Schedules may also
  * have start and end dates to indicate when they are active, e.g. to define a limited calendar of events.
  */
+#[Type('Schedule')]
 final class Schedule extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'additionalType',
         'alternateName',
         'byDay',

@@ -11,14 +11,16 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * An OpinionNewsArticle is a NewsArticle that primarily expresses opinions rather than journalistic reporting of news and events. For example, a NewsArticle consisting of a column or Blog/BlogPosting entry in the Opinions section of a news publication.
  */
+#[Type('OpinionNewsArticle')]
 final class OpinionNewsArticle extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'about',
         'abstract',
         'accessMode',

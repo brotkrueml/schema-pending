@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
@@ -28,9 +29,10 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
  * may seem more Event-like when the period of time is compact and when aspects such as location are fixed, but
  * it may also sometimes prove useful to describe a longer-term series as an Event.
  */
+#[Type('EventSeries')]
 final class EventSeries extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'about',
         'actor',
         'additionalType',

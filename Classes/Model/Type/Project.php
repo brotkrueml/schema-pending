@@ -11,15 +11,17 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * An enterprise (potentially individual but typically collaborative), planned to achieve a particular aim.
  * Use properties from Organization, subOrganization/parentOrganization to indicate project sub-structures.
  */
+#[Type('Project')]
 final class Project extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'actionableFeedbackPolicy',
         'additionalType',
         'address',

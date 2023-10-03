@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 use Brotkrueml\Schema\Core\Model\WebPageTypeInterface;
 
@@ -18,9 +19,10 @@ use Brotkrueml\Schema\Core\Model\WebPageTypeInterface;
  * A RealEstateListing is a listing that describes one or more real-estate Offers (whose businessFunction is typically to lease out, or to sell).
  * The RealEstateListing type itself represents the overall listing, as manifested in some WebPage.
  */
+#[Type('RealEstateListing')]
 final class RealEstateListing extends AbstractType implements WebPageTypeInterface
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'about',
         'abstract',
         'accessMode',

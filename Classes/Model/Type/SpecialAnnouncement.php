@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
@@ -50,9 +51,10 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
  * with the webFeed property. This can be a simple URL, or an inline DataFeed object, with encodingFormat providing
  * media type information, e.g. "application/rss+xml" or "application/atom+xml".
  */
+#[Type('SpecialAnnouncement')]
 final class SpecialAnnouncement extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'about',
         'abstract',
         'accessMode',

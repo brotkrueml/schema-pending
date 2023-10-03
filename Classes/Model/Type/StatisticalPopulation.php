@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
@@ -18,9 +19,10 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
  * The properties numConstraints and constraintProperty are used to specify which of the populations properties are used to specify the population. Note that the sense of "population" used here is the general sense of a statistical
  * population, and does not imply that the population consists of people. For example, a populationType of Event or NewsArticle could be used. See also Observation, where a populationType such as Person or Event can be indicated directly. In most cases it may be better to use StatisticalVariable instead of StatisticalPopulation.
  */
+#[Type('StatisticalPopulation')]
 final class StatisticalPopulation extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'additionalType',
         'alternateName',
         'description',

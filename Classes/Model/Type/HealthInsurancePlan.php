@@ -11,14 +11,16 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * A US-style health insurance plan, including PPOs, EPOs, and HMOs.
  */
+#[Type('HealthInsurancePlan')]
 final class HealthInsurancePlan extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'additionalType',
         'alternateName',
         'benefitsSummaryUrl',

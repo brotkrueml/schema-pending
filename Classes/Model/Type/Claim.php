@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
@@ -20,9 +21,10 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
  *
  * At this time, Schema.org does not define any types of relationship between claims. This is a natural area for future exploration.
  */
+#[Type('Claim')]
 final class Claim extends AbstractType
 {
-    protected static $propertyNames = [
+    protected static array $propertyNames = [
         'about',
         'abstract',
         'accessMode',
