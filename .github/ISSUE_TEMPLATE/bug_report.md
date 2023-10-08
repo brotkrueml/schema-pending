@@ -22,7 +22,7 @@ If applicable, add screenshots to help explain your problem.
 
 ### Environment
 
-- Schema Üending version(s): [e.g. 1.1.0]
+- Schema pending version(s): [e.g. 1.1.0]
 - TYPO3 version(s): [e.g. 9.5.30, 10.4.21, 11.5.0]
 - Is your TYPO3 installation set up with Composer (Composer Mode): [yes, no]
 - OS: [e.g. OSX 10.13.4, Windows 10, Debian 11]
