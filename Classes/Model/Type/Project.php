@@ -23,6 +23,7 @@ final class Project extends AbstractType
         'actionableFeedbackPolicy',
         'additionalType',
         'address',
+        'agentInteractionStatistic',
         'aggregateRating',
         'alternateName',
         'alumni',

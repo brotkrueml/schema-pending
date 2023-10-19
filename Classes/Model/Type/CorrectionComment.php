@@ -118,6 +118,7 @@ final class CorrectionComment extends AbstractType
         'sdDatePublished',
         'sdLicense',
         'sdPublisher',
+        'sharedContent',
         'size',
         'sourceOrganization',
         'spatial',

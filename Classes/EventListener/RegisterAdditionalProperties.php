@@ -444,6 +444,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\AccountingService::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -481,6 +482,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\AdultEntertainment::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -517,6 +519,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Airline::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -540,6 +543,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\AmusementPark::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -558,6 +562,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\AnimalShelter::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -637,6 +642,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\ArtGallery::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -691,6 +697,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Attorney::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -741,6 +748,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\AutoBodyShop::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -759,6 +767,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\AutoDealer::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -777,6 +786,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\AutoPartsStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -795,6 +805,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\AutoRental::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -813,6 +824,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\AutoRepair::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -831,6 +843,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\AutoWash::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -849,6 +862,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\AutomatedTeller::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -867,6 +881,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\AutomotiveBusiness::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -885,6 +900,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Bakery::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -910,6 +926,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\BankOrCreditUnion::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -928,6 +945,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\BarOrPub::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -979,6 +997,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\BeautySalon::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -997,6 +1016,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\BedAndBreakfast::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -1018,6 +1038,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\BikeStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -1145,6 +1166,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\BookStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -1169,6 +1191,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\BowlingAlley::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -1187,6 +1210,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Brewery::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -1261,6 +1285,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\CafeOrCoffeeShop::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -1279,6 +1304,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Campground::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -1336,6 +1362,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Casino::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -1397,6 +1424,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\ChildCare::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -1500,6 +1528,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\ClothingStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -1544,6 +1573,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\CollegeOrUniversity::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -1562,6 +1592,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\ComedyClub::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -1619,6 +1650,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\ComputerStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -1676,6 +1708,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\ConvenienceStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -1723,6 +1756,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Corporation::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -1897,6 +1931,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\DanceGroup::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2029,6 +2064,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\DaySpa::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2072,6 +2108,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Dentist::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2095,6 +2132,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\DepartmentStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2182,6 +2220,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Distillery::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2212,6 +2251,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\DryCleaningOrLaundry::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2243,6 +2283,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\EducationalOrganization::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2261,6 +2302,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Electrician::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2279,6 +2321,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\ElectronicsStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2297,6 +2340,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\ElementarySchool::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2345,6 +2389,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\EmergencyService::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2366,6 +2411,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\EmploymentAgency::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2390,6 +2436,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\EntertainmentBusiness::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2451,6 +2498,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\ExerciseGym::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2502,6 +2550,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\FastFoodRestaurant::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2534,6 +2583,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\FinancialService::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2555,6 +2605,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\FireStation::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2582,6 +2633,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Florist::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2603,6 +2655,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\FoodEstablishment::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2635,6 +2688,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\FurnitureStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2679,6 +2733,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\GardenStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2697,6 +2752,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\GasStation::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2720,6 +2776,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\GeneralContractor::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2741,6 +2798,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\GolfCourse::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2763,6 +2821,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\GovernmentOffice::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2781,6 +2840,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\GovernmentOrganization::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2802,6 +2862,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\GroceryStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2820,6 +2881,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\HVACBusiness::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2838,6 +2900,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\HairSalon::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2856,6 +2919,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\HardwareStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2874,6 +2938,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\HealthAndBeautyBusiness::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2892,6 +2957,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\HealthClub::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2910,6 +2976,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\HighSchool::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2932,6 +2999,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\HobbyShop::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2950,6 +3018,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\HomeAndConstructionBusiness::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2968,6 +3037,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\HomeGoodsStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -2986,6 +3056,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Hospital::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3007,6 +3078,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Hostel::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3025,6 +3097,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Hotel::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3069,6 +3142,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\HousePainter::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3217,6 +3291,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\IceCreamShop::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3320,6 +3395,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\InsuranceAgency::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3341,6 +3417,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\InternetCafe::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3395,6 +3472,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\JewelryStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3450,6 +3528,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\LegalService::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3475,6 +3554,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Library::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3496,6 +3576,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\LiquorStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3560,6 +3641,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\LocalBusiness::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3582,6 +3664,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Locksmith::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3600,6 +3683,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\LodgingBusiness::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3707,6 +3791,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\MedicalOrganization::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3738,6 +3823,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\MensClothingStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3834,6 +3920,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\MiddleSchool::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3878,6 +3965,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\MobilePhoneStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3900,6 +3988,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Motel::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3918,6 +4007,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\MotorcycleDealer::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -3936,6 +4026,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\MotorcycleRepair::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4017,6 +4108,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\MovieRentalStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4061,6 +4153,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\MovieTheater::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4079,6 +4172,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\MovingCompany::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4160,6 +4254,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\MusicGroup::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4254,6 +4349,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\MusicStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4304,6 +4400,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\NGO::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4320,6 +4417,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\NailSalon::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4365,6 +4463,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\NightClub::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4383,6 +4482,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Notary::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4448,6 +4548,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\OfficeEquipmentStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4476,6 +4577,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Organization::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4495,6 +4597,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\OutletStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4557,6 +4660,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\PawnShop::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4601,6 +4705,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\PerformingGroup::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4642,6 +4747,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('usageInfo');
         }
         if ($event->getType() === Type\Person::class) {
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('callSign');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('gender');
@@ -4652,6 +4758,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\PetStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4670,6 +4777,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Pharmacy::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4719,6 +4827,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Physician::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4757,6 +4866,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Plumber::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4775,6 +4885,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\PoliceStation::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4793,6 +4904,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\PoliticalParty::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4813,6 +4925,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\PostOffice::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4837,6 +4950,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Preschool::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4917,6 +5031,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\ProfessionalService::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -4968,6 +5083,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\PublicSwimmingPool::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -5211,6 +5327,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\RadioStation::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -5238,6 +5355,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\RealEstateAgent::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -5285,6 +5403,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\RecyclingCenter::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -5366,6 +5485,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Resort::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -5384,6 +5504,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Restaurant::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -5446,6 +5567,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\RoofingContractor::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -5517,6 +5639,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\School::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -5602,6 +5725,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\SelfStorage::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -5633,6 +5757,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\ShoeStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -5651,6 +5776,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\ShoppingCenter::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -5708,6 +5834,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\SkiResort::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -5830,6 +5957,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\SportingGoodsStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -5848,6 +5976,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\SportsActivityLocation::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -5866,6 +5995,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\SportsClub::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -5892,6 +6022,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\SportsOrganization::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -5909,6 +6040,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\SportsTeam::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -5953,6 +6085,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\StadiumOrArena::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -5975,6 +6108,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Store::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -6159,6 +6293,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\TattooParlor::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -6215,6 +6350,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\TelevisionStation::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -6233,6 +6369,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\TennisComplex::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -6312,6 +6449,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\TheaterGroup::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -6334,6 +6472,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\TireShop::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -6356,6 +6495,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\TouristInformationCenter::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -6374,6 +6514,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\ToyStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -6417,6 +6558,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\TravelAgency::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -6455,6 +6597,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\VacationRental::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -6891,6 +7034,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\WholesaleStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -6912,6 +7056,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Winery::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -6930,6 +7075,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\WorkersUnion::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
             $event->registerAdditionalProperty('correctionsPolicy');
             $event->registerAdditionalProperty('diversityPolicy');
             $event->registerAdditionalProperty('diversityStaffingReport');
@@ -6978,6 +7124,7 @@ final class RegisterAdditionalProperties
             }
             if ($event->getType() === HealthType\DiagnosticLab::class) {
                 $event->registerAdditionalProperty('actionableFeedbackPolicy');
+                $event->registerAdditionalProperty('agentInteractionStatistic');
                 $event->registerAdditionalProperty('correctionsPolicy');
                 $event->registerAdditionalProperty('diversityPolicy');
                 $event->registerAdditionalProperty('diversityStaffingReport');
@@ -7129,6 +7276,7 @@ final class RegisterAdditionalProperties
             }
             if ($event->getType() === HealthType\MedicalBusiness::class) {
                 $event->registerAdditionalProperty('actionableFeedbackPolicy');
+                $event->registerAdditionalProperty('agentInteractionStatistic');
                 $event->registerAdditionalProperty('correctionsPolicy');
                 $event->registerAdditionalProperty('diversityPolicy');
                 $event->registerAdditionalProperty('diversityStaffingReport');
@@ -7150,6 +7298,7 @@ final class RegisterAdditionalProperties
             }
             if ($event->getType() === HealthType\MedicalClinic::class) {
                 $event->registerAdditionalProperty('actionableFeedbackPolicy');
+                $event->registerAdditionalProperty('agentInteractionStatistic');
                 $event->registerAdditionalProperty('correctionsPolicy');
                 $event->registerAdditionalProperty('diversityPolicy');
                 $event->registerAdditionalProperty('diversityStaffingReport');
@@ -7311,6 +7460,7 @@ final class RegisterAdditionalProperties
             }
             if ($event->getType() === HealthType\Optician::class) {
                 $event->registerAdditionalProperty('actionableFeedbackPolicy');
+                $event->registerAdditionalProperty('agentInteractionStatistic');
                 $event->registerAdditionalProperty('correctionsPolicy');
                 $event->registerAdditionalProperty('diversityPolicy');
                 $event->registerAdditionalProperty('diversityStaffingReport');
@@ -7334,6 +7484,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('funding');
             }
             if ($event->getType() === HealthType\Patient::class) {
+                $event->registerAdditionalProperty('agentInteractionStatistic');
                 $event->registerAdditionalProperty('callSign');
                 $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('gender');
@@ -7391,6 +7542,7 @@ final class RegisterAdditionalProperties
             }
             if ($event->getType() === HealthType\VeterinaryCare::class) {
                 $event->registerAdditionalProperty('actionableFeedbackPolicy');
+                $event->registerAdditionalProperty('agentInteractionStatistic');
                 $event->registerAdditionalProperty('correctionsPolicy');
                 $event->registerAdditionalProperty('diversityPolicy');
                 $event->registerAdditionalProperty('diversityStaffingReport');

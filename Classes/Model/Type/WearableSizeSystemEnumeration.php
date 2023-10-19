@@ -14,7 +14,7 @@ namespace Brotkrueml\SchemaPending\Model\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
- * Enumerates common size systems specific for wearable products
+ * Enumerates common size systems specific for wearable products.
  */
 final class WearableSizeSystemEnumeration extends AbstractType
 {

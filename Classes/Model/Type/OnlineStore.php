@@ -22,6 +22,7 @@ final class OnlineStore extends AbstractType
         'actionableFeedbackPolicy',
         'additionalType',
         'address',
+        'agentInteractionStatistic',
         'aggregateRating',
         'alternateName',
         'alumni',

@@ -26,6 +26,7 @@ final class FundingAgency extends AbstractType
         'actionableFeedbackPolicy',
         'additionalType',
         'address',
+        'agentInteractionStatistic',
         'aggregateRating',
         'alternateName',
         'alumni',

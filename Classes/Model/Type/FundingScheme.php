@@ -24,6 +24,7 @@ final class FundingScheme extends AbstractType
         'actionableFeedbackPolicy',
         'additionalType',
         'address',
+        'agentInteractionStatistic',
         'aggregateRating',
         'alternateName',
         'alumni',

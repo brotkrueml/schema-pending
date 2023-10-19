@@ -26,6 +26,7 @@ final class CovidTestingFacility extends AbstractType
         'additionalProperty',
         'additionalType',
         'address',
+        'agentInteractionStatistic',
         'aggregateRating',
         'alternateName',
         'alumni',
