@@ -8,7 +8,7 @@ All notable changes to this project will be documented in this file.
 The format is based on `Keep a Changelog <https://keepachangelog.com/en/1.0.0/>`_\ ,
 and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0.html>`_.
 
-`Unreleased <https://github.com/brotkrueml/schema-pending/compare/v1.6.0...HEAD>`_
+`Unreleased <https://github.com/brotkrueml/schema-pending/compare/v1.7.0...HEAD>`_
 --------------------------------------------------------------------------------------
 
 Added
@@ -24,6 +24,15 @@ Removed
 * Compatibility with TYPO3 v10
 * Compatibility with PHP < 8.1
 * Compatibility with schema version 1 and 2
+
+`1.7.0 <https://github.com/brotkrueml/schema-pending/compare/v1.6.0...v1.7.0>`_ - 2023-10-19
+------------------------------------------------------------------------------------------------
+
+Updated
+^^^^^^^
+
+
+* schema.org definition to version 23.0
 
 `1.6.0 <https://github.com/brotkrueml/schema-pending/compare/v1.5.0...v1.6.0>`_ - 2023-07-21
 ------------------------------------------------------------------------------------------------

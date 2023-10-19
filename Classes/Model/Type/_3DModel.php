@@ -101,6 +101,7 @@ final class _3DModel extends AbstractType
         'isBasedOn',
         'isFamilyFriendly',
         'isPartOf',
+        'isResizable',
         'keywords',
         'learningResourceType',
         'license',

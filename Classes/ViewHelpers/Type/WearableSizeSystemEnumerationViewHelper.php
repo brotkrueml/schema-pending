@@ -14,7 +14,7 @@ namespace Brotkrueml\SchemaPending\ViewHelpers\Type;
 use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
- * Enumerates common size systems specific for wearable products
+ * Enumerates common size systems specific for wearable products.
  */
 final class WearableSizeSystemEnumerationViewHelper extends AbstractTypeViewHelper
 {

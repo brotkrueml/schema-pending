@@ -25,6 +25,7 @@ final class ArchiveOrganization extends AbstractType
         'additionalProperty',
         'additionalType',
         'address',
+        'agentInteractionStatistic',
         'aggregateRating',
         'alternateName',
         'alumni',

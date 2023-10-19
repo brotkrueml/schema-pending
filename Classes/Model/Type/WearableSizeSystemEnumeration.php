@@ -15,7 +15,7 @@ use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
- * Enumerates common size systems specific for wearable products
+ * Enumerates common size systems specific for wearable products.
  */
 #[Type('WearableSizeSystemEnumeration')]
 final class WearableSizeSystemEnumeration extends AbstractType
