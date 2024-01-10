@@ -65,6 +65,7 @@ final class PodcastSeason extends AbstractType
         'dateModified',
         'datePublished',
         'description',
+        'digitalSourceType',
         'director',
         'disambiguatingDescription',
         'discussionUrl',

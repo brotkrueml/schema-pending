@@ -101,6 +101,7 @@ final class SpecialAnnouncement extends AbstractType
         'datePosted',
         'datePublished',
         'description',
+        'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
         'diseasePreventionInfo',

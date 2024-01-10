@@ -68,6 +68,7 @@ final class AmpStory extends AbstractType
         'dateModified',
         'datePublished',
         'description',
+        'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
         'duration',

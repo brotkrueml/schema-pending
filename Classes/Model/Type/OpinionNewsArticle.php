@@ -68,6 +68,7 @@ final class OpinionNewsArticle extends AbstractType
         'datePublished',
         'dateline',
         'description',
+        'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
         'editEIDR',

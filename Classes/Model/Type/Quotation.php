@@ -64,6 +64,7 @@ final class Quotation extends AbstractType
         'dateModified',
         'datePublished',
         'description',
+        'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
         'editEIDR',

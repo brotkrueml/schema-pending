@@ -71,6 +71,7 @@ final class ReviewNewsArticle extends AbstractType
         'datePublished',
         'dateline',
         'description',
+        'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
         'editEIDR',

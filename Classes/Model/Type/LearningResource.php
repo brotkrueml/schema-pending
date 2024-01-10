@@ -11,8 +11,10 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Manual;
 use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
+use Brotkrueml\Schema\Manual\Publisher;
 
 /**
  * The LearningResource type can be used to indicate CreativeWorks (whether physical or digital) that have a particular and explicit orientation towards learning, education, skill acquisition, and other educational purposes.
@@ -22,6 +24,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
  * EducationEvent serves a similar purpose for event-like things (e.g. a Trip). A LearningResource may be created as a result of an EducationEvent, for example by recording one.
  */
 #[Type('LearningResource')]
+#[Manual(Publisher::Google, 'https://developers.google.com/search/docs/appearance/structured-data/learning-video')]
 final class LearningResource extends AbstractType
 {
     protected static array $propertyNames = [
@@ -69,6 +72,7 @@ final class LearningResource extends AbstractType
         'dateModified',
         'datePublished',
         'description',
+        'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
         'editEIDR',

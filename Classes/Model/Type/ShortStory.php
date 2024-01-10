@@ -64,6 +64,7 @@ final class ShortStory extends AbstractType
         'dateModified',
         'datePublished',
         'description',
+        'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
         'editEIDR',

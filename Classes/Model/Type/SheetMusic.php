@@ -64,6 +64,7 @@ final class SheetMusic extends AbstractType
         'dateModified',
         'datePublished',
         'description',
+        'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
         'editEIDR',

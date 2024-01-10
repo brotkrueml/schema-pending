@@ -69,6 +69,7 @@ final class ImageObjectSnapshot extends AbstractType
         'dateModified',
         'datePublished',
         'description',
+        'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
         'duration',

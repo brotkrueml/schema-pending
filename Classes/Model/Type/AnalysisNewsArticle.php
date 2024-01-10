@@ -68,6 +68,7 @@ final class AnalysisNewsArticle extends AbstractType
         'datePublished',
         'dateline',
         'description',
+        'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
         'editEIDR',

@@ -68,6 +68,7 @@ final class LegislationObject extends AbstractType
         'dateModified',
         'datePublished',
         'description',
+        'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
         'duration',

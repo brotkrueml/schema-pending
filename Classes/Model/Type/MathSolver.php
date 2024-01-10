@@ -11,13 +11,16 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Manual;
 use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
+use Brotkrueml\Schema\Manual\Publisher;
 
 /**
  * A math solver which is capable of solving a subset of mathematical problems.
  */
 #[Type('MathSolver')]
+#[Manual(Publisher::Google, 'https://developers.google.com/search/docs/appearance/structured-data/math-solvers')]
 final class MathSolver extends AbstractType
 {
     protected static array $propertyNames = [
@@ -64,6 +67,7 @@ final class MathSolver extends AbstractType
         'dateModified',
         'datePublished',
         'description',
+        'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
         'editEIDR',

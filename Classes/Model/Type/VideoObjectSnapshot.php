@@ -70,6 +70,7 @@ final class VideoObjectSnapshot extends AbstractType
         'dateModified',
         'datePublished',
         'description',
+        'digitalSourceType',
         'director',
         'disambiguatingDescription',
         'discussionUrl',

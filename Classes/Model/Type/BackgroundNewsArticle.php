@@ -68,6 +68,7 @@ final class BackgroundNewsArticle extends AbstractType
         'datePublished',
         'dateline',
         'description',
+        'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
         'editEIDR',

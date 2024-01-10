@@ -73,6 +73,7 @@ final class ProductCollection extends AbstractType
         'datePublished',
         'depth',
         'description',
+        'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
         'editEIDR',

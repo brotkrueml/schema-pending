@@ -67,6 +67,7 @@ final class CompleteDataFeed extends AbstractType
         'dateModified',
         'datePublished',
         'description',
+        'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
         'distribution',

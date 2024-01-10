@@ -69,6 +69,7 @@ final class AudioObjectSnapshot extends AbstractType
         'dateModified',
         'datePublished',
         'description',
+        'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
         'duration',

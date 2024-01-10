@@ -93,6 +93,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('correction');
                 $event->registerAdditionalProperty('creativeWorkStatus');
                 $event->registerAdditionalProperty('creditText');
+                $event->registerAdditionalProperty('digitalSourceType');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
                 $event->registerAdditionalProperty('funding');
@@ -119,6 +120,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('correction');
                 $event->registerAdditionalProperty('creativeWorkStatus');
                 $event->registerAdditionalProperty('creditText');
+                $event->registerAdditionalProperty('digitalSourceType');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
                 $event->registerAdditionalProperty('embeddedTextCaption');
@@ -148,6 +150,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('correction');
                 $event->registerAdditionalProperty('creativeWorkStatus');
                 $event->registerAdditionalProperty('creditText');
+                $event->registerAdditionalProperty('digitalSourceType');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
                 $event->registerAdditionalProperty('funding');
@@ -175,6 +178,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('correction');
                 $event->registerAdditionalProperty('creativeWorkStatus');
                 $event->registerAdditionalProperty('creditText');
+                $event->registerAdditionalProperty('digitalSourceType');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
                 $event->registerAdditionalProperty('funding');
@@ -201,6 +205,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('correction');
                 $event->registerAdditionalProperty('creativeWorkStatus');
                 $event->registerAdditionalProperty('creditText');
+                $event->registerAdditionalProperty('digitalSourceType');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
                 $event->registerAdditionalProperty('funding');
@@ -227,6 +232,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('correction');
                 $event->registerAdditionalProperty('creativeWorkStatus');
                 $event->registerAdditionalProperty('creditText');
+                $event->registerAdditionalProperty('digitalSourceType');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
                 $event->registerAdditionalProperty('funding');
@@ -253,6 +259,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('correction');
                 $event->registerAdditionalProperty('creativeWorkStatus');
                 $event->registerAdditionalProperty('creditText');
+                $event->registerAdditionalProperty('digitalSourceType');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
                 $event->registerAdditionalProperty('funding');
@@ -279,6 +286,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('correction');
                 $event->registerAdditionalProperty('creativeWorkStatus');
                 $event->registerAdditionalProperty('creditText');
+                $event->registerAdditionalProperty('digitalSourceType');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
                 $event->registerAdditionalProperty('funding');
@@ -305,6 +313,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('correction');
                 $event->registerAdditionalProperty('creativeWorkStatus');
                 $event->registerAdditionalProperty('creditText');
+                $event->registerAdditionalProperty('digitalSourceType');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
                 $event->registerAdditionalProperty('funding');
@@ -331,6 +340,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('correction');
                 $event->registerAdditionalProperty('creativeWorkStatus');
                 $event->registerAdditionalProperty('creditText');
+                $event->registerAdditionalProperty('digitalSourceType');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
                 $event->registerAdditionalProperty('funding');
@@ -357,6 +367,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('correction');
                 $event->registerAdditionalProperty('creativeWorkStatus');
                 $event->registerAdditionalProperty('creditText');
+                $event->registerAdditionalProperty('digitalSourceType');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
                 $event->registerAdditionalProperty('funding');
@@ -385,6 +396,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -411,6 +423,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -591,6 +604,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -671,6 +685,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -725,6 +740,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('embeddedTextCaption');
@@ -973,6 +989,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('embeddedTextCaption');
@@ -1066,6 +1083,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -1093,6 +1111,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -1123,6 +1142,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -1149,6 +1169,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -1407,6 +1428,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -1481,6 +1503,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -1509,6 +1532,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('endOffset');
@@ -1556,6 +1580,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -1627,6 +1652,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -1684,6 +1710,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -1736,6 +1763,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -1787,6 +1815,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('financialAidEligible');
@@ -1834,6 +1863,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -1860,6 +1890,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -1886,6 +1917,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -1957,6 +1989,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -1985,6 +2018,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -2015,6 +2049,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -2044,6 +2079,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -2167,6 +2203,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -2200,6 +2237,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -2368,6 +2406,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -2464,6 +2503,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -2533,6 +2573,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -2716,6 +2757,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -3170,6 +3212,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -3196,6 +3239,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -3222,6 +3266,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -3248,6 +3293,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -3274,6 +3320,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -3322,6 +3369,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -3348,6 +3396,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('embeddedTextCaption');
@@ -3365,6 +3414,28 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
+        }
+        if ($event->getType() === Type\IndividualPhysician::class) {
+            $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
+            $event->registerAdditionalProperty('correctionsPolicy');
+            $event->registerAdditionalProperty('diversityPolicy');
+            $event->registerAdditionalProperty('diversityStaffingReport');
+            $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
+            $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('healthPlanNetworkId');
+            $event->registerAdditionalProperty('isAcceptingNewPatients');
+            $event->registerAdditionalProperty('iso6523Code');
+            $event->registerAdditionalProperty('knowsAbout');
+            $event->registerAdditionalProperty('knowsLanguage');
+            $event->registerAdditionalProperty('nonprofitStatus');
+            $event->registerAdditionalProperty('occupationalCategory');
+            $event->registerAdditionalProperty('ownershipFundingInfo');
+            $event->registerAdditionalProperty('practicesAt');
+            $event->registerAdditionalProperty('unnamedSourcesPolicy');
+            $event->registerAdditionalProperty('usNPI');
         }
         if ($event->getType() === Type\IndividualProduct::class) {
             $event->registerAdditionalProperty('asin');
@@ -3455,6 +3526,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -3615,6 +3687,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -3717,6 +3790,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -3746,6 +3820,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -3772,6 +3847,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -3851,6 +3927,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -3877,6 +3954,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -3903,6 +3981,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -3948,6 +4027,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -4061,6 +4141,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -4089,6 +4170,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('endOffset');
@@ -4136,6 +4218,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -4204,6 +4287,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -4230,6 +4314,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -4280,6 +4365,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -4306,6 +4392,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -4332,6 +4419,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -4381,6 +4469,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -4446,6 +4535,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -4510,6 +4600,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -4628,6 +4719,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -4731,6 +4823,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -4807,6 +4900,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -4834,7 +4928,6 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ethicsPolicy');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
-            $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('healthPlanNetworkId');
             $event->registerAdditionalProperty('isAcceptingNewPatients');
@@ -4842,9 +4935,31 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('knowsAbout');
             $event->registerAdditionalProperty('knowsLanguage');
             $event->registerAdditionalProperty('nonprofitStatus');
+            $event->registerAdditionalProperty('occupationalCategory');
             $event->registerAdditionalProperty('ownershipFundingInfo');
-            $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
+            $event->registerAdditionalProperty('usNPI');
+        }
+        if ($event->getType() === Type\PhysiciansOffice::class) {
+            $event->registerAdditionalProperty('actionableFeedbackPolicy');
+            $event->registerAdditionalProperty('agentInteractionStatistic');
+            $event->registerAdditionalProperty('correctionsPolicy');
+            $event->registerAdditionalProperty('diversityPolicy');
+            $event->registerAdditionalProperty('diversityStaffingReport');
+            $event->registerAdditionalProperty('ethicsPolicy');
+            $event->registerAdditionalProperty('funding');
+            $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasMerchantReturnPolicy');
+            $event->registerAdditionalProperty('healthPlanNetworkId');
+            $event->registerAdditionalProperty('isAcceptingNewPatients');
+            $event->registerAdditionalProperty('iso6523Code');
+            $event->registerAdditionalProperty('knowsAbout');
+            $event->registerAdditionalProperty('knowsLanguage');
+            $event->registerAdditionalProperty('nonprofitStatus');
+            $event->registerAdditionalProperty('occupationalCategory');
+            $event->registerAdditionalProperty('ownershipFundingInfo');
+            $event->registerAdditionalProperty('unnamedSourcesPolicy');
+            $event->registerAdditionalProperty('usNPI');
         }
         if ($event->getType() === Type\Place::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
@@ -4978,6 +5093,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -5059,6 +5175,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -5118,6 +5235,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -5144,6 +5262,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -5170,6 +5289,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -5196,6 +5316,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('eduQuestionType');
             $event->registerAdditionalProperty('educationalLevel');
@@ -5230,6 +5351,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('endOffset');
@@ -5258,6 +5380,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -5284,6 +5407,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -5310,6 +5434,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -5386,6 +5511,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -5450,6 +5576,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -5541,6 +5668,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -5622,6 +5750,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -5675,6 +5804,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -5708,6 +5838,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -5817,6 +5948,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -5870,6 +6002,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -5896,6 +6029,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -5922,6 +6056,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6068,6 +6203,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6163,6 +6299,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('endOffset');
@@ -6191,6 +6328,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6219,6 +6357,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6246,6 +6385,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6273,6 +6413,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6333,6 +6474,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6397,6 +6539,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6423,6 +6566,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6644,6 +6788,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6670,6 +6815,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6696,6 +6842,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('endOffset');
@@ -6724,6 +6871,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6750,6 +6898,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('embeddedTextCaption');
@@ -6789,6 +6938,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6822,6 +6972,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6848,6 +6999,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6874,6 +7026,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6900,6 +7053,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6939,6 +7093,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6965,6 +7120,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -6991,6 +7147,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -7017,6 +7174,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('correction');
             $event->registerAdditionalProperty('creativeWorkStatus');
             $event->registerAdditionalProperty('creditText');
+            $event->registerAdditionalProperty('digitalSourceType');
             $event->registerAdditionalProperty('editEIDR');
             $event->registerAdditionalProperty('educationalLevel');
             $event->registerAdditionalProperty('funding');
@@ -7155,6 +7313,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('correction');
                 $event->registerAdditionalProperty('creativeWorkStatus');
                 $event->registerAdditionalProperty('creditText');
+                $event->registerAdditionalProperty('digitalSourceType');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
                 $event->registerAdditionalProperty('funding');
@@ -7234,6 +7393,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('correction');
                 $event->registerAdditionalProperty('creativeWorkStatus');
                 $event->registerAdditionalProperty('creditText');
+                $event->registerAdditionalProperty('digitalSourceType');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
                 $event->registerAdditionalProperty('funding');
@@ -7384,6 +7544,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('correction');
                 $event->registerAdditionalProperty('creativeWorkStatus');
                 $event->registerAdditionalProperty('creditText');
+                $event->registerAdditionalProperty('digitalSourceType');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
                 $event->registerAdditionalProperty('funding');
@@ -7434,6 +7595,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('correction');
                 $event->registerAdditionalProperty('creativeWorkStatus');
                 $event->registerAdditionalProperty('creditText');
+                $event->registerAdditionalProperty('digitalSourceType');
                 $event->registerAdditionalProperty('editEIDR');
                 $event->registerAdditionalProperty('educationalLevel');
                 $event->registerAdditionalProperty('funding');

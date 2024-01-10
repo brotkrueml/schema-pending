@@ -68,6 +68,7 @@ final class RealEstateListing extends AbstractType implements WebPageTypeInterfa
         'datePosted',
         'datePublished',
         'description',
+        'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
         'editEIDR',
