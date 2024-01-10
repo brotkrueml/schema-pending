@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0] - 2024-01-10
+
 ### Updated
 - schema.org definition to version 24.0
 
@@ -73,7 +75,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Initial release with schema definition version 12.0
 
 
-[Unreleased]: https://github.com/brotkrueml/schema-pending/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/brotkrueml/schema-pending/compare/v2.1.0...HEAD
+[2.1.0]: https://github.com/brotkrueml/schema-pending/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/brotkrueml/schema-pending/compare/v1.7.0...v2.0.0
 [1.7.0]: https://github.com/brotkrueml/schema-pending/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/brotkrueml/schema-pending/compare/v1.5.0...v1.6.0
