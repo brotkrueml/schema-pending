@@ -71,6 +71,7 @@ final class CovidTestingFacility extends AbstractType
         'geoTouches',
         'geoWithin',
         'globalLocationNumber',
+        'hasCertification',
         'hasCredential',
         'hasDriveThroughService',
         'hasMap',

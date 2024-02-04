@@ -26,6 +26,7 @@ final class RegisterAdditionalProperties
             if ($event->getType() === AutoType\BusOrCoach::class) {
                 $event->registerAdditionalProperty('asin');
                 $event->registerAdditionalProperty('callSign');
+                $event->registerAdditionalProperty('colorSwatch');
                 $event->registerAdditionalProperty('countryOfAssembly');
                 $event->registerAdditionalProperty('countryOfLastProcessing');
                 $event->registerAdditionalProperty('funding');
@@ -45,6 +46,7 @@ final class RegisterAdditionalProperties
             if ($event->getType() === AutoType\Motorcycle::class) {
                 $event->registerAdditionalProperty('asin');
                 $event->registerAdditionalProperty('callSign');
+                $event->registerAdditionalProperty('colorSwatch');
                 $event->registerAdditionalProperty('countryOfAssembly');
                 $event->registerAdditionalProperty('countryOfLastProcessing');
                 $event->registerAdditionalProperty('funding');
@@ -64,6 +66,7 @@ final class RegisterAdditionalProperties
             if ($event->getType() === AutoType\MotorizedBicycle::class) {
                 $event->registerAdditionalProperty('asin');
                 $event->registerAdditionalProperty('callSign');
+                $event->registerAdditionalProperty('colorSwatch');
                 $event->registerAdditionalProperty('countryOfAssembly');
                 $event->registerAdditionalProperty('countryOfLastProcessing');
                 $event->registerAdditionalProperty('funding');
@@ -1365,6 +1368,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Car::class) {
             $event->registerAdditionalProperty('asin');
             $event->registerAdditionalProperty('callSign');
+            $event->registerAdditionalProperty('colorSwatch');
             $event->registerAdditionalProperty('countryOfAssembly');
             $event->registerAdditionalProperty('countryOfLastProcessing');
             $event->registerAdditionalProperty('funding');
@@ -3439,6 +3443,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\IndividualProduct::class) {
             $event->registerAdditionalProperty('asin');
+            $event->registerAdditionalProperty('colorSwatch');
             $event->registerAdditionalProperty('countryOfAssembly');
             $event->registerAdditionalProperty('countryOfLastProcessing');
             $event->registerAdditionalProperty('funding');
@@ -5111,6 +5116,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Product::class) {
             $event->registerAdditionalProperty('asin');
+            $event->registerAdditionalProperty('colorSwatch');
             $event->registerAdditionalProperty('countryOfAssembly');
             $event->registerAdditionalProperty('countryOfLastProcessing');
             $event->registerAdditionalProperty('funding');
@@ -5129,6 +5135,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\ProductModel::class) {
             $event->registerAdditionalProperty('asin');
+            $event->registerAdditionalProperty('colorSwatch');
             $event->registerAdditionalProperty('countryOfAssembly');
             $event->registerAdditionalProperty('countryOfLastProcessing');
             $event->registerAdditionalProperty('funding');
@@ -6074,6 +6081,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\SomeProducts::class) {
             $event->registerAdditionalProperty('asin');
+            $event->registerAdditionalProperty('colorSwatch');
             $event->registerAdditionalProperty('countryOfAssembly');
             $event->registerAdditionalProperty('countryOfLastProcessing');
             $event->registerAdditionalProperty('funding');
@@ -6761,6 +6769,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\Vehicle::class) {
             $event->registerAdditionalProperty('asin');
             $event->registerAdditionalProperty('callSign');
+            $event->registerAdditionalProperty('colorSwatch');
             $event->registerAdditionalProperty('countryOfAssembly');
             $event->registerAdditionalProperty('countryOfLastProcessing');
             $event->registerAdditionalProperty('funding');
@@ -7331,6 +7340,7 @@ final class RegisterAdditionalProperties
             }
             if ($event->getType() === HealthType\DietarySupplement::class) {
                 $event->registerAdditionalProperty('asin');
+                $event->registerAdditionalProperty('colorSwatch');
                 $event->registerAdditionalProperty('countryOfAssembly');
                 $event->registerAdditionalProperty('countryOfLastProcessing');
                 $event->registerAdditionalProperty('funding');
@@ -7352,6 +7362,7 @@ final class RegisterAdditionalProperties
             }
             if ($event->getType() === HealthType\Drug::class) {
                 $event->registerAdditionalProperty('asin');
+                $event->registerAdditionalProperty('colorSwatch');
                 $event->registerAdditionalProperty('countryOfAssembly');
                 $event->registerAdditionalProperty('countryOfLastProcessing');
                 $event->registerAdditionalProperty('funding');

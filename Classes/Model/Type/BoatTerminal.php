@@ -46,6 +46,7 @@ final class BoatTerminal extends AbstractType
         'geoTouches',
         'geoWithin',
         'globalLocationNumber',
+        'hasCertification',
         'hasDriveThroughService',
         'hasMap',
         'identifier',

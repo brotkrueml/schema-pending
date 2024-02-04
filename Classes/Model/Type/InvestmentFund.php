@@ -36,6 +36,7 @@ final class InvestmentFund extends AbstractType
         'description',
         'disambiguatingDescription',
         'feesAndCommissionsSpecification',
+        'hasCertification',
         'hasOfferCatalog',
         'hoursAvailable',
         'identifier',

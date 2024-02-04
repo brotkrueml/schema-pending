@@ -15,46 +15,23 @@ use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
- * An application programming interface accessible over Web/Internet technologies.
+ * Enumerates the different statuses of a Certification (Active and Inactive).
  */
-#[Type('WebAPI')]
-final class WebAPI extends AbstractType
+#[Type('CertificationStatusEnumeration')]
+final class CertificationStatusEnumeration extends AbstractType
 {
     protected static array $propertyNames = [
         'additionalType',
-        'aggregateRating',
         'alternateName',
-        'areaServed',
-        'audience',
-        'availableChannel',
-        'award',
-        'brand',
-        'broker',
-        'category',
         'description',
         'disambiguatingDescription',
-        'documentation',
-        'hasCertification',
-        'hasOfferCatalog',
-        'hoursAvailable',
         'identifier',
         'image',
-        'isRelatedTo',
-        'isSimilarTo',
-        'logo',
         'mainEntityOfPage',
         'name',
-        'offers',
         'potentialAction',
-        'provider',
-        'providerMobility',
-        'review',
         'sameAs',
-        'serviceOutput',
-        'serviceType',
-        'slogan',
         'subjectOf',
-        'termsOfService',
         'url',
     ];
 }

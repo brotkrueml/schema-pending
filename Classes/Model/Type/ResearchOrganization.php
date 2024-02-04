@@ -51,6 +51,7 @@ final class ResearchOrganization extends AbstractType
         'funder',
         'funding',
         'globalLocationNumber',
+        'hasCertification',
         'hasCredential',
         'hasMerchantReturnPolicy',
         'hasOfferCatalog',

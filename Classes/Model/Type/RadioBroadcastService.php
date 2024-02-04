@@ -40,6 +40,7 @@ final class RadioBroadcastService extends AbstractType
         'description',
         'disambiguatingDescription',
         'hasBroadcastChannel',
+        'hasCertification',
         'hasOfferCatalog',
         'hoursAvailable',
         'identifier',

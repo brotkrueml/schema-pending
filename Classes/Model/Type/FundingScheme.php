@@ -53,6 +53,7 @@ final class FundingScheme extends AbstractType
         'funder',
         'funding',
         'globalLocationNumber',
+        'hasCertification',
         'hasCredential',
         'hasMerchantReturnPolicy',
         'hasOfferCatalog',

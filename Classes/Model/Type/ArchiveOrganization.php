@@ -69,6 +69,7 @@ final class ArchiveOrganization extends AbstractType
         'geoTouches',
         'geoWithin',
         'globalLocationNumber',
+        'hasCertification',
         'hasCredential',
         'hasDriveThroughService',
         'hasMap',

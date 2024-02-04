@@ -47,6 +47,7 @@ final class TouristDestination extends AbstractType
         'geoTouches',
         'geoWithin',
         'globalLocationNumber',
+        'hasCertification',
         'hasDriveThroughService',
         'hasMap',
         'identifier',

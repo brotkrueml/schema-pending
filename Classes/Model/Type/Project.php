@@ -52,6 +52,7 @@ final class Project extends AbstractType
         'funder',
         'funding',
         'globalLocationNumber',
+        'hasCertification',
         'hasCredential',
         'hasMerchantReturnPolicy',
         'hasOfferCatalog',

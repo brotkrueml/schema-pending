@@ -39,6 +39,7 @@ final class MortgageLoan extends AbstractType
         'domiciledMortgage',
         'feesAndCommissionsSpecification',
         'gracePeriod',
+        'hasCertification',
         'hasOfferCatalog',
         'hoursAvailable',
         'identifier',
