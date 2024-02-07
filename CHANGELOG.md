@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- Missing compatibility with TYPO3 v13 in ext_emconf.php
+
 ## [2.2.0] - 2024-02-04
 
 ### Added
