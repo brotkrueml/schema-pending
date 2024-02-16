@@ -3428,6 +3428,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ethicsPolicy');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('healthPlanNetworkId');
             $event->registerAdditionalProperty('isAcceptingNewPatients');
@@ -3438,6 +3439,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('occupationalCategory');
             $event->registerAdditionalProperty('ownershipFundingInfo');
             $event->registerAdditionalProperty('practicesAt');
+            $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
             $event->registerAdditionalProperty('usNPI');
         }
@@ -4933,6 +4935,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ethicsPolicy');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('healthPlanNetworkId');
             $event->registerAdditionalProperty('isAcceptingNewPatients');
@@ -4942,6 +4945,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('nonprofitStatus');
             $event->registerAdditionalProperty('occupationalCategory');
             $event->registerAdditionalProperty('ownershipFundingInfo');
+            $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
             $event->registerAdditionalProperty('usNPI');
         }
@@ -4954,6 +4958,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ethicsPolicy');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasDriveThroughService');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('healthPlanNetworkId');
             $event->registerAdditionalProperty('isAcceptingNewPatients');
@@ -4963,6 +4968,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('nonprofitStatus');
             $event->registerAdditionalProperty('occupationalCategory');
             $event->registerAdditionalProperty('ownershipFundingInfo');
+            $event->registerAdditionalProperty('tourBookingPage');
             $event->registerAdditionalProperty('unnamedSourcesPolicy');
             $event->registerAdditionalProperty('usNPI');
         }
