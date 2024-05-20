@@ -45,6 +45,7 @@ final class Certification extends AbstractType
         'author',
         'award',
         'certificationIdentification',
+        'certificationRating',
         'certificationStatus',
         'character',
         'citation',

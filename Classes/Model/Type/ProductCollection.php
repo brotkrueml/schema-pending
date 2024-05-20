@@ -97,6 +97,7 @@ final class ProductCollection extends AbstractType
         'hasAdultConsideration',
         'hasCertification',
         'hasEnergyConsumptionDetails',
+        'hasGS1DigitalLink',
         'hasMeasurement',
         'hasMerchantReturnPolicy',
         'hasPart',

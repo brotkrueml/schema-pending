@@ -48,6 +48,7 @@ final class SchoolDistrict extends AbstractType
         'globalLocationNumber',
         'hasCertification',
         'hasDriveThroughService',
+        'hasGS1DigitalLink',
         'hasMap',
         'identifier',
         'image',

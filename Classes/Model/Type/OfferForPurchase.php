@@ -54,6 +54,7 @@ final class OfferForPurchase extends AbstractType
         'gtin14',
         'gtin8',
         'hasAdultConsideration',
+        'hasGS1DigitalLink',
         'hasMeasurement',
         'hasMerchantReturnPolicy',
         'identifier',

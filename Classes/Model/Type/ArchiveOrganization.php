@@ -21,6 +21,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 final class ArchiveOrganization extends AbstractType
 {
     protected static array $propertyNames = [
+        'acceptedPaymentMethod',
         'actionableFeedbackPolicy',
         'additionalProperty',
         'additionalType',
@@ -72,6 +73,7 @@ final class ArchiveOrganization extends AbstractType
         'hasCertification',
         'hasCredential',
         'hasDriveThroughService',
+        'hasGS1DigitalLink',
         'hasMap',
         'hasMerchantReturnPolicy',
         'hasOfferCatalog',

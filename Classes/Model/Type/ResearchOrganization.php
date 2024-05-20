@@ -21,6 +21,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 final class ResearchOrganization extends AbstractType
 {
     protected static array $propertyNames = [
+        'acceptedPaymentMethod',
         'actionableFeedbackPolicy',
         'additionalType',
         'address',
@@ -53,6 +54,7 @@ final class ResearchOrganization extends AbstractType
         'globalLocationNumber',
         'hasCertification',
         'hasCredential',
+        'hasGS1DigitalLink',
         'hasMerchantReturnPolicy',
         'hasOfferCatalog',
         'hasPOS',

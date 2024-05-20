@@ -33,6 +33,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('gtin');
                 $event->registerAdditionalProperty('hasAdultConsideration');
                 $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
+                $event->registerAdditionalProperty('hasGS1DigitalLink');
                 $event->registerAdditionalProperty('hasMeasurement');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
                 $event->registerAdditionalProperty('inProductGroupWithID');
@@ -53,6 +54,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('gtin');
                 $event->registerAdditionalProperty('hasAdultConsideration');
                 $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
+                $event->registerAdditionalProperty('hasGS1DigitalLink');
                 $event->registerAdditionalProperty('hasMeasurement');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
                 $event->registerAdditionalProperty('inProductGroupWithID');
@@ -73,6 +75,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('gtin');
                 $event->registerAdditionalProperty('hasAdultConsideration');
                 $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
+                $event->registerAdditionalProperty('hasGS1DigitalLink');
                 $event->registerAdditionalProperty('hasMeasurement');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
                 $event->registerAdditionalProperty('inProductGroupWithID');
@@ -450,6 +453,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('accommodationFloorPlan');
             $event->registerAdditionalProperty('floorLevel');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('leaseLength');
             $event->registerAdditionalProperty('numberOfBathroomsTotal');
             $event->registerAdditionalProperty('numberOfBedrooms');
@@ -468,6 +472,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -494,6 +499,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\AdministrativeArea::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\AdultEntertainment::class) {
@@ -506,6 +512,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -520,6 +527,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('checkoutPageURLTemplate');
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('hasAdultConsideration');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('ineligibleRegion');
@@ -542,6 +550,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ethicsPolicy');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -552,6 +561,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Airport::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\AllocateAction::class) {
@@ -567,6 +577,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -586,6 +597,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -628,6 +640,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('accommodationFloorPlan');
             $event->registerAdditionalProperty('floorLevel');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('leaseLength');
             $event->registerAdditionalProperty('numberOfBathroomsTotal');
             $event->registerAdditionalProperty('numberOfBedrooms');
@@ -639,6 +652,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\ApartmentComplex::class) {
             $event->registerAdditionalProperty('accommodationFloorPlan');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('numberOfAccommodationUnits');
             $event->registerAdditionalProperty('numberOfAvailableAccommodationUnits');
             $event->registerAdditionalProperty('numberOfBedrooms');
@@ -652,6 +666,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Aquarium::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\ArriveAction::class) {
@@ -667,6 +682,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -723,6 +739,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -775,6 +792,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -794,6 +812,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -813,6 +832,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -832,6 +852,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -851,6 +872,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -870,6 +892,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -889,6 +912,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -908,6 +932,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -927,6 +952,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -953,6 +979,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -972,6 +999,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -1013,6 +1041,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Beach::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\BeautySalon::class) {
@@ -1025,6 +1054,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -1044,6 +1074,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -1066,6 +1097,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -1132,6 +1164,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\BodyOfWater::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\Book::class) {
@@ -1198,6 +1231,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -1223,6 +1257,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -1242,6 +1277,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -1253,6 +1289,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Bridge::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\BroadcastEvent::class) {
@@ -1274,6 +1311,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\BuddhistTemple::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\BusReservation::class) {
@@ -1281,10 +1319,12 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\BusStation::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\BusStop::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\BusTrip::class) {
@@ -1317,6 +1357,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -1336,6 +1377,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -1350,6 +1392,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('accommodationFloorPlan');
             $event->registerAdditionalProperty('floorLevel');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('leaseLength');
             $event->registerAdditionalProperty('numberOfBathroomsTotal');
             $event->registerAdditionalProperty('numberOfBedrooms');
@@ -1360,6 +1403,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Canal::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\CancelAction::class) {
@@ -1375,6 +1419,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('hasAdultConsideration');
             $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('inProductGroupWithID');
@@ -1395,6 +1440,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -1406,10 +1452,12 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\CatholicChurch::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\Cemetery::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\CheckAction::class) {
@@ -1458,6 +1506,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -1479,18 +1528,22 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Church::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\City::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\CityHall::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\CivicStructure::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\ClaimReview::class) {
@@ -1564,6 +1617,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -1610,6 +1664,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -1629,6 +1684,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -1688,6 +1744,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -1732,6 +1789,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Continent::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\ControlAction::class) {
@@ -1747,6 +1805,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -1795,6 +1854,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ethicsPolicy');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -1805,6 +1865,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Country::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\Course::class) {
@@ -1851,6 +1912,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Courthouse::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\CreateAction::class) {
@@ -1952,6 +2014,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Crematorium::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\CurrencyConversionService::class) {
@@ -1974,6 +2037,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ethicsPolicy');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2112,6 +2176,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2126,6 +2191,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\DefenceEstablishment::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\DeleteAction::class) {
@@ -2156,6 +2222,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('healthPlanNetworkId');
             $event->registerAdditionalProperty('isAcceptingNewPatients');
@@ -2180,6 +2247,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2270,6 +2338,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2301,6 +2370,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2333,6 +2403,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2352,6 +2423,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2371,6 +2443,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2390,6 +2463,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2428,6 +2502,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Embassy::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\EmergencyService::class) {
@@ -2440,6 +2515,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2462,6 +2538,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2487,6 +2564,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2535,6 +2613,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\EventVenue::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\ExerciseAction::class) {
@@ -2550,6 +2629,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2603,6 +2683,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2636,6 +2717,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2658,6 +2740,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2686,6 +2769,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2708,6 +2792,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2741,6 +2826,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2787,6 +2873,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2806,6 +2893,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2818,6 +2906,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\GatedResidenceCommunity::class) {
             $event->registerAdditionalProperty('accommodationFloorPlan');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\GeneralContractor::class) {
@@ -2830,6 +2919,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2852,6 +2942,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2863,6 +2954,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\GovernmentBuilding::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\GovernmentOffice::class) {
@@ -2875,6 +2967,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2893,6 +2986,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ethicsPolicy');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2916,6 +3010,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2935,6 +3030,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2954,6 +3050,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2973,6 +3070,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -2992,6 +3090,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3011,6 +3110,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3030,6 +3130,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3041,6 +3142,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\HinduTemple::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\HobbyShop::class) {
@@ -3053,6 +3155,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3072,6 +3175,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3091,6 +3195,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3110,6 +3215,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('healthPlanNetworkId');
             $event->registerAdditionalProperty('healthcareReportingData');
@@ -3132,6 +3238,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3151,6 +3258,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3165,6 +3273,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('accommodationFloorPlan');
             $event->registerAdditionalProperty('floorLevel');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('leaseLength');
             $event->registerAdditionalProperty('numberOfBathroomsTotal');
             $event->registerAdditionalProperty('numberOfBedrooms');
@@ -3178,6 +3287,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('accommodationFloorPlan');
             $event->registerAdditionalProperty('floorLevel');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('leaseLength');
             $event->registerAdditionalProperty('numberOfBathroomsTotal');
             $event->registerAdditionalProperty('numberOfBedrooms');
@@ -3196,6 +3306,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3350,6 +3461,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3429,6 +3541,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('healthPlanNetworkId');
             $event->registerAdditionalProperty('isAcceptingNewPatients');
@@ -3452,6 +3565,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('hasAdultConsideration');
             $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('inProductGroupWithID');
@@ -3481,6 +3595,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3503,6 +3618,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3559,6 +3675,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3592,14 +3709,17 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\LakeBodyOfWater::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\Landform::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\LandmarksOrHistoricalBuildings::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\LeaveAction::class) {
@@ -3615,6 +3735,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3626,6 +3747,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\LegislativeBuilding::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\LendAction::class) {
@@ -3641,6 +3763,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3663,6 +3786,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3729,6 +3853,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3752,6 +3877,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3771,6 +3897,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -3881,6 +4008,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ethicsPolicy');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('healthPlanNetworkId');
             $event->registerAdditionalProperty('isAcceptingNewPatients');
@@ -3896,6 +4024,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('accommodationFloorPlan');
             $event->registerAdditionalProperty('floorLevel');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('leaseLength');
             $event->registerAdditionalProperty('numberOfBathroomsTotal');
             $event->registerAdditionalProperty('numberOfBedrooms');
@@ -3914,6 +4043,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4014,6 +4144,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4060,6 +4191,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4071,6 +4203,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Mosque::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\Motel::class) {
@@ -4083,6 +4216,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4102,6 +4236,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4121,6 +4256,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4132,6 +4268,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Mountain::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\MoveAction::class) {
@@ -4205,6 +4342,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4251,6 +4389,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4270,6 +4409,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4281,6 +4421,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Museum::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\MusicAlbum::class) {
@@ -4353,6 +4494,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ethicsPolicy');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4452,6 +4594,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4463,6 +4606,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\MusicVenue::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\MusicVideoObject::class) {
@@ -4503,6 +4647,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ethicsPolicy');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4521,6 +4666,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4568,6 +4714,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4587,6 +4734,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4630,6 +4778,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\OceanBodyOfWater::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\Offer::class) {
@@ -4637,6 +4786,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('checkoutPageURLTemplate');
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('hasAdultConsideration');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('ineligibleRegion');
@@ -4654,6 +4804,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4682,6 +4833,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ethicsPolicy');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4703,6 +4855,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4751,10 +4904,12 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Park::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\ParkingFacility::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\PawnShop::class) {
@@ -4767,6 +4922,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4800,6 +4956,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\PerformingArtsTheater::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\PerformingGroup::class) {
@@ -4811,6 +4968,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ethicsPolicy');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4866,6 +5024,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -4885,6 +5044,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('healthPlanNetworkId');
             $event->registerAdditionalProperty('isAcceptingNewPatients');
@@ -4936,6 +5096,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('healthPlanNetworkId');
             $event->registerAdditionalProperty('isAcceptingNewPatients');
@@ -4959,6 +5120,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('healthPlanNetworkId');
             $event->registerAdditionalProperty('isAcceptingNewPatients');
@@ -4974,10 +5136,12 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Place::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\PlaceOfWorship::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\PlanAction::class) {
@@ -4988,6 +5152,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Playground::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\Plumber::class) {
@@ -5000,6 +5165,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -5019,6 +5185,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -5037,6 +5204,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ethicsPolicy');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -5047,6 +5215,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Pond::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\PostOffice::class) {
@@ -5059,6 +5228,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -5084,6 +5254,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -5129,6 +5300,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('hasAdultConsideration');
             $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('inProductGroupWithID');
@@ -5148,6 +5320,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('hasAdultConsideration');
             $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('inProductGroupWithID');
@@ -5168,6 +5341,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -5221,6 +5395,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -5351,6 +5526,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\RVPark::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\RadioClip::class) {
@@ -5473,6 +5649,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -5501,6 +5678,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -5550,6 +5728,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -5616,11 +5795,13 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Reservoir::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\Residence::class) {
             $event->registerAdditionalProperty('accommodationFloorPlan');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\Resort::class) {
@@ -5633,6 +5814,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -5652,6 +5834,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -5704,6 +5887,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\RiverBodyOfWater::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\RoofingContractor::class) {
@@ -5716,6 +5900,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -5730,6 +5915,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('accommodationFloorPlan');
             $event->registerAdditionalProperty('floorLevel');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('leaseLength');
             $event->registerAdditionalProperty('numberOfBathroomsTotal');
             $event->registerAdditionalProperty('numberOfBedrooms');
@@ -5789,6 +5975,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -5835,6 +6022,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\SeaBodyOfWater::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\SearchAction::class) {
@@ -5877,6 +6065,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -5909,6 +6098,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -5928,6 +6118,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -5942,6 +6133,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('accommodationFloorPlan');
             $event->registerAdditionalProperty('floorLevel');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('leaseLength');
             $event->registerAdditionalProperty('numberOfBathroomsTotal');
             $event->registerAdditionalProperty('numberOfBedrooms');
@@ -5987,6 +6179,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -6094,6 +6287,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('hasAdultConsideration');
             $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('inProductGroupWithID');
@@ -6114,6 +6308,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -6133,6 +6328,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -6152,6 +6348,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -6178,6 +6375,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ethicsPolicy');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -6197,6 +6395,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('gender');
             $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -6243,6 +6442,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -6254,6 +6454,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\State::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\Store::class) {
@@ -6266,6 +6467,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -6280,6 +6482,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\SubwayStation::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\Suite::class) {
@@ -6287,6 +6490,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('accommodationFloorPlan');
             $event->registerAdditionalProperty('floorLevel');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('leaseLength');
             $event->registerAdditionalProperty('numberOfBathroomsTotal');
             $event->registerAdditionalProperty('numberOfBedrooms');
@@ -6300,6 +6504,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Synagogue::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\TVClip::class) {
@@ -6456,6 +6661,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -6474,6 +6680,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\TaxiStand::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\TechArticle::class) {
@@ -6514,6 +6721,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -6533,6 +6741,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -6614,6 +6823,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ethicsPolicy');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -6638,6 +6848,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -6649,6 +6860,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\TouristAttraction::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\TouristInformationCenter::class) {
@@ -6661,6 +6873,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -6680,6 +6893,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -6700,6 +6914,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\TrainStation::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\TrainTrip::class) {
@@ -6724,6 +6939,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -6763,6 +6979,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -6782,6 +6999,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('gtin');
             $event->registerAdditionalProperty('hasAdultConsideration');
             $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMeasurement');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('inProductGroupWithID');
@@ -6971,6 +7189,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Volcano::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\VoteAction::class) {
@@ -7092,6 +7311,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Waterfall::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if ($event->getType() === Type\WearAction::class) {
@@ -7215,6 +7435,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -7237,6 +7458,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -7255,6 +7477,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ethicsPolicy');
             $event->registerAdditionalProperty('funding');
             $event->registerAdditionalProperty('hasCredential');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('hasMerchantReturnPolicy');
             $event->registerAdditionalProperty('iso6523Code');
             $event->registerAdditionalProperty('knowsAbout');
@@ -7268,6 +7491,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\Zoo::class) {
             $event->registerAdditionalProperty('hasDriveThroughService');
+            $event->registerAdditionalProperty('hasGS1DigitalLink');
             $event->registerAdditionalProperty('tourBookingPage');
         }
         if (ExtensionManagementUtility::isLoaded('schema_health')) {
@@ -7304,6 +7528,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('ethicsPolicy');
                 $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('hasCredential');
+                $event->registerAdditionalProperty('hasGS1DigitalLink');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
                 $event->registerAdditionalProperty('healthPlanNetworkId');
                 $event->registerAdditionalProperty('isAcceptingNewPatients');
@@ -7353,6 +7578,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('gtin');
                 $event->registerAdditionalProperty('hasAdultConsideration');
                 $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
+                $event->registerAdditionalProperty('hasGS1DigitalLink');
                 $event->registerAdditionalProperty('hasMeasurement');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
                 $event->registerAdditionalProperty('inProductGroupWithID');
@@ -7375,6 +7601,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('gtin');
                 $event->registerAdditionalProperty('hasAdultConsideration');
                 $event->registerAdditionalProperty('hasEnergyConsumptionDetails');
+                $event->registerAdditionalProperty('hasGS1DigitalLink');
                 $event->registerAdditionalProperty('hasMeasurement');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
                 $event->registerAdditionalProperty('inProductGroupWithID');
@@ -7461,6 +7688,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('hasCredential');
                 $event->registerAdditionalProperty('hasDriveThroughService');
+                $event->registerAdditionalProperty('hasGS1DigitalLink');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
                 $event->registerAdditionalProperty('iso6523Code');
                 $event->registerAdditionalProperty('knowsAbout');
@@ -7483,6 +7711,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('hasCredential');
                 $event->registerAdditionalProperty('hasDriveThroughService');
+                $event->registerAdditionalProperty('hasGS1DigitalLink');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
                 $event->registerAdditionalProperty('healthPlanNetworkId');
                 $event->registerAdditionalProperty('isAcceptingNewPatients');
@@ -7647,6 +7876,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('hasCredential');
                 $event->registerAdditionalProperty('hasDriveThroughService');
+                $event->registerAdditionalProperty('hasGS1DigitalLink');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
                 $event->registerAdditionalProperty('iso6523Code');
                 $event->registerAdditionalProperty('knowsAbout');
@@ -7728,6 +7958,7 @@ final class RegisterAdditionalProperties
                 $event->registerAdditionalProperty('ethicsPolicy');
                 $event->registerAdditionalProperty('funding');
                 $event->registerAdditionalProperty('hasCredential');
+                $event->registerAdditionalProperty('hasGS1DigitalLink');
                 $event->registerAdditionalProperty('hasMerchantReturnPolicy');
                 $event->registerAdditionalProperty('healthPlanNetworkId');
                 $event->registerAdditionalProperty('isAcceptingNewPatients');

@@ -24,6 +24,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 final class CovidTestingFacility extends AbstractType
 {
     protected static array $propertyNames = [
+        'acceptedPaymentMethod',
         'actionableFeedbackPolicy',
         'additionalProperty',
         'additionalType',
@@ -74,6 +75,7 @@ final class CovidTestingFacility extends AbstractType
         'hasCertification',
         'hasCredential',
         'hasDriveThroughService',
+        'hasGS1DigitalLink',
         'hasMap',
         'hasMerchantReturnPolicy',
         'hasOfferCatalog',

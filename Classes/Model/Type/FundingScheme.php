@@ -23,6 +23,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 final class FundingScheme extends AbstractType
 {
     protected static array $propertyNames = [
+        'acceptedPaymentMethod',
         'actionableFeedbackPolicy',
         'additionalType',
         'address',
@@ -55,6 +56,7 @@ final class FundingScheme extends AbstractType
         'globalLocationNumber',
         'hasCertification',
         'hasCredential',
+        'hasGS1DigitalLink',
         'hasMerchantReturnPolicy',
         'hasOfferCatalog',
         'hasPOS',

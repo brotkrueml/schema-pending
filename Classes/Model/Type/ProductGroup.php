@@ -49,6 +49,7 @@ final class ProductGroup extends AbstractType
         'hasAdultConsideration',
         'hasCertification',
         'hasEnergyConsumptionDetails',
+        'hasGS1DigitalLink',
         'hasMeasurement',
         'hasMerchantReturnPolicy',
         'hasVariant',

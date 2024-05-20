@@ -49,6 +49,7 @@ final class TouristDestination extends AbstractType
         'globalLocationNumber',
         'hasCertification',
         'hasDriveThroughService',
+        'hasGS1DigitalLink',
         'hasMap',
         'identifier',
         'image',
