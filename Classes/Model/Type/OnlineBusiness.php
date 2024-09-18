@@ -55,6 +55,7 @@ final class OnlineBusiness extends AbstractType
         'hasCertification',
         'hasCredential',
         'hasGS1DigitalLink',
+        'hasMemberProgram',
         'hasMerchantReturnPolicy',
         'hasOfferCatalog',
         'hasPOS',

@@ -59,6 +59,7 @@ final class FundingAgency extends AbstractType
         'hasCertification',
         'hasCredential',
         'hasGS1DigitalLink',
+        'hasMemberProgram',
         'hasMerchantReturnPolicy',
         'hasOfferCatalog',
         'hasPOS',

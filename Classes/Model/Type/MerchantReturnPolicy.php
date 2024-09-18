@@ -54,5 +54,6 @@ final class MerchantReturnPolicy extends AbstractType
         'sameAs',
         'subjectOf',
         'url',
+        'validForMemberTier',
     ];
 }

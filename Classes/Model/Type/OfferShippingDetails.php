@@ -54,6 +54,7 @@ final class OfferShippingDetails extends AbstractType
         'subjectOf',
         'transitTimeLabel',
         'url',
+        'validForMemberTier',
         'weight',
         'width',
     ];

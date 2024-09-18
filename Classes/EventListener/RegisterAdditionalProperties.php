@@ -1734,6 +1734,9 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\CommunicateAction::class) {
             $event->registerAdditionalProperty('provider');
         }
+        if ($event->getType() === Type\CompoundPriceSpecification::class) {
+            $event->registerAdditionalProperty('membershipPointsEarned');
+        }
         if ($event->getType() === Type\ComputerStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');
             $event->registerAdditionalProperty('agentInteractionStatistic');
@@ -2007,6 +2010,7 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('loanRepaymentForm');
             $event->registerAdditionalProperty('loanType');
             $event->registerAdditionalProperty('monthlyMinimumRepaymentAmount');
+            $event->registerAdditionalProperty('paymentMethodType');
             $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('recourseLoan');
             $event->registerAdditionalProperty('renegotiableLoan');
@@ -2199,6 +2203,7 @@ final class RegisterAdditionalProperties
         }
         if ($event->getType() === Type\DeliveryChargeSpecification::class) {
             $event->registerAdditionalProperty('ineligibleRegion');
+            $event->registerAdditionalProperty('membershipPointsEarned');
         }
         if ($event->getType() === Type\DeliveryEvent::class) {
             $event->registerAdditionalProperty('eventAttendanceMode');
@@ -4940,10 +4945,18 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('contactlessPayment');
             $event->registerAdditionalProperty('floorLimit');
             $event->registerAdditionalProperty('monthlyMinimumRepaymentAmount');
+            $event->registerAdditionalProperty('paymentMethodType');
             $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('termsOfService');
         }
+        if ($event->getType() === Type\PaymentChargeSpecification::class) {
+            $event->registerAdditionalProperty('membershipPointsEarned');
+        }
+        if ($event->getType() === Type\PaymentMethod::class) {
+            $event->registerAdditionalProperty('paymentMethodType');
+        }
         if ($event->getType() === Type\PaymentService::class) {
+            $event->registerAdditionalProperty('paymentMethodType');
             $event->registerAdditionalProperty('provider');
             $event->registerAdditionalProperty('termsOfService');
         }
@@ -5290,6 +5303,9 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('size');
             $event->registerAdditionalProperty('teaches');
             $event->registerAdditionalProperty('usageInfo');
+        }
+        if ($event->getType() === Type\PriceSpecification::class) {
+            $event->registerAdditionalProperty('membershipPointsEarned');
         }
         if ($event->getType() === Type\Product::class) {
             $event->registerAdditionalProperty('asin');
@@ -6961,6 +6977,7 @@ final class RegisterAdditionalProperties
         if ($event->getType() === Type\UnitPriceSpecification::class) {
             $event->registerAdditionalProperty('billingDuration');
             $event->registerAdditionalProperty('billingStart');
+            $event->registerAdditionalProperty('membershipPointsEarned');
             $event->registerAdditionalProperty('priceComponentType');
         }
         if ($event->getType() === Type\UpdateAction::class) {

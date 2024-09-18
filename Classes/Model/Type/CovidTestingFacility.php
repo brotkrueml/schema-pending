@@ -77,6 +77,7 @@ final class CovidTestingFacility extends AbstractType
         'hasDriveThroughService',
         'hasGS1DigitalLink',
         'hasMap',
+        'hasMemberProgram',
         'hasMerchantReturnPolicy',
         'hasOfferCatalog',
         'hasPOS',

@@ -84,6 +84,7 @@ final class OfferForLease extends AbstractType
         'sku',
         'subjectOf',
         'url',
+        'validForMemberTier',
         'validFrom',
         'validThrough',
         'warranty',

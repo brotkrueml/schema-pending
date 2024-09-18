@@ -84,6 +84,7 @@ final class OfferForPurchase extends AbstractType
         'sku',
         'subjectOf',
         'url',
+        'validForMemberTier',
         'validFrom',
         'validThrough',
         'warranty',

@@ -75,6 +75,7 @@ final class ArchiveOrganization extends AbstractType
         'hasDriveThroughService',
         'hasGS1DigitalLink',
         'hasMap',
+        'hasMemberProgram',
         'hasMerchantReturnPolicy',
         'hasOfferCatalog',
         'hasPOS',
