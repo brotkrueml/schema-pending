@@ -87,6 +87,7 @@ final class SearchRescueOrganization extends AbstractType
         'review',
         'sameAs',
         'seeks',
+        'skills',
         'slogan',
         'sponsor',
         'subOrganization',

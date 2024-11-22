@@ -91,6 +91,7 @@ final class FundingAgency extends AbstractType
         'review',
         'sameAs',
         'seeks',
+        'skills',
         'slogan',
         'sponsor',
         'subOrganization',

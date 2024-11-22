@@ -533,7 +533,6 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ineligibleRegion');
             $event->registerAdditionalProperty('leaseLength');
             $event->registerAdditionalProperty('mobileUrl');
-            $event->registerAdditionalProperty('shippingDetails');
         }
         if ($event->getType() === Type\AggregateRating::class) {
             $event->registerAdditionalProperty('ratingExplanation');
@@ -4797,7 +4796,6 @@ final class RegisterAdditionalProperties
             $event->registerAdditionalProperty('ineligibleRegion');
             $event->registerAdditionalProperty('leaseLength');
             $event->registerAdditionalProperty('mobileUrl');
-            $event->registerAdditionalProperty('shippingDetails');
         }
         if ($event->getType() === Type\OfficeEquipmentStore::class) {
             $event->registerAdditionalProperty('actionableFeedbackPolicy');

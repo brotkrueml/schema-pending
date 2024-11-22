@@ -87,6 +87,7 @@ final class OnlineBusiness extends AbstractType
         'review',
         'sameAs',
         'seeks',
+        'skills',
         'slogan',
         'sponsor',
         'subOrganization',

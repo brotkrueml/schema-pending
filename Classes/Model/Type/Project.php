@@ -88,6 +88,7 @@ final class Project extends AbstractType
         'review',
         'sameAs',
         'seeks',
+        'skills',
         'slogan',
         'sponsor',
         'subOrganization',

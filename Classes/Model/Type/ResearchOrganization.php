@@ -87,6 +87,7 @@ final class ResearchOrganization extends AbstractType
         'review',
         'sameAs',
         'seeks',
+        'skills',
         'slogan',
         'sponsor',
         'subOrganization',
