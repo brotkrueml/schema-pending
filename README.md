@@ -18,4 +18,4 @@ terms: https://schema.org/docs/pending.home.html.
 [Documentation](https://docs.typo3.org/p/brotkrueml/schema-pending/main/en-us/) |
 [Changelog](https://github.com/brotkrueml/schema-pending/blob/main/CHANGELOG.md) |
 [TYPO3 Extension Repository](https://extensions.typo3.org/extension/schema_pending) |
-[Forum](https://github.com/brotkrueml/schema/discussions)
+[Slack](https://typo3.slack.com/app_redirect?channel=CV36M73D5)
