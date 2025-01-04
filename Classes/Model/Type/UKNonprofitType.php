@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * UKNonprofitType: Non-profit organization type originating from the United Kingdom.
+ * @deprecated This type represents an enumeration, use the specific UKNonprofitType enum instead.
  */
 #[Type('UKNonprofitType')]
 final class UKNonprofitType extends AbstractType

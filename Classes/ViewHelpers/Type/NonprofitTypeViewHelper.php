@@ -15,6 +15,7 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
  * NonprofitType enumerates several kinds of official non-profit types of which a non-profit organization can be.
+ * @deprecated This type represents an enumeration, use the enum with the {f:constant()} ViewHelper instead (available since Fluid 2.12).
  */
 final class NonprofitTypeViewHelper extends AbstractTypeViewHelper
 {

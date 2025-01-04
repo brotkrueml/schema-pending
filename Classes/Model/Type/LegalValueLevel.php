@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * A list of possible levels for the legal validity of a legislation.
+ * @deprecated This type represents an enumeration, use the specific LegalValueLevel enum instead.
  */
 #[Type('LegalValueLevel')]
 final class LegalValueLevel extends AbstractType

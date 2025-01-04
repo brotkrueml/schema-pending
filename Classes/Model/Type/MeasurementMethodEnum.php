@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * Enumeration(s) for use with measurementMethod.
+ * @deprecated This type represents an enumeration, use the specific MeasurementMethodEnum enum instead.
  */
 #[Type('MeasurementMethodEnum')]
 final class MeasurementMethodEnum extends AbstractType

@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * Enumerates common size systems for different categories of products, for example "EN-13402" or "UK" for wearables or "Imperial" for screws.
+ * @deprecated This type represents an enumeration, use the specific SizeSystemEnumeration enum instead.
  */
 #[Type('SizeSystemEnumeration')]
 final class SizeSystemEnumeration extends AbstractType

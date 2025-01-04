@@ -15,6 +15,7 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
  * Used to indicate whether a product is EnergyStar certified.
+ * @deprecated This type represents an enumeration, use the enum with the {f:constant()} ViewHelper instead (available since Fluid 2.12).
  */
 final class EnergyStarEnergyEfficiencyEnumerationViewHelper extends AbstractTypeViewHelper
 {

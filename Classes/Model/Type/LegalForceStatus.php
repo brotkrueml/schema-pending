@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * A list of possible statuses for the legal force of a legislation.
+ * @deprecated This type represents an enumeration, use the specific LegalForceStatus enum instead.
  */
 #[Type('LegalForceStatus')]
 final class LegalForceStatus extends AbstractType

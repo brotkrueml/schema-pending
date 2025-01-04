@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * Enumeration of considerations that make a product relevant or potentially restricted for adults only.
+ * @deprecated This type represents an enumeration, use the specific AdultOrientedEnumeration enum instead.
  */
 #[Type('AdultOrientedEnumeration')]
 final class AdultOrientedEnumeration extends AbstractType

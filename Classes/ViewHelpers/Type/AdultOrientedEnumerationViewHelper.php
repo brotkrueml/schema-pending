@@ -15,6 +15,7 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
  * Enumeration of considerations that make a product relevant or potentially restricted for adults only.
+ * @deprecated This type represents an enumeration, use the enum with the {f:constant()} ViewHelper instead (available since Fluid 2.12).
  */
 final class AdultOrientedEnumerationViewHelper extends AbstractTypeViewHelper
 {

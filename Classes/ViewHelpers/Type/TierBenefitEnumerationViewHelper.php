@@ -15,6 +15,7 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
  * An enumeration of possible benefits as part of a loyalty (members) program.
+ * @deprecated This type represents an enumeration, use the enum with the {f:constant()} ViewHelper instead (available since Fluid 2.12).
  */
 final class TierBenefitEnumerationViewHelper extends AbstractTypeViewHelper
 {

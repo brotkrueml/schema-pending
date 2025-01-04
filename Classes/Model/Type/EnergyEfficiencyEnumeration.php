@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * Enumerates energy efficiency levels (also known as "classes" or "ratings") and certifications that are part of several international energy efficiency standards.
+ * @deprecated This type represents an enumeration, use the specific EnergyEfficiencyEnumeration enum instead.
  */
 #[Type('EnergyEfficiencyEnumeration')]
 final class EnergyEfficiencyEnumeration extends AbstractType

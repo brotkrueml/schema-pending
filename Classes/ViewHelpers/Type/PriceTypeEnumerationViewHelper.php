@@ -15,6 +15,7 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
  * Enumerates different price types, for example list price, invoice price, and sale price.
+ * @deprecated This type represents an enumeration, use the enum with the {f:constant()} ViewHelper instead (available since Fluid 2.12).
  */
 final class PriceTypeEnumerationViewHelper extends AbstractTypeViewHelper
 {

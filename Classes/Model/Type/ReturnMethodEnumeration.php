@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * Enumerates several types of product return methods.
+ * @deprecated This type represents an enumeration, use the specific ReturnMethodEnumeration enum instead.
  */
 #[Type('ReturnMethodEnumeration')]
 final class ReturnMethodEnumeration extends AbstractType

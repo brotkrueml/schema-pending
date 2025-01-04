@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * HealthAspectEnumeration enumerates several aspects of health content online, each of which might be described using hasHealthAspect and HealthTopicContent.
+ * @deprecated This type represents an enumeration, use the specific HealthAspectEnumeration enum instead.
  */
 #[Type('HealthAspectEnumeration')]
 final class HealthAspectEnumeration extends AbstractType

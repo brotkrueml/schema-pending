@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * For a VideoGame, such as used with a PlayGameAction, an enumeration of the kind of game availability offered.
+ * @deprecated This type represents an enumeration, use the specific GameAvailabilityEnumeration enum instead.
  */
 #[Type('GameAvailabilityEnumeration')]
 final class GameAvailabilityEnumeration extends AbstractType

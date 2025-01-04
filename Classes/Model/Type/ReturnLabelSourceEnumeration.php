@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * Enumerates several types of return labels for product returns.
+ * @deprecated This type represents an enumeration, use the specific ReturnLabelSourceEnumeration enum instead.
  */
 #[Type('ReturnLabelSourceEnumeration')]
 final class ReturnLabelSourceEnumeration extends AbstractType

@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * The type of payment method, only for generic payment types, specific forms of payments, like card payment should be expressed using subclasses of PaymentMethod.
+ * @deprecated This type represents an enumeration, use the specific PaymentMethodType enum instead.
  */
 #[Type('PaymentMethodType')]
 final class PaymentMethodType extends AbstractType

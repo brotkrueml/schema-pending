@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * Used to indicate whether a product is EnergyStar certified.
+ * @deprecated This type represents an enumeration, use the specific EnergyStarEnergyEfficiencyEnumeration enum instead.
  */
 #[Type('EnergyStarEnergyEfficiencyEnumeration')]
 final class EnergyStarEnergyEfficiencyEnumeration extends AbstractType

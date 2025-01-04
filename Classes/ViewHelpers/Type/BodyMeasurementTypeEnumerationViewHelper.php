@@ -15,6 +15,7 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
  * Enumerates types (or dimensions) of a person's body measurements, for example for fitting of clothes.
+ * @deprecated This type represents an enumeration, use the enum with the {f:constant()} ViewHelper instead (available since Fluid 2.12).
  */
 final class BodyMeasurementTypeEnumerationViewHelper extends AbstractTypeViewHelper
 {

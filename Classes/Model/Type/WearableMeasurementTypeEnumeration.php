@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * Enumerates common types of measurement for wearables products.
+ * @deprecated This type represents an enumeration, use the specific WearableMeasurementTypeEnumeration enum instead.
  */
 #[Type('WearableMeasurementTypeEnumeration')]
 final class WearableMeasurementTypeEnumeration extends AbstractType

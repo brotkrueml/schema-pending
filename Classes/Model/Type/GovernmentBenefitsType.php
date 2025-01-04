@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * GovernmentBenefitsType enumerates several kinds of government benefits to support the COVID-19 situation. Note that this structure may not capture all benefits offered.
+ * @deprecated This type represents an enumeration, use the specific GovernmentBenefitsType enum instead.
  */
 #[Type('GovernmentBenefitsType')]
 final class GovernmentBenefitsType extends AbstractType

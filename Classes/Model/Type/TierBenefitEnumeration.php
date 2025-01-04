@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * An enumeration of possible benefits as part of a loyalty (members) program.
+ * @deprecated This type represents an enumeration, use the specific TierBenefitEnumeration enum instead.
  */
 #[Type('TierBenefitEnumeration')]
 final class TierBenefitEnumeration extends AbstractType

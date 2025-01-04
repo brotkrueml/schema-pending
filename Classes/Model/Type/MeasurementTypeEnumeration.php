@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * Enumeration of common measurement types (or dimensions), for example "chest" for a person, "inseam" for pants, "gauge" for screws, or "wheel" for bicycles.
+ * @deprecated This type represents an enumeration, use the specific MeasurementTypeEnumeration enum instead.
  */
 #[Type('MeasurementTypeEnumeration')]
 final class MeasurementTypeEnumeration extends AbstractType

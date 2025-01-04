@@ -15,6 +15,7 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
  * UKNonprofitType: Non-profit organization type originating from the United Kingdom.
+ * @deprecated This type represents an enumeration, use the enum with the {f:constant()} ViewHelper instead (available since Fluid 2.12).
  */
 final class UKNonprofitTypeViewHelper extends AbstractTypeViewHelper
 {

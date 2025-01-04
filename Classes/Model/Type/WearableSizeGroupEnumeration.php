@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * Enumerates common size groups (also known as "size types") for wearable products.
+ * @deprecated This type represents an enumeration, use the specific WearableSizeGroupEnumeration enum instead.
  */
 #[Type('WearableSizeGroupEnumeration')]
 final class WearableSizeGroupEnumeration extends AbstractType

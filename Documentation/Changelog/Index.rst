@@ -11,6 +11,18 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 `Unreleased <https://github.com/brotkrueml/schema-pending/compare/v2.7.0...HEAD>`_
 --------------------------------------------------------------------------------------
 
+Added
+^^^^^
+
+
+* Experimental support for schema.org enumerations
+
+Deprecated
+^^^^^^^^^^
+
+
+* Types and view helpers representing enumerations
+
 `2.7.0 <https://github.com/brotkrueml/schema-pending/compare/v2.6.0...v2.7.0>`_ - 2024-11-22
 ------------------------------------------------------------------------------------------------
 

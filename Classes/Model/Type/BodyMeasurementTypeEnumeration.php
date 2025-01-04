@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * Enumerates types (or dimensions) of a person's body measurements, for example for fitting of clothes.
+ * @deprecated This type represents an enumeration, use the specific BodyMeasurementTypeEnumeration enum instead.
  */
 #[Type('BodyMeasurementTypeEnumeration')]
 final class BodyMeasurementTypeEnumeration extends AbstractType

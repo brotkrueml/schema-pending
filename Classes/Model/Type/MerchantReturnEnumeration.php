@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * Enumerates several kinds of product return policies.
+ * @deprecated This type represents an enumeration, use the specific MerchantReturnEnumeration enum instead.
  */
 #[Type('MerchantReturnEnumeration')]
 final class MerchantReturnEnumeration extends AbstractType

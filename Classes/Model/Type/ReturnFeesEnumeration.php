@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * Enumerates several kinds of policies for product return fees.
+ * @deprecated This type represents an enumeration, use the specific ReturnFeesEnumeration enum instead.
  */
 #[Type('ReturnFeesEnumeration')]
 final class ReturnFeesEnumeration extends AbstractType

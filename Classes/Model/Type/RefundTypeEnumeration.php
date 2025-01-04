@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * Enumerates several kinds of product return refund types.
+ * @deprecated This type represents an enumeration, use the specific RefundTypeEnumeration enum instead.
  */
 #[Type('RefundTypeEnumeration')]
 final class RefundTypeEnumeration extends AbstractType

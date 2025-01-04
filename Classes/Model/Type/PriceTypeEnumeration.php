@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * Enumerates different price types, for example list price, invoice price, and sale price.
+ * @deprecated This type represents an enumeration, use the specific PriceTypeEnumeration enum instead.
  */
 #[Type('PriceTypeEnumeration')]
 final class PriceTypeEnumeration extends AbstractType

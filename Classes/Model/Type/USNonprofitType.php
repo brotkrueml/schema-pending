@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * USNonprofitType: Non-profit organization type originating from the United States.
+ * @deprecated This type represents an enumeration, use the specific USNonprofitType enum instead.
  */
 #[Type('USNonprofitType')]
 final class USNonprofitType extends AbstractType

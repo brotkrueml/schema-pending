@@ -15,6 +15,7 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
  * Enumerates common size groups (also known as "size types") for wearable products.
+ * @deprecated This type represents an enumeration, use the enum with the {f:constant()} ViewHelper instead (available since Fluid 2.12).
  */
 final class WearableSizeGroupEnumerationViewHelper extends AbstractTypeViewHelper
 {

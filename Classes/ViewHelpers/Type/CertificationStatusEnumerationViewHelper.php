@@ -15,6 +15,7 @@ use Brotkrueml\Schema\Core\ViewHelpers\AbstractTypeViewHelper;
 
 /**
  * Enumerates the different statuses of a Certification (Active and Inactive).
+ * @deprecated This type represents an enumeration, use the enum with the {f:constant()} ViewHelper instead (available since Fluid 2.12).
  */
 final class CertificationStatusEnumerationViewHelper extends AbstractTypeViewHelper
 {

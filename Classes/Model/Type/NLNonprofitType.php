@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * NLNonprofitType: Non-profit organization type originating from the Netherlands.
+ * @deprecated This type represents an enumeration, use the specific NLNonprofitType enum instead.
  */
 #[Type('NLNonprofitType')]
 final class NLNonprofitType extends AbstractType

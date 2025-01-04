@@ -16,6 +16,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
  * NonprofitType enumerates several kinds of official non-profit types of which a non-profit organization can be.
+ * @deprecated This type represents an enumeration, use the specific NonprofitType enum instead.
  */
 #[Type('NonprofitType')]
 final class NonprofitType extends AbstractType
