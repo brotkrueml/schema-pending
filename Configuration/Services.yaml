@@ -6,13 +6,3 @@ services:
 
   Brotkrueml\SchemaPending\:
     resource: '../Classes/*'
-
-  Brotkrueml\SchemaPending\EventListener\RegisterAdditionalProperties:
-    tags:
-      - name: event.listener
-        identifier: 'ext-schema-pending/registerAdditionalProperties'
-
-  Brotkrueml\SchemaPending\EventListener\RegisterRemovedProperties:
-    tags:
-      - name: event.listener
-        identifier: 'ext-schema-pending/registerRemovedProperties'
