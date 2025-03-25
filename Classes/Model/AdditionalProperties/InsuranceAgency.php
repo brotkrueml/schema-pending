@@ -34,6 +34,7 @@ final class InsuranceAgency implements AdditionalPropertiesInterface
             'hasDriveThroughService',
             'hasGS1DigitalLink',
             'hasMerchantReturnPolicy',
+            'hasShippingService',
             'iso6523Code',
             'knowsAbout',
             'knowsLanguage',

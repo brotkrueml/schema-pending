@@ -156,6 +156,7 @@ final class AmpStory extends AbstractType
         'version',
         'video',
         'width',
+        'wordCount',
         'workExample',
     ];
 }

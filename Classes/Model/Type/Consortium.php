@@ -59,6 +59,7 @@ final class Consortium extends AbstractType
         'hasMerchantReturnPolicy',
         'hasOfferCatalog',
         'hasPOS',
+        'hasShippingService',
         'identifier',
         'image',
         'interactionStatistic',

@@ -33,6 +33,7 @@ final class MedicalOrganization implements AdditionalPropertiesInterface
             'hasCredential',
             'hasGS1DigitalLink',
             'hasMerchantReturnPolicy',
+            'hasShippingService',
             'healthPlanNetworkId',
             'isAcceptingNewPatients',
             'iso6523Code',

@@ -59,6 +59,7 @@ final class SearchRescueOrganization extends AbstractType
         'hasMerchantReturnPolicy',
         'hasOfferCatalog',
         'hasPOS',
+        'hasShippingService',
         'identifier',
         'image',
         'interactionStatistic',

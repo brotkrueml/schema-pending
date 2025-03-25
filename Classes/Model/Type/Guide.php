@@ -139,6 +139,7 @@ final class Guide extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

@@ -185,6 +185,7 @@ final class SpecialAnnouncement extends AbstractType
         'version',
         'video',
         'webFeed',
+        'wordCount',
         'workExample',
     ];
 }

@@ -138,6 +138,7 @@ final class SheetMusic extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

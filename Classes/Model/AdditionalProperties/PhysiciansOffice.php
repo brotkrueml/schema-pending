@@ -34,6 +34,7 @@ final class PhysiciansOffice implements AdditionalPropertiesInterface
             'hasDriveThroughService',
             'hasGS1DigitalLink',
             'hasMerchantReturnPolicy',
+            'hasShippingService',
             'healthPlanNetworkId',
             'isAcceptingNewPatients',
             'iso6523Code',

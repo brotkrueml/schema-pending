@@ -33,6 +33,7 @@ final class AggregateOffer implements AdditionalPropertiesInterface
             'ineligibleRegion',
             'leaseLength',
             'mobileUrl',
+            'validForMemberTier',
         ];
     }
 }

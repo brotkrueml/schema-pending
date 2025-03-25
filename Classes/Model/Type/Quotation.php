@@ -139,6 +139,7 @@ final class Quotation extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

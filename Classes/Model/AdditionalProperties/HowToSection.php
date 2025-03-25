@@ -25,6 +25,7 @@ final class HowToSection implements AdditionalPropertiesInterface
         return [
             'abstract',
             'acquireLicensePage',
+            'aggregateElement',
             'archivedAt',
             'assesses',
             'conditionsOfAccess',

@@ -27,6 +27,7 @@ final class SomeProducts implements AdditionalPropertiesInterface
             'colorSwatch',
             'countryOfAssembly',
             'countryOfLastProcessing',
+            'depth',
             'funding',
             'gtin',
             'hasAdultConsideration',
@@ -34,6 +35,7 @@ final class SomeProducts implements AdditionalPropertiesInterface
             'hasGS1DigitalLink',
             'hasMeasurement',
             'hasMerchantReturnPolicy',
+            'height',
             'inProductGroupWithID',
             'mobileUrl',
             'negativeNotes',
@@ -41,6 +43,8 @@ final class SomeProducts implements AdditionalPropertiesInterface
             'pattern',
             'positiveNotes',
             'size',
+            'weight',
+            'width',
         ];
     }
 }

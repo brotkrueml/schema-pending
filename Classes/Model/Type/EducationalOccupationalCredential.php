@@ -143,6 +143,7 @@ final class EducationalOccupationalCredential extends AbstractType
         'validIn',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

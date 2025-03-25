@@ -24,6 +24,7 @@ final class PaymentChargeSpecification implements AdditionalPropertiesInterface
     {
         return [
             'membershipPointsEarned',
+            'validForMemberTier',
         ];
     }
 }

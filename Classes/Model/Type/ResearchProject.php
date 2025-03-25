@@ -59,6 +59,7 @@ final class ResearchProject extends AbstractType
         'hasMerchantReturnPolicy',
         'hasOfferCatalog',
         'hasPOS',
+        'hasShippingService',
         'identifier',
         'image',
         'interactionStatistic',

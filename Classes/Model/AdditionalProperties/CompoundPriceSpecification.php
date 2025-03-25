@@ -24,6 +24,7 @@ final class CompoundPriceSpecification implements AdditionalPropertiesInterface
     {
         return [
             'membershipPointsEarned',
+            'validForMemberTier',
         ];
     }
 }

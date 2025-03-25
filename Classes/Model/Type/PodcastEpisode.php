@@ -147,6 +147,7 @@ final class PodcastEpisode extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

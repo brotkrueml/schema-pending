@@ -28,6 +28,7 @@ final class BusOrCoach implements AdditionalPropertiesInterface
             'colorSwatch',
             'countryOfAssembly',
             'countryOfLastProcessing',
+            'depth',
             'funding',
             'gtin',
             'hasAdultConsideration',
@@ -35,6 +36,7 @@ final class BusOrCoach implements AdditionalPropertiesInterface
             'hasGS1DigitalLink',
             'hasMeasurement',
             'hasMerchantReturnPolicy',
+            'height',
             'inProductGroupWithID',
             'mobileUrl',
             'negativeNotes',
@@ -42,6 +44,8 @@ final class BusOrCoach implements AdditionalPropertiesInterface
             'pattern',
             'positiveNotes',
             'size',
+            'weight',
+            'width',
         ];
     }
 }

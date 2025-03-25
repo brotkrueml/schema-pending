@@ -153,6 +153,7 @@ final class MediaReview extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

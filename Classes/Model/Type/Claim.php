@@ -145,6 +145,7 @@ final class Claim extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

@@ -142,6 +142,7 @@ final class CorrectionComment extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

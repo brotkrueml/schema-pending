@@ -151,6 +151,7 @@ final class RealEstateListing extends AbstractType implements WebPageTypeInterfa
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

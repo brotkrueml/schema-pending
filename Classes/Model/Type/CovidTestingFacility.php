@@ -81,6 +81,7 @@ final class CovidTestingFacility extends AbstractType
         'hasMerchantReturnPolicy',
         'hasOfferCatalog',
         'hasPOS',
+        'hasShippingService',
         'healthPlanNetworkId',
         'identifier',
         'image',

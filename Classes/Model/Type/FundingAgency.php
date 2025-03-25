@@ -63,6 +63,7 @@ final class FundingAgency extends AbstractType
         'hasMerchantReturnPolicy',
         'hasOfferCatalog',
         'hasPOS',
+        'hasShippingService',
         'identifier',
         'image',
         'interactionStatistic',

@@ -139,6 +139,7 @@ final class MediaReviewItem extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

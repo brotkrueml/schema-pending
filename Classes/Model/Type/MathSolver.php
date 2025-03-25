@@ -142,6 +142,7 @@ final class MathSolver extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

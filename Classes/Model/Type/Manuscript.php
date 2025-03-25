@@ -138,6 +138,7 @@ final class Manuscript extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

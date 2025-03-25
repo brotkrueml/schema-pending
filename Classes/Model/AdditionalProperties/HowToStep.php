@@ -25,6 +25,7 @@ final class HowToStep implements AdditionalPropertiesInterface
         return [
             'abstract',
             'acquireLicensePage',
+            'aggregateElement',
             'archivedAt',
             'assesses',
             'conditionsOfAccess',

@@ -33,6 +33,7 @@ final class Offer implements AdditionalPropertiesInterface
             'ineligibleRegion',
             'leaseLength',
             'mobileUrl',
+            'validForMemberTier',
         ];
     }
 }

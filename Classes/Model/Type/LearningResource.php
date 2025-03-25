@@ -146,6 +146,7 @@ final class LearningResource extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

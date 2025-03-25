@@ -138,6 +138,7 @@ final class ShortStory extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

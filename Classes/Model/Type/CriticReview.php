@@ -147,6 +147,7 @@ final class CriticReview extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

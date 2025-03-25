@@ -138,6 +138,7 @@ final class Drawing extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

@@ -147,6 +147,7 @@ final class Certification extends AbstractType
         'validIn',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

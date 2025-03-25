@@ -27,6 +27,7 @@ final class UnitPriceSpecification implements AdditionalPropertiesInterface
             'billingStart',
             'membershipPointsEarned',
             'priceComponentType',
+            'validForMemberTier',
         ];
     }
 }

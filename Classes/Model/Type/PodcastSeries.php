@@ -143,6 +143,7 @@ final class PodcastSeries extends AbstractType
         'version',
         'video',
         'webFeed',
+        'wordCount',
         'workExample',
     ];
 }

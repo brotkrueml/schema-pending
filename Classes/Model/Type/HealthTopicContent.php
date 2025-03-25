@@ -139,6 +139,7 @@ final class HealthTopicContent extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

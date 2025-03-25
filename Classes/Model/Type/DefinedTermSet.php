@@ -139,6 +139,7 @@ final class DefinedTermSet extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

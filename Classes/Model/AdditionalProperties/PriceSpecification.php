@@ -24,6 +24,7 @@ final class PriceSpecification implements AdditionalPropertiesInterface
     {
         return [
             'membershipPointsEarned',
+            'validForMemberTier',
         ];
     }
 }

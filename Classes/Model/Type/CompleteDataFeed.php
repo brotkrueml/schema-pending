@@ -147,6 +147,7 @@ final class CompleteDataFeed extends AbstractType
         'variableMeasured',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

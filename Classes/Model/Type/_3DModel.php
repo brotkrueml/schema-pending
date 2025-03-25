@@ -158,6 +158,7 @@ final class _3DModel extends AbstractType
         'version',
         'video',
         'width',
+        'wordCount',
         'workExample',
     ];
 }

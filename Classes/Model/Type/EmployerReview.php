@@ -147,6 +147,7 @@ final class EmployerReview extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

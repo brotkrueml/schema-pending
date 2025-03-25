@@ -38,6 +38,7 @@ final class VideoObject implements AdditionalPropertiesInterface
             'educationalLevel',
             'embeddedTextCaption',
             'funding',
+            'height',
             'ineligibleRegion',
             'interpretedAsClaim',
             'maintainer',
@@ -51,6 +52,7 @@ final class VideoObject implements AdditionalPropertiesInterface
             'size',
             'teaches',
             'usageInfo',
+            'width',
         ];
     }
 }

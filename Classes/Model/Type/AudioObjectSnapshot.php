@@ -159,6 +159,7 @@ final class AudioObjectSnapshot extends AbstractType
         'version',
         'video',
         'width',
+        'wordCount',
         'workExample',
     ];
 }

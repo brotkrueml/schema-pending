@@ -140,6 +140,7 @@ final class ArchiveComponent extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

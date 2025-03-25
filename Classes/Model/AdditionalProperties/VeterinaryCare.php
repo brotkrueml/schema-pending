@@ -33,6 +33,7 @@ final class VeterinaryCare implements AdditionalPropertiesInterface
             'hasCredential',
             'hasGS1DigitalLink',
             'hasMerchantReturnPolicy',
+            'hasShippingService',
             'healthPlanNetworkId',
             'isAcceptingNewPatients',
             'iso6523Code',

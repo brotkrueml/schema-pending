@@ -27,6 +27,7 @@ final class Drug implements AdditionalPropertiesInterface
             'colorSwatch',
             'countryOfAssembly',
             'countryOfLastProcessing',
+            'depth',
             'funding',
             'gtin',
             'hasAdultConsideration',
@@ -34,6 +35,7 @@ final class Drug implements AdditionalPropertiesInterface
             'hasGS1DigitalLink',
             'hasMeasurement',
             'hasMerchantReturnPolicy',
+            'height',
             'inProductGroupWithID',
             'includedInHealthInsurancePlan',
             'mobileUrl',
@@ -43,6 +45,8 @@ final class Drug implements AdditionalPropertiesInterface
             'positiveNotes',
             'rxcui',
             'size',
+            'weight',
+            'width',
         ];
     }
 }

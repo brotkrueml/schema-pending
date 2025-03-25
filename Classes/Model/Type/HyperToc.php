@@ -139,6 +139,7 @@ final class HyperToc extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

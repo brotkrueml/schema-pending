@@ -138,6 +138,7 @@ final class Statement extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

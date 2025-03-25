@@ -140,6 +140,7 @@ final class HyperTocEntry extends AbstractType
         'utterances',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

@@ -34,6 +34,7 @@ final class Hospital implements AdditionalPropertiesInterface
             'hasDriveThroughService',
             'hasGS1DigitalLink',
             'hasMerchantReturnPolicy',
+            'hasShippingService',
             'healthPlanNetworkId',
             'healthcareReportingData',
             'isAcceptingNewPatients',

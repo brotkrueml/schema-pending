@@ -33,6 +33,7 @@ final class Airline implements AdditionalPropertiesInterface
             'hasCredential',
             'hasGS1DigitalLink',
             'hasMerchantReturnPolicy',
+            'hasShippingService',
             'iso6523Code',
             'knowsAbout',
             'knowsLanguage',

@@ -37,6 +37,7 @@ final class MusicVideoObject implements AdditionalPropertiesInterface
             'editEIDR',
             'educationalLevel',
             'funding',
+            'height',
             'ineligibleRegion',
             'interpretedAsClaim',
             'maintainer',
@@ -50,6 +51,7 @@ final class MusicVideoObject implements AdditionalPropertiesInterface
             'size',
             'teaches',
             'usageInfo',
+            'width',
         ];
     }
 }

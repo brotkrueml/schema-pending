@@ -142,6 +142,7 @@ final class Quiz extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

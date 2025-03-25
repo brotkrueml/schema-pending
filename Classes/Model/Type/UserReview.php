@@ -147,6 +147,7 @@ final class UserReview extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

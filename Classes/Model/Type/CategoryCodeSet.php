@@ -140,6 +140,7 @@ final class CategoryCodeSet extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

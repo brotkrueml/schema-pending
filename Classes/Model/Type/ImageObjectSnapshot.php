@@ -160,6 +160,7 @@ final class ImageObjectSnapshot extends AbstractType
         'version',
         'video',
         'width',
+        'wordCount',
         'workExample',
     ];
 }

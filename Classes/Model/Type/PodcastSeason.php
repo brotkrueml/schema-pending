@@ -148,6 +148,7 @@ final class PodcastSeason extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

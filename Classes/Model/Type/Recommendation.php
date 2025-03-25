@@ -148,6 +148,7 @@ final class Recommendation extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

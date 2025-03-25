@@ -138,6 +138,7 @@ final class Poster extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

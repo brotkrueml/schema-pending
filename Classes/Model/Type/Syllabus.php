@@ -139,6 +139,7 @@ final class Syllabus extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

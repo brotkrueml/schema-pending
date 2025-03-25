@@ -164,6 +164,7 @@ final class VideoObjectSnapshot extends AbstractType
         'videoFrameSize',
         'videoQuality',
         'width',
+        'wordCount',
         'workExample',
     ];
 }

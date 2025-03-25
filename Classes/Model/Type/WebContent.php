@@ -138,6 +138,7 @@ final class WebContent extends AbstractType
         'usageInfo',
         'version',
         'video',
+        'wordCount',
         'workExample',
     ];
 }

@@ -184,6 +184,7 @@ final class ProductCollection extends AbstractType
         'video',
         'weight',
         'width',
+        'wordCount',
         'workExample',
     ];
 }

@@ -25,6 +25,7 @@ final class DeliveryChargeSpecification implements AdditionalPropertiesInterface
         return [
             'ineligibleRegion',
             'membershipPointsEarned',
+            'validForMemberTier',
         ];
     }
 }
