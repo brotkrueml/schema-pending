@@ -11,6 +11,12 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 `Unreleased <https://github.com/brotkrueml/schema-pending/compare/v2.9.0...HEAD>`_
 --------------------------------------------------------------------------------------
 
+Added
+^^^^^
+
+
+* Link to new Google manuals for product-related types in Admin Panel
+
 Updated
 ^^^^^^^
 

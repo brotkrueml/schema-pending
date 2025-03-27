@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Link to new Google manuals for product-related types in Admin Panel
+
 ### Updated
 - schema.org definition to version 29.0
 
