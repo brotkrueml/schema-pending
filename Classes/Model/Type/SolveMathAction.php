@@ -11,13 +11,16 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Manual;
 use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
+use Brotkrueml\Schema\Manual\Publisher;
 
 /**
  * The action that takes in a math expression and directs users to a page potentially capable of solving/simplifying that expression.
  */
 #[Type('SolveMathAction')]
+#[Manual(Publisher::Google, 'Math solver', 'https://developers.google.com/search/docs/appearance/structured-data/math-solvers')]
 final class SolveMathAction extends AbstractType
 {
     protected static array $propertyNames = [

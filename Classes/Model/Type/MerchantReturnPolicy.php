@@ -20,7 +20,7 @@ use Brotkrueml\Schema\Manual\Publisher;
  * A MerchantReturnPolicy provides information about product return policies associated with an Organization, Product, or Offer.
  */
 #[Type('MerchantReturnPolicy')]
-#[Manual(Publisher::Google, 'https://developers.google.com/search/docs/appearance/structured-data/merchant-listing#product-with-returns-example')]
+#[Manual(Publisher::Google, 'Merchant listing: Return details', 'https://developers.google.com/search/docs/appearance/structured-data/merchant-listing#product-with-returns-example')]
 final class MerchantReturnPolicy extends AbstractType
 {
     protected static array $propertyNames = [
