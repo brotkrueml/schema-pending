@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.11.0] - 2025-04-14
+
 ### Added
 - More links to Google manuals in Admin Panel
 
@@ -137,7 +139,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Initial release with schema definition version 12.0
 
 
-[Unreleased]: https://github.com/brotkrueml/schema-pending/compare/v2.10.0...HEAD
+[Unreleased]: https://github.com/brotkrueml/schema-pending/compare/v2.11.0...HEAD
+[2.11.0]: https://github.com/brotkrueml/schema-pending/compare/v2.10.0...v2.11.0
 [2.10.0]: https://github.com/brotkrueml/schema-pending/compare/v2.9.0...v2.10.0
 [2.9.0]: https://github.com/brotkrueml/schema-pending/compare/v2.8.0...v2.9.0
 [2.8.0]: https://github.com/brotkrueml/schema-pending/compare/v2.7.0...v2.8.0
