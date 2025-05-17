@@ -28,13 +28,12 @@ final class Patient implements AdditionalPropertiesInterface
             'funding',
             'gender',
             'hasCredential',
-            'height',
             'jobTitle',
             'knowsAbout',
             'knowsLanguage',
+            'pronouns',
             'suggestedAge',
             'suggestedMeasurement',
-            'weight',
         ];
     }
 }

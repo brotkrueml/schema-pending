@@ -33,12 +33,10 @@ final class VisualArtwork implements AdditionalPropertiesInterface
             'correction',
             'creativeWorkStatus',
             'creditText',
-            'depth',
             'digitalSourceType',
             'editEIDR',
             'educationalLevel',
             'funding',
-            'height',
             'interpretedAsClaim',
             'maintainer',
             'materialExtent',
@@ -50,8 +48,6 @@ final class VisualArtwork implements AdditionalPropertiesInterface
             'size',
             'teaches',
             'usageInfo',
-            'weight',
-            'width',
         ];
     }
 }

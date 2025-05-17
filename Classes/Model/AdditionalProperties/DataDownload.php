@@ -37,7 +37,6 @@ final class DataDownload implements AdditionalPropertiesInterface
             'editEIDR',
             'educationalLevel',
             'funding',
-            'height',
             'ineligibleRegion',
             'interpretedAsClaim',
             'maintainer',
@@ -53,7 +52,6 @@ final class DataDownload implements AdditionalPropertiesInterface
             'size',
             'teaches',
             'usageInfo',
-            'width',
         ];
     }
 }

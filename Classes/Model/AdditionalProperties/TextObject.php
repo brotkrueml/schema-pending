@@ -37,7 +37,6 @@ final class TextObject implements AdditionalPropertiesInterface
             'editEIDR',
             'educationalLevel',
             'funding',
-            'height',
             'ineligibleRegion',
             'interpretedAsClaim',
             'maintainer',
@@ -51,7 +50,6 @@ final class TextObject implements AdditionalPropertiesInterface
             'size',
             'teaches',
             'usageInfo',
-            'width',
         ];
     }
 }

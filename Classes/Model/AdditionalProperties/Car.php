@@ -28,7 +28,6 @@ final class Car implements AdditionalPropertiesInterface
             'colorSwatch',
             'countryOfAssembly',
             'countryOfLastProcessing',
-            'depth',
             'funding',
             'gtin',
             'hasAdultConsideration',
@@ -36,7 +35,6 @@ final class Car implements AdditionalPropertiesInterface
             'hasGS1DigitalLink',
             'hasMeasurement',
             'hasMerchantReturnPolicy',
-            'height',
             'inProductGroupWithID',
             'mobileUrl',
             'negativeNotes',
@@ -44,8 +42,6 @@ final class Car implements AdditionalPropertiesInterface
             'pattern',
             'positiveNotes',
             'size',
-            'weight',
-            'width',
         ];
     }
 }

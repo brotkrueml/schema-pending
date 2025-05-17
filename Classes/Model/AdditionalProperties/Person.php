@@ -28,11 +28,10 @@ final class Person implements AdditionalPropertiesInterface
             'funding',
             'gender',
             'hasCredential',
-            'height',
             'jobTitle',
             'knowsAbout',
             'knowsLanguage',
-            'weight',
+            'pronouns',
         ];
     }
 }

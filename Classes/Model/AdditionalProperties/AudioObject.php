@@ -38,7 +38,6 @@ final class AudioObject implements AdditionalPropertiesInterface
             'educationalLevel',
             'embeddedTextCaption',
             'funding',
-            'height',
             'ineligibleRegion',
             'interpretedAsClaim',
             'maintainer',
@@ -52,7 +51,6 @@ final class AudioObject implements AdditionalPropertiesInterface
             'size',
             'teaches',
             'usageInfo',
-            'width',
         ];
     }
 }

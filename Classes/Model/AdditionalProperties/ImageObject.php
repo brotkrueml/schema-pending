@@ -38,7 +38,6 @@ final class ImageObject implements AdditionalPropertiesInterface
             'educationalLevel',
             'embeddedTextCaption',
             'funding',
-            'height',
             'ineligibleRegion',
             'interpretedAsClaim',
             'maintainer',
@@ -52,7 +51,6 @@ final class ImageObject implements AdditionalPropertiesInterface
             'size',
             'teaches',
             'usageInfo',
-            'width',
         ];
     }
 }

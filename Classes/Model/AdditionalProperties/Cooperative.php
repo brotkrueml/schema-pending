@@ -13,35 +13,33 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class BusOrCoach implements AdditionalPropertiesInterface
+final class Cooperative implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {
-        return 'BusOrCoach';
+        return 'Cooperative';
     }
 
     public function getAdditionalProperties(): array
     {
         return [
-            'asin',
-            'callSign',
-            'colorSwatch',
-            'countryOfAssembly',
-            'countryOfLastProcessing',
+            'actionableFeedbackPolicy',
+            'agentInteractionStatistic',
+            'correctionsPolicy',
+            'diversityPolicy',
+            'diversityStaffingReport',
+            'ethicsPolicy',
             'funding',
-            'gtin',
-            'hasAdultConsideration',
-            'hasEnergyConsumptionDetails',
+            'hasCredential',
             'hasGS1DigitalLink',
-            'hasMeasurement',
             'hasMerchantReturnPolicy',
-            'inProductGroupWithID',
-            'mobileUrl',
-            'negativeNotes',
-            'nsn',
-            'pattern',
-            'positiveNotes',
-            'size',
+            'hasShippingService',
+            'iso6523Code',
+            'knowsAbout',
+            'knowsLanguage',
+            'nonprofitStatus',
+            'ownershipFundingInfo',
+            'unnamedSourcesPolicy',
         ];
     }
 }
