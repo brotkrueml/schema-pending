@@ -11,17 +11,14 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
-use Brotkrueml\Schema\Attributes\Manual;
 use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
-use Brotkrueml\Schema\Manual\Publisher;
 
 /**
- * An eCommerce site.
+ * An eCommerce marketplace.
  */
-#[Type('OnlineStore')]
-#[Manual(Publisher::Google, 'Organization: Online store with return policy', 'https://developers.google.com/search/docs/appearance/structured-data/organization#example-online-store')]
-final class OnlineStore extends AbstractType
+#[Type('OnlineMarketplace')]
+final class OnlineMarketplace extends AbstractType
 {
     protected static array $propertyNames = [
         'acceptedPaymentMethod',
@@ -64,6 +61,7 @@ final class OnlineStore extends AbstractType
         'hasOfferCatalog',
         'hasPOS',
         'hasShippingService',
+        'hasStore',
         'identifier',
         'image',
         'interactionStatistic',
