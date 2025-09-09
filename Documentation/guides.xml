@@ -16,7 +16,7 @@
     />
     <project
         title="schema_pending"
-        release="2.14.0-dev"
+        release="2.14.0"
         version="2.14"
         copyright="since 2021 by Chris Müller"
     />
