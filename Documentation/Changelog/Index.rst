@@ -11,6 +11,12 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 `Unreleased <https://github.com/brotkrueml/schema-pending/compare/v2.14.0...HEAD>`_
 ---------------------------------------------------------------------------------------
 
+Added
+^^^^^
+
+
+* Compatibility with TYPO3 v14
+
 `2.14.0 <https://github.com/brotkrueml/schema-pending/compare/v2.13.0...v2.14.0>`_ - 2025-09-09
 ---------------------------------------------------------------------------------------------------
 
