@@ -1,6 +1,6 @@
 {
 	"name": "brotkrueml/schema-pending",
-	"description": "Extend the schema extension with pending terms",
+	"description": "Schema.org extension for pending - Extend the schema extension with pending terms",
 	"license": "GPL-2.0-or-later",
 	"type": "typo3-cms-extension",
 	"keywords": [
