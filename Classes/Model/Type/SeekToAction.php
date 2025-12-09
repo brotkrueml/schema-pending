@@ -37,6 +37,7 @@ final class SeekToAction extends AbstractType
         'mainEntityOfPage',
         'name',
         'object',
+        'owner',
         'participant',
         'potentialAction',
         'provider',

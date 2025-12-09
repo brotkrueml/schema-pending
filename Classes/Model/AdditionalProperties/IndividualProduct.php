@@ -27,6 +27,7 @@ final class IndividualProduct implements AdditionalPropertiesInterface
             'colorSwatch',
             'countryOfAssembly',
             'countryOfLastProcessing',
+            'displayLocation',
             'funding',
             'gtin',
             'hasAdultConsideration',

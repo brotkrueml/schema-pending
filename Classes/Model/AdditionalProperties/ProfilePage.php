@@ -34,6 +34,7 @@ final class ProfilePage implements AdditionalPropertiesInterface
             'creativeWorkStatus',
             'creditText',
             'digitalSourceType',
+            'displayLocation',
             'editEIDR',
             'educationalLevel',
             'funding',

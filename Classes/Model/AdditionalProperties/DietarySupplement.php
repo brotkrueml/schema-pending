@@ -27,6 +27,7 @@ final class DietarySupplement implements AdditionalPropertiesInterface
             'colorSwatch',
             'countryOfAssembly',
             'countryOfLastProcessing',
+            'displayLocation',
             'funding',
             'gtin',
             'hasAdultConsideration',

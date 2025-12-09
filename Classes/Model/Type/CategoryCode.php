@@ -21,6 +21,7 @@ use Brotkrueml\Schema\Core\Model\AbstractType;
 final class CategoryCode extends AbstractType
 {
     protected static array $propertyNames = [
+        'about',
         'additionalType',
         'alternateName',
         'codeValue',
@@ -32,6 +33,7 @@ final class CategoryCode extends AbstractType
         'inDefinedTermSet',
         'mainEntityOfPage',
         'name',
+        'owner',
         'potentialAction',
         'sameAs',
         'subjectOf',

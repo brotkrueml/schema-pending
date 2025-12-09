@@ -32,6 +32,7 @@ final class HealthPlanFormulary extends AbstractType
         'mainEntityOfPage',
         'name',
         'offersPrescriptionByMail',
+        'owner',
         'potentialAction',
         'sameAs',
         'subjectOf',

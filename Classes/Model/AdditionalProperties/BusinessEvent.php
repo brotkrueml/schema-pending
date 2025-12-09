@@ -26,6 +26,8 @@ final class BusinessEvent implements AdditionalPropertiesInterface
             'eventAttendanceMode',
             'eventSchedule',
             'funding',
+            'hasParticipationOffer',
+            'hasSponsorshipOffer',
             'maximumPhysicalAttendeeCapacity',
             'maximumVirtualAttendeeCapacity',
         ];

@@ -28,6 +28,7 @@ final class Vehicle implements AdditionalPropertiesInterface
             'colorSwatch',
             'countryOfAssembly',
             'countryOfLastProcessing',
+            'displayLocation',
             'funding',
             'gtin',
             'hasAdultConsideration',

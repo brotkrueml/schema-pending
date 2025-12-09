@@ -31,6 +31,7 @@ final class MerchantReturnPolicySeasonalOverride extends AbstractType
         'mainEntityOfPage',
         'merchantReturnDays',
         'name',
+        'owner',
         'potentialAction',
         'refundType',
         'restockingFee',

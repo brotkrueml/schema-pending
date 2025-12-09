@@ -26,6 +26,8 @@ final class DeliveryEvent implements AdditionalPropertiesInterface
             'eventAttendanceMode',
             'eventSchedule',
             'funding',
+            'hasParticipationOffer',
+            'hasSponsorshipOffer',
             'maximumPhysicalAttendeeCapacity',
             'maximumVirtualAttendeeCapacity',
         ];

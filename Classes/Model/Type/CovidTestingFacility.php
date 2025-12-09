@@ -113,6 +113,7 @@ final class CovidTestingFacility extends AbstractType
         'numberOfEmployees',
         'openingHours',
         'openingHoursSpecification',
+        'owner',
         'ownershipFundingInfo',
         'owns',
         'parentOrganization',

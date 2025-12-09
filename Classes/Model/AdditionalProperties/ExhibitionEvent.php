@@ -26,6 +26,8 @@ final class ExhibitionEvent implements AdditionalPropertiesInterface
             'eventAttendanceMode',
             'eventSchedule',
             'funding',
+            'hasParticipationOffer',
+            'hasSponsorshipOffer',
             'maximumPhysicalAttendeeCapacity',
             'maximumVirtualAttendeeCapacity',
         ];

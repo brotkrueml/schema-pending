@@ -34,6 +34,7 @@ final class TouristTrip extends AbstractType
         'mainEntityOfPage',
         'name',
         'offers',
+        'owner',
         'partOfTrip',
         'potentialAction',
         'provider',

@@ -37,6 +37,7 @@ final class HealthInsurancePlan extends AbstractType
         'includesHealthPlanNetwork',
         'mainEntityOfPage',
         'name',
+        'owner',
         'potentialAction',
         'sameAs',
         'subjectOf',

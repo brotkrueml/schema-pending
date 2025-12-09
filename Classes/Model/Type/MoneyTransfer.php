@@ -40,6 +40,7 @@ final class MoneyTransfer extends AbstractType
         'mainEntityOfPage',
         'name',
         'object',
+        'owner',
         'participant',
         'potentialAction',
         'provider',

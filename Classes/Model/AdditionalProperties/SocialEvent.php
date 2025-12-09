@@ -26,6 +26,8 @@ final class SocialEvent implements AdditionalPropertiesInterface
             'eventAttendanceMode',
             'eventSchedule',
             'funding',
+            'hasParticipationOffer',
+            'hasSponsorshipOffer',
             'maximumPhysicalAttendeeCapacity',
             'maximumVirtualAttendeeCapacity',
         ];

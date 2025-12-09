@@ -34,6 +34,7 @@ final class ComicIssue implements AdditionalPropertiesInterface
             'creativeWorkStatus',
             'creditText',
             'digitalSourceType',
+            'displayLocation',
             'editEIDR',
             'educationalLevel',
             'funding',

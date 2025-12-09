@@ -38,6 +38,7 @@ final class SizeSpecification extends AbstractType
         'mainEntityOfPage',
         'name',
         'nonEqual',
+        'owner',
         'potentialAction',
         'sameAs',
         'sizeGroup',

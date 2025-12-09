@@ -26,6 +26,8 @@ final class TheaterEvent implements AdditionalPropertiesInterface
             'eventAttendanceMode',
             'eventSchedule',
             'funding',
+            'hasParticipationOffer',
+            'hasSponsorshipOffer',
             'maximumPhysicalAttendeeCapacity',
             'maximumVirtualAttendeeCapacity',
         ];

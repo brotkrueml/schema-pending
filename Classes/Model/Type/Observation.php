@@ -45,6 +45,7 @@ final class Observation extends AbstractType
         'observationAbout',
         'observationDate',
         'observationPeriod',
+        'owner',
         'potentialAction',
         'sameAs',
         'subjectOf',

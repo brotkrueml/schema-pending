@@ -41,6 +41,7 @@ final class BioChemEntity extends AbstractType
         'isPartOfBioChemEntity',
         'mainEntityOfPage',
         'name',
+        'owner',
         'potentialAction',
         'sameAs',
         'subjectOf',

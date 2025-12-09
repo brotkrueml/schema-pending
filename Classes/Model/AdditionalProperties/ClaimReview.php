@@ -37,6 +37,7 @@ final class ClaimReview implements AdditionalPropertiesInterface
             'creativeWorkStatus',
             'creditText',
             'digitalSourceType',
+            'displayLocation',
             'editEIDR',
             'educationalLevel',
             'funding',

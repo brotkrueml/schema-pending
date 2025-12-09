@@ -34,6 +34,7 @@ final class MedicalWebPage implements AdditionalPropertiesInterface
             'creativeWorkStatus',
             'creditText',
             'digitalSourceType',
+            'displayLocation',
             'editEIDR',
             'educationalLevel',
             'funding',

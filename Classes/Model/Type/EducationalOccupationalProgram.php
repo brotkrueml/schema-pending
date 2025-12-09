@@ -42,6 +42,7 @@ final class EducationalOccupationalProgram extends AbstractType
         'occupationalCategory',
         'occupationalCredentialAwarded',
         'offers',
+        'owner',
         'potentialAction',
         'programPrerequisites',
         'programType',

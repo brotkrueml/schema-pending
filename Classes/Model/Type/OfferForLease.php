@@ -71,6 +71,7 @@ final class OfferForLease extends AbstractType
         'mpn',
         'name',
         'offeredBy',
+        'owner',
         'potentialAction',
         'price',
         'priceCurrency',

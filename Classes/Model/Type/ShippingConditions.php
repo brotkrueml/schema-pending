@@ -34,6 +34,7 @@ final class ShippingConditions extends AbstractType
         'name',
         'numItems',
         'orderValue',
+        'owner',
         'potentialAction',
         'sameAs',
         'seasonalOverride',

@@ -52,6 +52,7 @@ final class RadioBroadcastService extends AbstractType
         'mainEntityOfPage',
         'name',
         'offers',
+        'owner',
         'parentService',
         'potentialAction',
         'provider',

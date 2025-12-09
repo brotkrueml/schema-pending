@@ -34,6 +34,7 @@ final class BoatReservation extends AbstractType
         'mainEntityOfPage',
         'modifiedTime',
         'name',
+        'owner',
         'potentialAction',
         'priceCurrency',
         'programMembershipUsed',

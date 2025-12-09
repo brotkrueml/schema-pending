@@ -83,6 +83,7 @@ final class ResearchOrganization extends AbstractType
         'name',
         'nonprofitStatus',
         'numberOfEmployees',
+        'owner',
         'ownershipFundingInfo',
         'owns',
         'parentOrganization',

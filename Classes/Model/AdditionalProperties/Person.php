@@ -31,6 +31,7 @@ final class Person implements AdditionalPropertiesInterface
             'jobTitle',
             'knowsAbout',
             'knowsLanguage',
+            'lifeEvent',
             'pronouns',
         ];
     }

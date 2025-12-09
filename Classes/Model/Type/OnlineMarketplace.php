@@ -85,6 +85,7 @@ final class OnlineMarketplace extends AbstractType
         'name',
         'nonprofitStatus',
         'numberOfEmployees',
+        'owner',
         'ownershipFundingInfo',
         'owns',
         'parentOrganization',

@@ -40,6 +40,7 @@ final class FinancialIncentive extends AbstractType
         'incomeLimit',
         'mainEntityOfPage',
         'name',
+        'owner',
         'potentialAction',
         'provider',
         'publisher',

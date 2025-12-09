@@ -83,6 +83,7 @@ final class LibrarySystem extends AbstractType
         'name',
         'nonprofitStatus',
         'numberOfEmployees',
+        'owner',
         'ownershipFundingInfo',
         'owns',
         'parentOrganization',

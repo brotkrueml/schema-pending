@@ -30,6 +30,7 @@ final class WearableSizeSystemEnumeration extends AbstractType
         'image',
         'mainEntityOfPage',
         'name',
+        'owner',
         'potentialAction',
         'sameAs',
         'subjectOf',

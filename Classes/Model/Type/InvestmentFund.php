@@ -48,6 +48,7 @@ final class InvestmentFund extends AbstractType
         'mainEntityOfPage',
         'name',
         'offers',
+        'owner',
         'potentialAction',
         'provider',
         'providerMobility',

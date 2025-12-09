@@ -64,6 +64,7 @@ final class TouristDestination extends AbstractType
         'maximumAttendeeCapacity',
         'name',
         'openingHoursSpecification',
+        'owner',
         'photo',
         'potentialAction',
         'publicAccess',

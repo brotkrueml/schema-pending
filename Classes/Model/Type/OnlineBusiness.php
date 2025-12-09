@@ -83,6 +83,7 @@ final class OnlineBusiness extends AbstractType
         'name',
         'nonprofitStatus',
         'numberOfEmployees',
+        'owner',
         'ownershipFundingInfo',
         'owns',
         'parentOrganization',

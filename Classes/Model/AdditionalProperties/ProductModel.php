@@ -27,6 +27,7 @@ final class ProductModel implements AdditionalPropertiesInterface
             'colorSwatch',
             'countryOfAssembly',
             'countryOfLastProcessing',
+            'displayLocation',
             'funding',
             'gtin',
             'hasAdultConsideration',

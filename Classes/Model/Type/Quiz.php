@@ -21,7 +21,7 @@ use Brotkrueml\Schema\Manual\Publisher;
  */
 #[Type('Quiz')]
 #[Manual(Publisher::Google, 'Practice problem', 'https://developers.google.com/search/docs/appearance/structured-data/practice-problems')]
-#[Manual(Publisher::Google, 'Education Q&amp;A', 'https://developers.google.com/search/docs/appearance/structured-data/education-qa')]
+#[Manual(Publisher::Google, 'Education Q&A', 'https://developers.google.com/search/docs/appearance/structured-data/education-qa')]
 final class Quiz extends AbstractType
 {
     protected static array $propertyNames = [
@@ -72,6 +72,7 @@ final class Quiz extends AbstractType
         'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
+        'displayLocation',
         'editEIDR',
         'editor',
         'educationalAlignment',
@@ -108,6 +109,7 @@ final class Quiz extends AbstractType
         'mentions',
         'name',
         'offers',
+        'owner',
         'pattern',
         'position',
         'potentialAction',

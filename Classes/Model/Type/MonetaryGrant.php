@@ -32,6 +32,7 @@ final class MonetaryGrant extends AbstractType
         'image',
         'mainEntityOfPage',
         'name',
+        'owner',
         'potentialAction',
         'sameAs',
         'sponsor',

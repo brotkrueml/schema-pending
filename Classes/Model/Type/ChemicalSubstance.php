@@ -43,6 +43,7 @@ final class ChemicalSubstance extends AbstractType
         'isPartOfBioChemEntity',
         'mainEntityOfPage',
         'name',
+        'owner',
         'potentialAction',
         'potentialUse',
         'sameAs',

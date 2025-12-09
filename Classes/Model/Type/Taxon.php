@@ -31,6 +31,7 @@ final class Taxon extends AbstractType
         'image',
         'mainEntityOfPage',
         'name',
+        'owner',
         'parentTaxon',
         'potentialAction',
         'sameAs',

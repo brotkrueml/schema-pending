@@ -33,6 +33,7 @@ final class MemberProgramTier extends AbstractType
         'mainEntityOfPage',
         'membershipPointsEarned',
         'name',
+        'owner',
         'potentialAction',
         'sameAs',
         'subjectOf',

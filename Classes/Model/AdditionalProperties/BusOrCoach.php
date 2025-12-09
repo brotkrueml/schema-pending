@@ -28,6 +28,7 @@ final class BusOrCoach implements AdditionalPropertiesInterface
             'colorSwatch',
             'countryOfAssembly',
             'countryOfLastProcessing',
+            'displayLocation',
             'funding',
             'gtin',
             'hasAdultConsideration',

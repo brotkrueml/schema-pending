@@ -36,6 +36,7 @@ final class Grant extends AbstractType
         'image',
         'mainEntityOfPage',
         'name',
+        'owner',
         'potentialAction',
         'sameAs',
         'sponsor',

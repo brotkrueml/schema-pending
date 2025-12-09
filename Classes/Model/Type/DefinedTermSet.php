@@ -15,7 +15,7 @@ use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
 
 /**
- * A set of defined terms, for example a set of categories or a classification scheme, a glossary, dictionary or enumeration.
+ * A set of defined terms, for example a set of categories or a classification scheme, a glossary, dictionary or enumeration. Use the about property to specify what the term set is about.
  */
 #[Type('DefinedTermSet')]
 final class DefinedTermSet extends AbstractType
@@ -67,6 +67,7 @@ final class DefinedTermSet extends AbstractType
         'digitalSourceType',
         'disambiguatingDescription',
         'discussionUrl',
+        'displayLocation',
         'editEIDR',
         'editor',
         'educationalAlignment',
@@ -104,6 +105,7 @@ final class DefinedTermSet extends AbstractType
         'mentions',
         'name',
         'offers',
+        'owner',
         'pattern',
         'position',
         'potentialAction',

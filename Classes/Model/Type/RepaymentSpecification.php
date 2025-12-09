@@ -34,6 +34,7 @@ final class RepaymentSpecification extends AbstractType
         'mainEntityOfPage',
         'name',
         'numberOfLoanPayments',
+        'owner',
         'potentialAction',
         'sameAs',
         'subjectOf',

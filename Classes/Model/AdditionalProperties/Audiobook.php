@@ -34,6 +34,7 @@ final class Audiobook implements AdditionalPropertiesInterface
             'creativeWorkStatus',
             'creditText',
             'digitalSourceType',
+            'displayLocation',
             'editEIDR',
             'educationalLevel',
             'embeddedTextCaption',

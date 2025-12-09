@@ -41,6 +41,7 @@ final class SolveMathAction extends AbstractType
         'mainEntityOfPage',
         'name',
         'object',
+        'owner',
         'participant',
         'potentialAction',
         'provider',

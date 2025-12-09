@@ -34,6 +34,7 @@ final class ImageObject implements AdditionalPropertiesInterface
             'creativeWorkStatus',
             'creditText',
             'digitalSourceType',
+            'displayLocation',
             'editEIDR',
             'educationalLevel',
             'embeddedTextCaption',

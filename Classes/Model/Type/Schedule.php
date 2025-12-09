@@ -39,6 +39,7 @@ final class Schedule extends AbstractType
         'image',
         'mainEntityOfPage',
         'name',
+        'owner',
         'potentialAction',
         'repeatCount',
         'repeatFrequency',

@@ -71,6 +71,7 @@ final class OfferForPurchase extends AbstractType
         'mpn',
         'name',
         'offeredBy',
+        'owner',
         'potentialAction',
         'price',
         'priceCurrency',

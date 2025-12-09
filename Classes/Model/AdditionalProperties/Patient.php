@@ -31,6 +31,7 @@ final class Patient implements AdditionalPropertiesInterface
             'jobTitle',
             'knowsAbout',
             'knowsLanguage',
+            'lifeEvent',
             'pronouns',
             'suggestedAge',
             'suggestedMeasurement',

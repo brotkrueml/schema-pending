@@ -40,6 +40,7 @@ final class PlayGameAction extends AbstractType
         'mainEntityOfPage',
         'name',
         'object',
+        'owner',
         'participant',
         'potentialAction',
         'provider',

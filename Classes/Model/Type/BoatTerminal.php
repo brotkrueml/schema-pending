@@ -63,6 +63,7 @@ final class BoatTerminal extends AbstractType
         'name',
         'openingHours',
         'openingHoursSpecification',
+        'owner',
         'photo',
         'potentialAction',
         'publicAccess',

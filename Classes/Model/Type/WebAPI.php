@@ -45,6 +45,7 @@ final class WebAPI extends AbstractType
         'mainEntityOfPage',
         'name',
         'offers',
+        'owner',
         'potentialAction',
         'provider',
         'providerMobility',

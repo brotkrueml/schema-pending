@@ -45,6 +45,7 @@ final class Gene extends AbstractType
         'isPartOfBioChemEntity',
         'mainEntityOfPage',
         'name',
+        'owner',
         'potentialAction',
         'sameAs',
         'subjectOf',

@@ -44,6 +44,7 @@ final class MerchantReturnPolicy extends AbstractType
         'merchantReturnDays',
         'merchantReturnLink',
         'name',
+        'owner',
         'potentialAction',
         'refundType',
         'restockingFee',

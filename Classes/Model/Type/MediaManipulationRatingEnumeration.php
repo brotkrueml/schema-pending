@@ -30,6 +30,7 @@ final class MediaManipulationRatingEnumeration extends AbstractType
         'image',
         'mainEntityOfPage',
         'name',
+        'owner',
         'potentialAction',
         'sameAs',
         'subjectOf',

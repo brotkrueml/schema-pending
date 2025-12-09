@@ -31,6 +31,7 @@ final class StatisticalPopulation extends AbstractType
         'image',
         'mainEntityOfPage',
         'name',
+        'owner',
         'populationType',
         'potentialAction',
         'sameAs',

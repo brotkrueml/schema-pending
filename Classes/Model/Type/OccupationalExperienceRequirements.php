@@ -30,6 +30,7 @@ final class OccupationalExperienceRequirements extends AbstractType
         'mainEntityOfPage',
         'monthsOfExperience',
         'name',
+        'owner',
         'potentialAction',
         'sameAs',
         'subjectOf',

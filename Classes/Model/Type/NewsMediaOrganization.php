@@ -86,6 +86,7 @@ final class NewsMediaOrganization extends AbstractType
         'noBylinesPolicy',
         'nonprofitStatus',
         'numberOfEmployees',
+        'owner',
         'ownershipFundingInfo',
         'owns',
         'parentOrganization',

@@ -32,6 +32,7 @@ final class ConstraintNode extends AbstractType
         'mainEntityOfPage',
         'name',
         'numConstraints',
+        'owner',
         'potentialAction',
         'sameAs',
         'subjectOf',

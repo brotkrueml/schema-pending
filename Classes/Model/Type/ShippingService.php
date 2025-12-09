@@ -31,6 +31,7 @@ final class ShippingService extends AbstractType
         'image',
         'mainEntityOfPage',
         'name',
+        'owner',
         'potentialAction',
         'sameAs',
         'shippingConditions',

@@ -48,6 +48,7 @@ final class MolecularEntity extends AbstractType
         'molecularWeight',
         'monoisotopicMolecularWeight',
         'name',
+        'owner',
         'potentialAction',
         'potentialUse',
         'sameAs',

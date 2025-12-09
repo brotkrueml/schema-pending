@@ -40,6 +40,7 @@ final class FloorPlan extends AbstractType
         'numberOfFullBathrooms',
         'numberOfPartialBathrooms',
         'numberOfRooms',
+        'owner',
         'petsAllowed',
         'potentialAction',
         'sameAs',

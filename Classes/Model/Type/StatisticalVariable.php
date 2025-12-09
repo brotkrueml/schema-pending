@@ -36,6 +36,7 @@ final class StatisticalVariable extends AbstractType
         'measurementTechnique',
         'name',
         'numConstraints',
+        'owner',
         'populationType',
         'potentialAction',
         'sameAs',

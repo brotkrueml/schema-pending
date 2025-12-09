@@ -32,6 +32,7 @@ final class LinkRole extends AbstractType
         'linkRelationship',
         'mainEntityOfPage',
         'name',
+        'owner',
         'potentialAction',
         'roleName',
         'sameAs',
