@@ -29,6 +29,7 @@ final class RecyclingCenter implements AdditionalPropertiesInterface
             'diversityPolicy',
             'diversityStaffingReport',
             'ethicsPolicy',
+            'floorLevel',
             'funding',
             'hasCredential',
             'hasDriveThroughService',

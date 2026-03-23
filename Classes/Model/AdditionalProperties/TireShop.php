@@ -29,6 +29,7 @@ final class TireShop implements AdditionalPropertiesInterface
             'diversityPolicy',
             'diversityStaffingReport',
             'ethicsPolicy',
+            'floorLevel',
             'funding',
             'hasCredential',
             'hasDriveThroughService',

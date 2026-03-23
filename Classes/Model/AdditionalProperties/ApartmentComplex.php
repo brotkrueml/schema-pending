@@ -24,6 +24,7 @@ final class ApartmentComplex implements AdditionalPropertiesInterface
     {
         return [
             'accommodationFloorPlan',
+            'floorLevel',
             'hasDriveThroughService',
             'hasGS1DigitalLink',
             'numberOfAccommodationUnits',

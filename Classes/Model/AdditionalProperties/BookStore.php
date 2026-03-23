@@ -29,6 +29,7 @@ final class BookStore implements AdditionalPropertiesInterface
             'diversityPolicy',
             'diversityStaffingReport',
             'ethicsPolicy',
+            'floorLevel',
             'funding',
             'hasCredential',
             'hasDriveThroughService',

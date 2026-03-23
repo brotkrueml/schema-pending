@@ -29,6 +29,7 @@ final class Brewery implements AdditionalPropertiesInterface
             'diversityPolicy',
             'diversityStaffingReport',
             'ethicsPolicy',
+            'floorLevel',
             'funding',
             'hasCredential',
             'hasDriveThroughService',

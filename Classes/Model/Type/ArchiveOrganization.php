@@ -54,6 +54,7 @@ final class ArchiveOrganization extends AbstractType
         'ethicsPolicy',
         'event',
         'faxNumber',
+        'floorLevel',
         'founder',
         'foundingDate',
         'foundingLocation',

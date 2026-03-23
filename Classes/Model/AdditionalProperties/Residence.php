@@ -24,6 +24,7 @@ final class Residence implements AdditionalPropertiesInterface
     {
         return [
             'accommodationFloorPlan',
+            'floorLevel',
             'hasDriveThroughService',
             'hasGS1DigitalLink',
             'tourBookingPage',

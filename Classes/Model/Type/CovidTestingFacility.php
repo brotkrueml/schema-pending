@@ -56,6 +56,7 @@ final class CovidTestingFacility extends AbstractType
         'ethicsPolicy',
         'event',
         'faxNumber',
+        'floorLevel',
         'founder',
         'foundingDate',
         'foundingLocation',

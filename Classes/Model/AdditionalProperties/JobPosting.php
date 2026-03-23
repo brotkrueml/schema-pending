@@ -31,6 +31,7 @@ final class JobPosting implements AdditionalPropertiesInterface
             'employerOverview',
             'employmentUnit',
             'experienceInPlaceOfEducation',
+            'jobDuration',
             'jobImmediateStart',
             'jobLocationType',
             'jobStartDate',
