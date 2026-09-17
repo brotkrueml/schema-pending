@@ -49,11 +49,15 @@
 	},
 	"extra": {
 		"branch-alias": {
-			"dev-main": "2.17.x-dev"
+			"dev-main": "3.0.x-dev"
 		},
 		"typo3/cms": {
+            "Package": {
+                "providesPackages": {}
+            },
 			"app-dir": ".Build",
 			"extension-key": "schema_pending",
+            "version": "3.0.0-dev",
 			"web-dir": ".Build/web"
 		}
 	}
