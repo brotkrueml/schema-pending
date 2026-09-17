@@ -15,7 +15,6 @@ use Brotkrueml\Schema\Core\Model\EnumerationInterface;
 
 /**
  * ITNonprofitType: Non-profit organization type originating from Italy. Most categories are drawn from the Italian Third Sector Code (Legislative Decree No. 117 of 3 July 2017), although some Italian non-profit entities, such as amateur sports entities, are primarily governed by other legislation.
- * @experimental This enum is considered experimental and may change at any time until it is declared stable.
  */
 enum ITNonprofitType implements EnumerationInterface
 {

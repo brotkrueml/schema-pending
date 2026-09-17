@@ -15,7 +15,6 @@ use Brotkrueml\Schema\Core\Model\EnumerationInterface;
 
 /**
  * DENonprofitType: Non-profit organization type originating from Germany in accordance with article 52 of the German fiscal code (Abgabenverordnung or AO).
- * @experimental This enum is considered experimental and may change at any time until it is declared stable.
  */
 enum DENonprofitType implements EnumerationInterface
 {

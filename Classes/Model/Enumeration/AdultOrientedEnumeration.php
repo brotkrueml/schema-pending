@@ -15,7 +15,6 @@ use Brotkrueml\Schema\Core\Model\EnumerationInterface;
 
 /**
  * Enumeration of considerations that make a product relevant or potentially restricted for adults only.
- * @experimental This enum is considered experimental and may change at any time until it is declared stable.
  */
 enum AdultOrientedEnumeration implements EnumerationInterface
 {
