@@ -23,26 +23,7 @@ final class FastFoodRestaurant implements AdditionalPropertiesInterface
     public function getAdditionalProperties(): array
     {
         return [
-            'actionableFeedbackPolicy',
-            'agentInteractionStatistic',
-            'correctionsPolicy',
-            'diversityPolicy',
-            'diversityStaffingReport',
-            'ethicsPolicy',
-            'floorLevel',
-            'funding',
-            'hasCredential',
-            'hasDriveThroughService',
-            'hasGS1DigitalLink',
-            'hasMerchantReturnPolicy',
-            'hasShippingService',
-            'iso6523Code',
-            'knowsAbout',
-            'knowsLanguage',
-            'nonprofitStatus',
-            'ownershipFundingInfo',
-            'tourBookingPage',
-            'unnamedSourcesPolicy',
+            'authorizedRepresentative',
         ];
     }
 }

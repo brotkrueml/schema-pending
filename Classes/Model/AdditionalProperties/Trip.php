@@ -25,7 +25,6 @@ final class Trip implements AdditionalPropertiesInterface
         return [
             'itinerary',
             'partOfTrip',
-            'provider',
             'subTrip',
         ];
     }

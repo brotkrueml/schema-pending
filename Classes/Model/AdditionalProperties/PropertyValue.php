@@ -23,8 +23,7 @@ final class PropertyValue implements AdditionalPropertiesInterface
     public function getAdditionalProperties(): array
     {
         return [
-            'measurementMethod',
-            'measurementTechnique',
+            'valueGroup',
         ];
     }
 }

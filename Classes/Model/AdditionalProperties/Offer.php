@@ -24,16 +24,11 @@ final class Offer implements AdditionalPropertiesInterface
     {
         return [
             'asin',
-            'checkoutPageURLTemplate',
             'gtin',
             'hasAdultConsideration',
-            'hasGS1DigitalLink',
-            'hasMeasurement',
-            'hasMerchantReturnPolicy',
-            'ineligibleRegion',
-            'leaseLength',
+            'hasDigitalProductPassport',
+            'itemPopularity',
             'mobileUrl',
-            'validForMemberTier',
         ];
     }
 }

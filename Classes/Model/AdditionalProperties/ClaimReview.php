@@ -23,37 +23,9 @@ final class ClaimReview implements AdditionalPropertiesInterface
     public function getAdditionalProperties(): array
     {
         return [
-            'abstract',
-            'acquireLicensePage',
-            'archivedAt',
-            'assesses',
-            'associatedClaimReview',
-            'associatedMediaReview',
-            'associatedReview',
-            'conditionsOfAccess',
-            'contentReferenceTime',
-            'copyrightNotice',
-            'correction',
             'creativeWorkStatus',
-            'creditText',
-            'digitalSourceType',
             'displayLocation',
-            'editEIDR',
             'educationalLevel',
-            'funding',
-            'interpretedAsClaim',
-            'maintainer',
-            'materialExtent',
-            'negativeNotes',
-            'pattern',
-            'positiveNotes',
-            'provider',
-            'sdDatePublished',
-            'sdLicense',
-            'sdPublisher',
-            'size',
-            'teaches',
-            'usageInfo',
         ];
     }
 }

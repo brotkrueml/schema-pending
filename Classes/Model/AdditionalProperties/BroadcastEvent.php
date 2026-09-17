@@ -23,14 +23,8 @@ final class BroadcastEvent implements AdditionalPropertiesInterface
     public function getAdditionalProperties(): array
     {
         return [
-            'eventAttendanceMode',
-            'eventSchedule',
-            'funding',
             'hasParticipationOffer',
             'hasSponsorshipOffer',
-            'maximumPhysicalAttendeeCapacity',
-            'maximumVirtualAttendeeCapacity',
-            'subtitleLanguage',
         ];
     }
 }

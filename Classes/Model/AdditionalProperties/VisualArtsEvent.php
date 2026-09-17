@@ -23,13 +23,8 @@ final class VisualArtsEvent implements AdditionalPropertiesInterface
     public function getAdditionalProperties(): array
     {
         return [
-            'eventAttendanceMode',
-            'eventSchedule',
-            'funding',
             'hasParticipationOffer',
             'hasSponsorshipOffer',
-            'maximumPhysicalAttendeeCapacity',
-            'maximumVirtualAttendeeCapacity',
         ];
     }
 }

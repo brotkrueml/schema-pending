@@ -23,8 +23,7 @@ final class ShippingRateSettings implements AdditionalPropertiesInterface
     public function getAdditionalProperties(): array
     {
         return [
-            'orderPercentage',
-            'weightPercentage',
+            'minimumOrderValue',
         ];
     }
 }

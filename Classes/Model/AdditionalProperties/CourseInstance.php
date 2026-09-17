@@ -23,15 +23,8 @@ final class CourseInstance implements AdditionalPropertiesInterface
     public function getAdditionalProperties(): array
     {
         return [
-            'courseSchedule',
-            'courseWorkload',
-            'eventAttendanceMode',
-            'eventSchedule',
-            'funding',
             'hasParticipationOffer',
             'hasSponsorshipOffer',
-            'maximumPhysicalAttendeeCapacity',
-            'maximumVirtualAttendeeCapacity',
         ];
     }
 }

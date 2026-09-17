@@ -23,14 +23,6 @@ final class Person implements AdditionalPropertiesInterface
     public function getAdditionalProperties(): array
     {
         return [
-            'agentInteractionStatistic',
-            'callSign',
-            'funding',
-            'gender',
-            'hasCredential',
-            'jobTitle',
-            'knowsAbout',
-            'knowsLanguage',
             'lifeEvent',
             'pronouns',
         ];

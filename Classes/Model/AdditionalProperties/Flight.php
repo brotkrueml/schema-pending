@@ -25,7 +25,6 @@ final class Flight implements AdditionalPropertiesInterface
         return [
             'itinerary',
             'partOfTrip',
-            'provider',
             'subTrip',
         ];
     }

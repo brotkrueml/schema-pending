@@ -23,34 +23,9 @@ final class TVClip implements AdditionalPropertiesInterface
     public function getAdditionalProperties(): array
     {
         return [
-            'abstract',
-            'acquireLicensePage',
-            'archivedAt',
-            'assesses',
-            'conditionsOfAccess',
-            'contentReferenceTime',
-            'copyrightNotice',
-            'correction',
             'creativeWorkStatus',
-            'creditText',
-            'digitalSourceType',
             'displayLocation',
-            'editEIDR',
             'educationalLevel',
-            'endOffset',
-            'funding',
-            'interpretedAsClaim',
-            'maintainer',
-            'materialExtent',
-            'pattern',
-            'provider',
-            'sdDatePublished',
-            'sdLicense',
-            'sdPublisher',
-            'size',
-            'startOffset',
-            'teaches',
-            'usageInfo',
         ];
     }
 }

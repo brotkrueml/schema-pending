@@ -24,16 +24,11 @@ final class AggregateOffer implements AdditionalPropertiesInterface
     {
         return [
             'asin',
-            'checkoutPageURLTemplate',
             'gtin',
             'hasAdultConsideration',
-            'hasGS1DigitalLink',
-            'hasMeasurement',
-            'hasMerchantReturnPolicy',
-            'ineligibleRegion',
-            'leaseLength',
+            'hasDigitalProductPassport',
+            'itemPopularity',
             'mobileUrl',
-            'validForMemberTier',
         ];
     }
 }

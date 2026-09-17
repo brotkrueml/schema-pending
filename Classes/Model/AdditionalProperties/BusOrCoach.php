@@ -24,25 +24,19 @@ final class BusOrCoach implements AdditionalPropertiesInterface
     {
         return [
             'asin',
-            'callSign',
+            'authorizedRepresentative',
             'colorSwatch',
-            'countryOfAssembly',
-            'countryOfLastProcessing',
+            'consumerNotice',
             'displayLocation',
-            'funding',
             'gtin',
             'hasAdultConsideration',
-            'hasEnergyConsumptionDetails',
-            'hasGS1DigitalLink',
-            'hasMeasurement',
-            'hasMerchantReturnPolicy',
-            'inProductGroupWithID',
+            'hasDigitalProductPassport',
+            'importer',
+            'isOftenBoughtWith',
             'mobileUrl',
-            'negativeNotes',
-            'nsn',
-            'pattern',
-            'positiveNotes',
-            'size',
+            'recycledContentPercentage',
+            'specification',
+            'substanceOfConcern',
         ];
     }
 }

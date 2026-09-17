@@ -23,38 +23,10 @@ final class Course implements AdditionalPropertiesInterface
     public function getAdditionalProperties(): array
     {
         return [
-            'abstract',
-            'acquireLicensePage',
-            'archivedAt',
-            'assesses',
             'competencyRequired',
-            'conditionsOfAccess',
-            'contentReferenceTime',
-            'copyrightNotice',
-            'correction',
             'creativeWorkStatus',
-            'creditText',
-            'digitalSourceType',
             'displayLocation',
-            'editEIDR',
             'educationalLevel',
-            'financialAidEligible',
-            'funding',
-            'interpretedAsClaim',
-            'maintainer',
-            'materialExtent',
-            'numberOfCredits',
-            'occupationalCredentialAwarded',
-            'pattern',
-            'provider',
-            'sdDatePublished',
-            'sdLicense',
-            'sdPublisher',
-            'size',
-            'syllabusSections',
-            'teaches',
-            'totalHistoricalEnrollment',
-            'usageInfo',
         ];
     }
 }

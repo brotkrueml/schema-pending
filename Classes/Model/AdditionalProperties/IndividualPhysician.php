@@ -23,30 +23,11 @@ final class IndividualPhysician implements AdditionalPropertiesInterface
     public function getAdditionalProperties(): array
     {
         return [
-            'actionableFeedbackPolicy',
-            'agentInteractionStatistic',
-            'correctionsPolicy',
-            'diversityPolicy',
-            'diversityStaffingReport',
-            'ethicsPolicy',
-            'floorLevel',
-            'funding',
-            'hasCredential',
-            'hasDriveThroughService',
-            'hasGS1DigitalLink',
-            'hasMerchantReturnPolicy',
-            'hasShippingService',
+            'authorizedRepresentative',
             'healthPlanNetworkId',
             'isAcceptingNewPatients',
-            'iso6523Code',
-            'knowsAbout',
-            'knowsLanguage',
-            'nonprofitStatus',
             'occupationalCategory',
-            'ownershipFundingInfo',
             'practicesAt',
-            'tourBookingPage',
-            'unnamedSourcesPolicy',
             'usNPI',
         ];
     }

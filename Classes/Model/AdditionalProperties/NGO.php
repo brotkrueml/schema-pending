@@ -23,23 +23,7 @@ final class NGO implements AdditionalPropertiesInterface
     public function getAdditionalProperties(): array
     {
         return [
-            'actionableFeedbackPolicy',
-            'agentInteractionStatistic',
-            'correctionsPolicy',
-            'diversityPolicy',
-            'diversityStaffingReport',
-            'ethicsPolicy',
-            'funding',
-            'hasCredential',
-            'hasGS1DigitalLink',
-            'hasMerchantReturnPolicy',
-            'hasShippingService',
-            'iso6523Code',
-            'knowsAbout',
-            'knowsLanguage',
-            'nonprofitStatus',
-            'ownershipFundingInfo',
-            'unnamedSourcesPolicy',
+            'authorizedRepresentative',
         ];
     }
 }

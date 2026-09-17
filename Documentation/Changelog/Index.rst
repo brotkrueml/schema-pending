@@ -11,6 +11,12 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 `Unreleased <https://github.com/brotkrueml/schema-pending/compare/v2.17.0...HEAD>`_
 ---------------------------------------------------------------------------------------
 
+Updated
+^^^^^^^
+
+
+* schema.org definition to version 30.1
+
 Removed
 ^^^^^^^
 
@@ -18,6 +24,7 @@ Removed
 * Compatibility with EXT:schema version 3
 * Compatibility with TYPO3 v11
 * Compatibility with TYPO3 v12
+* Types and view helpers representing enumerations
 
 `2.17.0 <https://github.com/brotkrueml/schema-pending/compare/v2.16.0...v2.17.0>`_ - 2026-03-23
 ---------------------------------------------------------------------------------------------------

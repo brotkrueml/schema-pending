@@ -24,23 +24,12 @@ final class JobPosting implements AdditionalPropertiesInterface
     {
         return [
             'applicantLocationRequirements',
-            'applicationContact',
             'directApply',
             'educationRequirements',
-            'eligibilityToWorkRequirement',
-            'employerOverview',
-            'employmentUnit',
             'experienceInPlaceOfEducation',
             'jobDuration',
-            'jobImmediateStart',
-            'jobLocationType',
-            'jobStartDate',
             'occupationalCategory',
-            'physicalRequirement',
             'qualifications',
-            'securityClearanceRequirement',
-            'sensoryRequirement',
-            'totalJobOpenings',
         ];
     }
 }

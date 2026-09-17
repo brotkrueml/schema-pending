@@ -23,8 +23,7 @@ final class LocationFeatureSpecification implements AdditionalPropertiesInterfac
     public function getAdditionalProperties(): array
     {
         return [
-            'measurementMethod',
-            'measurementTechnique',
+            'valueGroup',
         ];
     }
 }

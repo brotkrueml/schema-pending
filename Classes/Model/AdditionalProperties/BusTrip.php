@@ -25,7 +25,6 @@ final class BusTrip implements AdditionalPropertiesInterface
         return [
             'itinerary',
             'partOfTrip',
-            'provider',
             'subTrip',
         ];
     }

@@ -23,29 +23,9 @@ final class Hospital implements AdditionalPropertiesInterface
     public function getAdditionalProperties(): array
     {
         return [
-            'actionableFeedbackPolicy',
-            'agentInteractionStatistic',
-            'correctionsPolicy',
-            'diversityPolicy',
-            'diversityStaffingReport',
-            'ethicsPolicy',
-            'floorLevel',
-            'funding',
-            'hasCredential',
-            'hasDriveThroughService',
-            'hasGS1DigitalLink',
-            'hasMerchantReturnPolicy',
-            'hasShippingService',
+            'authorizedRepresentative',
             'healthPlanNetworkId',
-            'healthcareReportingData',
             'isAcceptingNewPatients',
-            'iso6523Code',
-            'knowsAbout',
-            'knowsLanguage',
-            'nonprofitStatus',
-            'ownershipFundingInfo',
-            'tourBookingPage',
-            'unnamedSourcesPolicy',
         ];
     }
 }

@@ -23,16 +23,9 @@ final class EducationEvent implements AdditionalPropertiesInterface
     public function getAdditionalProperties(): array
     {
         return [
-            'assesses',
             'educationalLevel',
-            'eventAttendanceMode',
-            'eventSchedule',
-            'funding',
             'hasParticipationOffer',
             'hasSponsorshipOffer',
-            'maximumPhysicalAttendeeCapacity',
-            'maximumVirtualAttendeeCapacity',
-            'teaches',
         ];
     }
 }

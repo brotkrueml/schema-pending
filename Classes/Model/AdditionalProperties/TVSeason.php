@@ -23,33 +23,9 @@ final class TVSeason implements AdditionalPropertiesInterface
     public function getAdditionalProperties(): array
     {
         return [
-            'abstract',
-            'acquireLicensePage',
-            'archivedAt',
-            'assesses',
-            'conditionsOfAccess',
-            'contentReferenceTime',
-            'copyrightNotice',
-            'correction',
             'creativeWorkStatus',
-            'creditText',
-            'digitalSourceType',
             'displayLocation',
-            'editEIDR',
             'educationalLevel',
-            'funding',
-            'interpretedAsClaim',
-            'maintainer',
-            'materialExtent',
-            'pattern',
-            'provider',
-            'sdDatePublished',
-            'sdLicense',
-            'sdPublisher',
-            'size',
-            'teaches',
-            'titleEIDR',
-            'usageInfo',
         ];
     }
 }

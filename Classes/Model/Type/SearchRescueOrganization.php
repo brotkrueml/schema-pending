@@ -30,6 +30,7 @@ final class SearchRescueOrganization extends AbstractType
         'alternateName',
         'alumni',
         'areaServed',
+        'authorizedRepresentative',
         'award',
         'brand',
         'companyRegistration',

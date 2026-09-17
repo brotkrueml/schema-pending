@@ -25,7 +25,6 @@ final class Demand implements AdditionalPropertiesInterface
         return [
             'asin',
             'gtin',
-            'ineligibleRegion',
         ];
     }
 }

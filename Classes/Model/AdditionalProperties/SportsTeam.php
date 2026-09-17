@@ -23,25 +23,7 @@ final class SportsTeam implements AdditionalPropertiesInterface
     public function getAdditionalProperties(): array
     {
         return [
-            'actionableFeedbackPolicy',
-            'agentInteractionStatistic',
-            'correctionsPolicy',
-            'diversityPolicy',
-            'diversityStaffingReport',
-            'ethicsPolicy',
-            'funding',
-            'gender',
-            'hasCredential',
-            'hasGS1DigitalLink',
-            'hasMerchantReturnPolicy',
-            'hasShippingService',
-            'iso6523Code',
-            'knowsAbout',
-            'knowsLanguage',
-            'nonprofitStatus',
-            'ownershipFundingInfo',
-            'sport',
-            'unnamedSourcesPolicy',
+            'authorizedRepresentative',
         ];
     }
 }
