@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class BusTrip implements AdditionalPropertiesInterface
+final readonly class BusTrip implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

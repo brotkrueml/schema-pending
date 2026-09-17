@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class EmergencyService implements AdditionalPropertiesInterface
+final readonly class EmergencyService implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

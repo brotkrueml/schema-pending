@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class FoodEvent implements AdditionalPropertiesInterface
+final readonly class FoodEvent implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

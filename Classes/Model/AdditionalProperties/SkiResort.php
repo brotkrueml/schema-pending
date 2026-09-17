@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class SkiResort implements AdditionalPropertiesInterface
+final readonly class SkiResort implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class Locksmith implements AdditionalPropertiesInterface
+final readonly class Locksmith implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

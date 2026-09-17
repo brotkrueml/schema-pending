@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class PoliticalParty implements AdditionalPropertiesInterface
+final readonly class PoliticalParty implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class CategoryCodeSet implements AdditionalPropertiesInterface
+final readonly class CategoryCodeSet implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

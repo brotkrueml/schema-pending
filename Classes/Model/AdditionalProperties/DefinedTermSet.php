@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class DefinedTermSet implements AdditionalPropertiesInterface
+final readonly class DefinedTermSet implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class LocationFeatureSpecification implements AdditionalPropertiesInterface
+final readonly class LocationFeatureSpecification implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

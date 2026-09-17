@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class SequentialArt implements AdditionalPropertiesInterface
+final readonly class SequentialArt implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

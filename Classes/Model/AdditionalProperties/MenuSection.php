@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class MenuSection implements AdditionalPropertiesInterface
+final readonly class MenuSection implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

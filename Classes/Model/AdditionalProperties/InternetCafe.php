@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class InternetCafe implements AdditionalPropertiesInterface
+final readonly class InternetCafe implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

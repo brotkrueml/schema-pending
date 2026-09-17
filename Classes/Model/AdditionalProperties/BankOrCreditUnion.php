@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class BankOrCreditUnion implements AdditionalPropertiesInterface
+final readonly class BankOrCreditUnion implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

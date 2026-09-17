@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class NightClub implements AdditionalPropertiesInterface
+final readonly class NightClub implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

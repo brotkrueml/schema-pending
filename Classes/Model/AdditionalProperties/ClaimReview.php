@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class ClaimReview implements AdditionalPropertiesInterface
+final readonly class ClaimReview implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

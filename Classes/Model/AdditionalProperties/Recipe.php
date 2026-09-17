@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class Recipe implements AdditionalPropertiesInterface
+final readonly class Recipe implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

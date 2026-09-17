@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class BowlingAlley implements AdditionalPropertiesInterface
+final readonly class BowlingAlley implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

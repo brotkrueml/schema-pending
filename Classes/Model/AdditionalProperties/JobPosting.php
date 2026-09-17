@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class JobPosting implements AdditionalPropertiesInterface
+final readonly class JobPosting implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

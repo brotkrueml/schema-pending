@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class CorrectionComment implements AdditionalPropertiesInterface
+final readonly class CorrectionComment implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

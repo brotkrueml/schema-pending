@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class MovieRentalStore implements AdditionalPropertiesInterface
+final readonly class MovieRentalStore implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

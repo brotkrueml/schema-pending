@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class ComicCoverArt implements AdditionalPropertiesInterface
+final readonly class ComicCoverArt implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

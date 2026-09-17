@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class TheaterEvent implements AdditionalPropertiesInterface
+final readonly class TheaterEvent implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class SheetMusic implements AdditionalPropertiesInterface
+final readonly class SheetMusic implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

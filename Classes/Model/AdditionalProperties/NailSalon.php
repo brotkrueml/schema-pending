@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class NailSalon implements AdditionalPropertiesInterface
+final readonly class NailSalon implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class BarOrPub implements AdditionalPropertiesInterface
+final readonly class BarOrPub implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class FireStation implements AdditionalPropertiesInterface
+final readonly class FireStation implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

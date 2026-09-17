@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class RadioStation implements AdditionalPropertiesInterface
+final readonly class RadioStation implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class Airline implements AdditionalPropertiesInterface
+final readonly class Airline implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

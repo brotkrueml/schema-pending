@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class MobilePhoneStore implements AdditionalPropertiesInterface
+final readonly class MobilePhoneStore implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class ConvenienceStore implements AdditionalPropertiesInterface
+final readonly class ConvenienceStore implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class DryCleaningOrLaundry implements AdditionalPropertiesInterface
+final readonly class DryCleaningOrLaundry implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class RoofingContractor implements AdditionalPropertiesInterface
+final readonly class RoofingContractor implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

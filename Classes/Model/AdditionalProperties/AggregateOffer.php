@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class AggregateOffer implements AdditionalPropertiesInterface
+final readonly class AggregateOffer implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

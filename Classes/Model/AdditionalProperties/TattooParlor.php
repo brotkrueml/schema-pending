@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class TattooParlor implements AdditionalPropertiesInterface
+final readonly class TattooParlor implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

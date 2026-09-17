@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class CriticReview implements AdditionalPropertiesInterface
+final readonly class CriticReview implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

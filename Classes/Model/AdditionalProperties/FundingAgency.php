@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class FundingAgency implements AdditionalPropertiesInterface
+final readonly class FundingAgency implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

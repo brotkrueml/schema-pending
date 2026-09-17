@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class Distillery implements AdditionalPropertiesInterface
+final readonly class Distillery implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

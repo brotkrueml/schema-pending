@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class HowToStep implements AdditionalPropertiesInterface
+final readonly class HowToStep implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

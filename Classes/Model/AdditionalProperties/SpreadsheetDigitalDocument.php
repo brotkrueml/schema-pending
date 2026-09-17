@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class SpreadsheetDigitalDocument implements AdditionalPropertiesInterface
+final readonly class SpreadsheetDigitalDocument implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {

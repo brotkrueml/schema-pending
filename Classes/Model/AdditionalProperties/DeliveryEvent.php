@@ -13,7 +13,7 @@ namespace Brotkrueml\SchemaPending\Model\AdditionalProperties;
 
 use Brotkrueml\Schema\Core\AdditionalPropertiesInterface;
 
-final class DeliveryEvent implements AdditionalPropertiesInterface
+final readonly class DeliveryEvent implements AdditionalPropertiesInterface
 {
     public function getType(): string
     {
