@@ -25,7 +25,7 @@
 	},
 	"require": {
 		"php": ">=8.2",
-		"brotkrueml/schema": "^4.3.x-dev",
+		"brotkrueml/schema": "^4.3",
 		"typo3/cms-core": "^13.4 || ^14.3"
 	},
 	"require-dev": {
@@ -56,7 +56,7 @@
                 "providesPackages": {}
             },
 			"extension-key": "schema_pending",
-            "version": "3.0.0-dev",
+            "version": "3.0.0",
 			"web-dir": ".Build/web"
 		}
 	}
