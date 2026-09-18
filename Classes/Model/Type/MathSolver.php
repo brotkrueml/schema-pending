@@ -20,7 +20,7 @@ use Brotkrueml\Schema\Manual\Publisher;
  * A math solver which is capable of solving a subset of mathematical problems.
  */
 #[Type('MathSolver')]
-#[Manual(Publisher::Google, 'Math solver', 'https://developers.google.com/search/docs/appearance/structured-data/math-solvers')]
+#[Manual(Publisher::Google, 'Math solver', 'https://developers.google.com/search/docs/appearance/structured-data/math-solvers#math-solver')]
 final class MathSolver extends AbstractType
 {
     protected static array $propertyNames = [

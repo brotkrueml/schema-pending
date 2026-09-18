@@ -20,8 +20,7 @@ use Brotkrueml\Schema\Manual\Publisher;
  * Quiz: A test of knowledge, skills and abilities.
  */
 #[Type('Quiz')]
-#[Manual(Publisher::Google, 'Practice problem', 'https://developers.google.com/search/docs/appearance/structured-data/practice-problems')]
-#[Manual(Publisher::Google, 'Education Q&A', 'https://developers.google.com/search/docs/appearance/structured-data/education-qa')]
+#[Manual(Publisher::Google, 'Education Q&A', 'https://developers.google.com/search/docs/appearance/structured-data/education-qa#quiz')]
 final class Quiz extends AbstractType
 {
     protected static array $propertyNames = [

@@ -11,13 +11,16 @@ declare(strict_types=1);
 
 namespace Brotkrueml\SchemaPending\Model\Type;
 
+use Brotkrueml\Schema\Attributes\Manual;
 use Brotkrueml\Schema\Attributes\Type;
 use Brotkrueml\Schema\Core\Model\AbstractType;
+use Brotkrueml\Schema\Manual\Publisher;
 
 /**
  * This is the Action of navigating to a specific startOffset timestamp within a VideoObject, typically represented with a URL template structure.
  */
 #[Type('SeekToAction')]
+#[Manual(Publisher::Google, 'Video', 'https://developers.google.com/search/docs/appearance/structured-data/video#seek')]
 final class SeekToAction extends AbstractType
 {
     protected static array $propertyNames = [

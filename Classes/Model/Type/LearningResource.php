@@ -24,8 +24,7 @@ use Brotkrueml\Schema\Manual\Publisher;
  * EducationEvent serves a similar purpose for event-like things (e.g. a Trip). A LearningResource may be created as a result of an EducationEvent, for example by recording one.
  */
 #[Type('LearningResource')]
-#[Manual(Publisher::Google, 'Learning video', 'https://developers.google.com/search/docs/appearance/structured-data/learning-video')]
-#[Manual(Publisher::Google, 'Math solver', 'https://developers.google.com/search/docs/appearance/structured-data/math-solvers')]
+#[Manual(Publisher::Google, 'Math solver', 'https://developers.google.com/search/docs/appearance/structured-data/math-solvers#learning-resource')]
 final class LearningResource extends AbstractType
 {
     protected static array $propertyNames = [
